@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: home
 title: Home
+identifier: home
 ---
 
 <section>

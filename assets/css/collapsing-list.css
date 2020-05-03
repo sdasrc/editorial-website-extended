@@ -1,0 +1,97 @@
+.panel {
+}
+/*.panel-title{margin:10px 0;}*/
+.panel-heading {
+	padding:10px;
+    text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	cursor: pointer;
+}
+.panel-heading a{
+    -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    text-decoration: none; 
+    text-transform: uppercase; 
+    color:#444444;     
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 700;
+    vertical-align: bottom;
+        letter-spacing: 0.075em;
+        list-style: none;
+        margin-bottom: 0;
+        padding: 0;
+}
+
+.panel-heading a span {
+            border-bottom: 0;
+            color: inherit;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            font-size: 0.9em;
+            padding: 0.625em 0;
+        }
+
+.panel-heading a:after {
+    content: "+";
+    position: absolute;
+    text-decoration: none;
+    right: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 300;
+    top: 50%;
+    line-height: 1;
+    margin-top: -7px;
+}
+
+.panel-heading a.opener, .panel-heading span.opener {
+                -moz-transition: color 0.2s ease-in-out;
+                -webkit-transition: color 0.2s ease-in-out;
+                -ms-transition: color 0.2s ease-in-out;
+                transition: color 0.2s ease-in-out;
+                text-decoration: none;
+                -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+                position: relative;
+            }
+
+.panel-heading:hover, .panel-heading-hover {
+                text-decoration: none; background-color: #fafafa}
+
+.panel-heading-hover a:after {
+    content: "-";
+    text-decoration: none;
+    position: absolute;
+    right: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    top: 50%;
+    line-height: 1;
+    margin-top: -7px;
+}
+.panel-heading-question{
+    max-height: 10px;
+	    vertical-align: middle;
+        margin-right: 10px;
+}
+.panel-body{
+    margin-left: 20px;
+	border-bottom: 1px solid #f0f0f0;
+	padding: 0 10px;
+	width: 96%;
+}
+
+.hidden-element {
+	-moz-transition: height .3s;
+	-ms-transition: height .3s;
+	-o-transition: height .3s;
+	-webkit-transition: height .3s;
+	transition: height .3s;
+	height: 0;
+	overflow: hidden;
+}
+.highlight {overflow: auto;}

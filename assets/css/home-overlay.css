@@ -1,0 +1,183 @@
+/*
+Header Design
+Close Button
+
+*/
+
+/*Overlay*/
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100vh;
+    width: 100vw;
+    position: fixed; /* Stay in place */
+    z-index: 30000;
+    align-content: center;
+    left: 0;
+    top: 0;
+    background: linear-gradient(55deg,#0D2791,#0D47A1,#773c1c,#880E4F);
+    /*background-image: url('assets/images/banners/banner-overlay.jpg');*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+    /* Position the content inside the overlay */
+    .overlay-content {
+        position: relative;
+        height: 100%;
+        width: 100%; /* 100% width */
+        text-align: center; /* Centered text/links *//*
+        margin-top: 30px;  30px top margin to avoid conflict with the close button on smaller screens */
+    }
+
+    .overlay-inside {
+        padding-top: 30vh; 
+        padding-left:20vw; 
+        padding-right:20vw;
+        height: auto;
+    }
+        @media screen and (max-width: 736px) and (orientation:portrait){
+                .overlay-inside {
+                padding-top: 30vh; 
+                padding-right:10vw; 
+                padding-left:10vw; 
+                height: auto;
+            }
+        }
+        @media screen and (max-width: 480px) and (orientation:portrait){
+                .overlay-inside {
+                padding-top: 30vh; 
+                padding-left:10vw; 
+                padding-right:10vw; 
+                height: auto;
+            }
+        }
+
+        @media screen and (max-height: 480px) and (orientation:landscape){
+                .overlay-inside {
+                padding-top: 10vh; 
+                padding-left:20vw; 
+                padding-right:20vw; 
+                height: auto;
+            }
+        }        
+
+    /* The navigation links inside the overlay */
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: inherit;
+        color: #818181;
+        display: block; /* Display block instead of inline */
+        transition: 0.3s; /* Transition effects on hover (color) */
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+    }
+
+
+    .overlay .closebtn {
+        height: 60px;
+        width: 60px;
+        color:#ffffff;
+        bottom: 10%;
+        display:inline-block;
+        padding:10px;
+        margin-top: 50px;
+        position:relative;
+        border-radius: 50%;
+        border: 1px solid white;
+    }
+
+    .overlay .closebtn:hover {
+        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        perspective: 1000px;
+        color: #00FF7F;
+    }
+
+        @keyframes shake {
+            10%, 90% {
+            transform: translate3d(-1px, 0, 0);
+            }
+            20%, 80% {
+            transform: translate3d(2px, 0, 0);
+            }
+
+            30%, 50%, 70% {
+            transform: translate3d(-2px, 0, 0);
+            }
+            40%, 60% {
+            transform: translate3d(2px, 0, 0);
+        }
+
+
+
+        /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+        @media screen and (max-height: 450px) {
+            .overlay a {font-size: 20px}
+            .overlay .closebtn {
+                font-size: 40px;
+                top: 15px;
+                right: 35px;
+            }
+        }
+
+
+h1.bannerfont { 
+    font-family: Source Sans Pro; 
+    letter-spacing: 4px;
+    font-size: 550%;
+    font-weight: 900;
+}
+h2.bannerfont { 
+    font-family: Source Sans Pro; 
+    letter-spacing: 2px;
+    margin-top: -20px;
+    font-size: 250%;
+    font-weight: 400;
+}
+    @media screen and (max-width: 736px) {
+        h1.bannerfont { 
+            font-family: Source Sans Pro; 
+            letter-spacing: 4px;
+            font-size: 500%;
+            margin-left: 30px;
+            margin-right: 30px;
+            font-weight: 900;
+        }
+        h2.bannerfont { 
+            font-family: Source Sans Pro; 
+            letter-spacing: 2px;
+            margin-top: -20px;
+            margin-left: 30px;
+            margin-right: 30px;
+            font-size: 200%;
+            font-weight: 400;
+       }        
+    }
+    @media screen and (max-width: 480px) {
+        h1.bannerfont { 
+            font-family: Source Sans Pro; 
+            letter-spacing: 4px;
+            font-size: 450%;
+            margin-left: 30px;
+            margin-right: 30px;
+            font-weight: 900;
+        }
+        h2.bannerfont { 
+            font-family: Source Sans Pro; 
+            letter-spacing: 2px;
+            margin-top: -20px;
+            margin-left: 30px;
+            margin-right: 30px;
+            font-size: 150%;
+            font-weight: 400;
+        }
+    }
+
+
+
+/* Icons */
+

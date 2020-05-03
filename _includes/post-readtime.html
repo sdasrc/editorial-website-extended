@@ -1,0 +1,8 @@
+{% assign words = page.content | strip_html | number_of_words %}
+    {% if words < 180 %}
+      less than 1 minute read
+    {% elsif words < 360 %}
+      less than 2 minute read
+    {% else %}
+      about {{ words | divided_by:site.words_per_minute }} minute read
+    {% endif %}

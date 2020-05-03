@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<!-- Default layout for Blog Posts -->
+<!-- Created by Soumyadeep Das (@thephoenix01) -->
+<!-- Monday 27 April 2020 02:32:01 PM IST -->
+
+<html>
+    {% include head.html %}
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+        <style type="text/css">
+            img{
+                border-radius: 2px;
+                text-decoration: none;
+            }
+        </style>
+
+    <body>
+
+        <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Main -->
+            <div id="main">
+                <div class="inner">
+                    {% include header.html %}
+                    <!-- Content -->
+                    <section>
+                    <header class="main">
+                        <h1>{{ page.title }}</h1>
+                    </header>
+
+                    <p><i class="fa fa-clock-o"></i>&nbsp;&nbsp;{% include post-readtime.html %}</p>
+                    
+                    <p class="post-meta"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-pencil"></i>&nbsp;&nbsp;<b>Author :&nbsp;</b>{{ page.author }}</span></span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;
+                    <i class="fa fa-calendar"></i>&nbsp;&nbsp;<b>Published on :&nbsp;</b><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>     
+
+                    
+                    {% if page.image %}
+                    <span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
+                    {% endif %}
+                    <div align="justify">{{ content }}</div>
+
+                    <hr>
+
+                     {% include post-tagparse.html %}
+
+                     {% include post-socialshare.html %}
+                     
+                    
+                </div>
+            </div>
+            {% include sidebar.html %}
+        </div>
+        {% include footer.html %}
+    </body>
+</html>

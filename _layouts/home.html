@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+<body>
+  <style type="text/css">
+      ul.banner-icons {
+            cursor: default;
+            list-style: none;
+            padding-left: 0;
+        }
+
+            ul.banner-icons li {
+                display: inline-block;
+                padding: 0 1em 0 0;
+            }
+
+                ul.banner-icons li:last-child {
+                    padding-right: 0;
+                }
+
+                ul.banner-icons li .icon {
+                    color: white;
+                }
+                ul.banner-icons li .icon-ai {
+                    color: white;
+                }
+
+                    ul.banner-icons li .icon:before {
+                        font-size: 0.75em;
+                    }
+                    ul.banner-icons li .icon-ai:before {
+                        font-size: 0.75em;
+                    }
+                .fa-github:hover {
+                        color: blue;
+                    }
+  </style>
+
+        <div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+
+  <!-- Overlay content -->
+  <div class="overlay-content" style="background-image: url(assets/images/banner-bg-img-1.jpg);">
+
+        <div class="overlay-inside" >
+            <div style="border: 1px solid white; border-radius: 10px; background-color: rgba(1,1,1,0.3);">
+                <h1 style="margin-top: 20px; text-align:center;color:white;">Soumyadeep Das</h1>
+                <h2  style="text-align:center;color:white;">Astrophysics. AGN. Interferometry.</h2>
+                    <hr>
+                        <ul class="banner-icons" style="max-height: 30px;  margin-top: -20px; padding-bottom: 60px">
+                        <li><p style="font-size: 250%;"><a href="https://www.linkedin.com/in/soumyadeep01" class="icon fa-linkedin" target="_blank"></a></p></li>
+                        <li><p style="font-size: 250%;"><a href="https://github.com/thephoenix01" class="icon fa-github" target="_blank"></a></p></li>
+                        <li><p style="font-size: 250%;"><a href="https://scholar.google.com/citations?user=02NSBH4AAAAJ&hl=en" class="icon-ai ai-google-scholar" target="_blank"></a></p></li>
+                        <li><p style="font-size: 250%;"><a href="https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0002-3493-6638&sort=date%20desc%2C%20bibcode%20desc" class="icon-ai ai-ads" target="_blank"></a></p></li></ul>
+
+            </div>
+            <h2><a href="javascript:void(0)" class="closebtn btn icon fa-arrow-down" onclick="closeNav()"></a></h2>
+        </div>
+  </div>
+
+</div>
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+
+                {% include header.html %}
+                {% include banner.html %}   
+
+                {{ content }}
+
+
+            </div>
+        </div>
+        {% include sidebar.html %}
+
+    </div>
+
+    {% include footer.html %}
+
+    <script type = "text/javascript" src = "assets/js/jquery.min.js"></script>
+      <script type = "text/javascript" src = "assets/js/jquery-ui.min.js"></script>
+        
+      <script type = "text/javascript" language = "javascript">
+         /* Open */
+            function openNav() {
+              document.getElementById("myNav").style.height = "100%";
+            }
+
+            /* Close */
+            function closeNav() {
+              document.getElementById("myNav").style.height = "0%";
+            } 
+            $(document).ready(function() {
+                if (window.location.hash.indexOf("nobanner") > -1) {
+                  document.getElementById("myNav").style.height = "0%";
+                }
+              });
+
+
+            var prevScrollpos = window.pageYOffset;
+                  window.onscroll = function() {
+                    var currentScrollPos = window.pageYOffset;
+                    if (prevScrollpos < currentScrollPos) {
+                      document.getElementById("myNav").style.height = "0%";
+                    }
+                    prevScrollpos = currentScrollPos;
+                  } 
+
+            $(document).keyup(function(e) {
+                if (e.keyCode == 27 || e.KeyCode == Keys.Down) { document.getElementById("myNav").style.height = "0%"; }   // esc
+              });
+      </script>
+
+
+
+</body>
+
+</html>
