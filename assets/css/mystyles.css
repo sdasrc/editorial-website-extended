@@ -33,16 +33,16 @@ img{
     margin: 15px;
 }
 
-@media only screen and (max-width: 736px) {
-    .grey-column {
-    float: left;
-    width: 80%;
-    background-color: #444444;
-    padding: 10px;
-    padding-left: 20px;
-    margin: 15px;
-}
-}
+  @media only screen and (max-width: 736px) {
+     .grey-column {
+          float: left;
+          width: 80%;
+          background-color: #444444;
+          padding: 10px;
+          padding-left: 20px;
+          margin: 15px;
+      } 
+  }
 
 
 /* Clear floats after image containers */
