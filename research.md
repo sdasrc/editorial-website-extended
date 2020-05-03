@@ -9,7 +9,7 @@ Radio galaxies have always held a special significance in understanding the intr
 
 ## Skills
 
-<div style="width: 120%" class="grey-row">
+<div class="grey-row">
     <div class="grey-column">
         <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Astronomy</h1>
         <p style="color:white; margin-right: 30px; margin-top: -5px;">AIPS, CASA, SaoImage DS9.</p>
@@ -36,15 +36,16 @@ Radio galaxies have always held a special significance in understanding the intr
     </div>
 
     <div class="grey-column">
-        <h1 style="color:white; font-size: 2.5em; font-weight: normal;">UI/UX and Development</h1>
-        <p style="color:white; margin-right: 30px; margin-top: -5px;">Android, SQL, HTML, CSS, Js, PHP.</p>
-    </div>
-
-    <div class="grey-column">
         <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Linux</h1>
         <p style="color:white; margin-right: 30px; margin-top: -5px;">Arch Linux, Bash.</p>
     </div>
 
+
+    <div class="grey-column">
+        <h1 style="color:white; font-size: 2.5em; font-weight: normal;">UI/UX and Development</h1>
+        <p style="color:white; margin-right: 30px; margin-top: -5px;">Android, SQL, HTML, CSS, Js, PHP.</p>
+    </div>
+    
     <div class="grey-column">
         <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Miscellaneous</h1>
         <p style="color:white; margin-right: 30px; margin-top: -5px;">Adobe Photoshop, Lightroom, After Effects.</p>

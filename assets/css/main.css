@@ -2581,6 +2581,12 @@
 		.image.left, .image.right {
 			max-width: 40%;
 		}
+		@media only screen and (max-width: 736px) {
+			.image.left, .image.right {
+			max-width: 100%;
+			}
+		}
+
 
 			.image.left img, .image.right img {
 				width: 100%;
