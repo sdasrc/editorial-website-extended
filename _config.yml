@@ -1,29 +1,49 @@
 # Site settings
-title: Editorial
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
-baseurl: "/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
+title: Soumyadeep Das 
+subtitle: Homepage
+email: soumyadeep.das.phy14@iitbhu.ac.in
+description: Personal webpage
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+myurl: "https://thephoenix01.github.io" # For social media buttons
+author: Soumyadeep Das
+street_address: 
+city: 
+state: 
+zip_code: 
+country: India
+phone: 
+
+# Blog posts
+words_per_minute : 160
+future : true
+read_more : "disabled"
+
+# projects
+collections:
+  projects:
+    output: true
+
+
+avatar           : "profile_picture.png"
+author-bio       : "Radio Astrophysics, Active Galactic Nuclei, Radio Interferometry, Linux, and Memes."
 
 # Social settings
-500px_url:
-facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+ads_url : https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0002-3493-6638&sort=date%20desc%2C%20bibcode%20desc
+facebook_url: https://www.facebook.com/TheSoumyadeepDas
+github_url: https://github.com/thephoenix01
+gitlab_url: 
+googleplus_url: 
+googlescholar_url : https://scholar.google.com/citations?user=02NSBH4AAAAJ&hl=en
+instagram_url: https://www.instagram.com/_thephoenix01_/
+linkedin_url: https://www.linkedin.com/in/soumyadeep01
+orcid_url: https://orcid.org/0000-0002-3493-6638
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+stackoverflow_url : https://stackoverflow.com/users/4701760/thephoenix01
+steam_url : https://steamcommunity.com/profiles/76561198859680680
+twitter_url: https://twitter.com/thephoenix01
+
 
 # Build settings
 markdown: kramdown
