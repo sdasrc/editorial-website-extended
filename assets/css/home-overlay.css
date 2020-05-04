@@ -7,17 +7,32 @@ Close Button
 /*Overlay*/
 .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
     height: 100vh;
     width: 100vw;
-    position: fixed; /* Stay in place */
+    /*position: fixed;  Stay in place */
+    position: fixed;
     z-index: 30000;
     align-content: center;
     left: 0;
     top: 0;
     background: linear-gradient(55deg,#0D2791,#0D47A1,#773c1c,#880E4F);
     /*background-image: url('assets/images/banners/banner-overlay.jpg');*/
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    cursor: default;
+    text-align: center;
 }
 
     /* Position the content inside the overlay */
@@ -43,7 +58,7 @@ Close Button
           }
 
     .overlay-inside {
-        padding-top: 30vh; 
+        padding-top: 10em; 
         padding-left:20vw; 
         padding-right:20vw;
         height: auto;
@@ -94,13 +109,8 @@ Close Button
         height: 60px;
         width: 60px;
         color:#ffffff;
-        bottom: 10%;
         display:inline-block;
-        padding:10px;
-        margin-top: 50px;
         position:relative;
-        border-radius: 50%;
-        border: 1px solid white;
     }
 
     .overlay .closebtn:hover {
