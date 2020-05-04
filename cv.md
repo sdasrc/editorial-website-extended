@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Curriculum Vitae
-identifer: a-cv
+identifer: myresume
 ---
+
 <a href="assets/pdf/SoumyadeepDasCV.pdf" class = "button" target="_blank">View in PDF Format</a>
 <a name="top"></a>
 <h2 style="color:#f56a6a;">Education</h2> 

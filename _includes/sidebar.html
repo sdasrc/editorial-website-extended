@@ -13,14 +13,47 @@
       <!-- Menu -->
         <nav id="menu">
           <ul>
-              <li><a href="{{ '#nobanner' | absolute_url }}"><i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;&nbsp;Homepage</a></li>    
-              <!-- <li><a href="{{ 'generic.html' | absolute_url }}">Generic</a></li>
-              <li><a href="{{ 'elements.html' | absolute_url }}">Elements</a></li> -->
-              <li><a href="{{ 'cv.html' | absolute_url }}"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Curriculum Vitae</a></li>
-              <li><a href="{{ 'research.html' | absolute_url }}"><i class="fa fa-magic"></i>&nbsp;&nbsp;&nbsp;&nbsp;Research</a></li>
-              <li><a href="{{ 'publ.html' | absolute_url }}"><i class="fa fa-paper-plane-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Publications</a></li>
-              <li><a href="{{ 'blogger.html' | absolute_url }}"><i class="fa fa-pencil-square-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Blog Posts</a></li>
-              <li><a href="{{ 'memepage.html' | absolute_url }}"><i class="fa fa-smile-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Memes from Outer Space</a></li>
+               {% if page.identifier != "a-home" %}
+                 <li><a href="{{ '#nobanner' | absolute_url }}"><i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;&nbsp;Homepage</a></li>    
+              {% else %}
+                <li><b><i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;&nbsp;Homepage</b></li> 
+              {% endif %} 
+
+              {% if page.title != "Curriculum Vitae" %}
+                 <li><a href="{{ 'cv.html' | absolute_url }}"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Curriculum Vitae</a></li>    
+              {% else %}
+                <li><b><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Curriculum Vitae</b></li>    
+              {% endif %} 
+
+              {% if page.identifier != "a-research" %}
+                 <li><a href="{{ 'research.html' | absolute_url }}"><i class="fa fa-magic"></i>&nbsp;&nbsp;&nbsp;&nbsp;Research</a></li>    
+              {% else %}
+                <li><b><i class="fa fa-magic"></i>&nbsp;&nbsp;&nbsp;&nbsp;Research</b></li>  
+              {% endif %} 
+
+              {% if page.title != "Project Repositories" %}
+                 <li><a href="{{ 'repos.html' | absolute_url }}"><i class="fa fa-code-fork"></i>&nbsp;&nbsp;&nbsp;&nbsp;Repositories</a></li>    
+              {% else %}
+                <li><b><i class="fa fa-code-fork"></i>&nbsp;&nbsp;&nbsp;&nbsp;Repositories</b></li>  
+              {% endif %} 
+
+              {% if page.title != "My Publications" %}
+                 <li><a href="{{ 'publ.html' | absolute_url }}"><i class="fa fa-paper-plane-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Publications</a></li>    
+              {% else %}
+                <li><b><i class="fa fa-paper-plane-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Publications</b></li>  
+              {% endif %} 
+
+              {% if page.title != "Blog Posts" %}
+                 <li><a href="{{ 'blogger.html' | absolute_url }}"><i class="fa fa-pencil-square-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Blog Posts</a></li>    
+              {% else %}
+                <li><b><i class="fa fa-pencil-square-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Blog Posts</b></li>  
+              {% endif %} 
+
+              {% if page.title != "Memes from Outer Space" %}
+                 <li><a href="{{ 'memepage.html' | absolute_url }}"><i class="fa fa-smile-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Memes from Outer Space</a></li>   
+              {% else %}
+                <li><b><i class="fa fa-smile-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Memes from Outer Space</b></li>  
+              {% endif %} 
           </ul>
         </nav>
 
@@ -44,7 +77,7 @@
 
       <!-- Footer -->
         <footer id="footer">
-          <p class="copyright">&copy; {{ site.title }}. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>. Jekyll integration: <a href="https://andrewbanchi.ch">Andrew Banchich</a>.</p>
+          <p class="copyright">&copy; {{ site.title }}. All rights reserved. Credits - Photo by <a href="https://unsplash.com/@krisroller?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"><u>Kristopher Roller</u></a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"><u>Unsplash</u></a>. Design: <a href="https://html5up.net">HTML5 UP</a>. Jekyll integration: <a href="https://andrewbanchi.ch">Andrew Banchich</a>.</p>
         </footer>
 
     </div>

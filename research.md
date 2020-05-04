@@ -75,7 +75,7 @@ Radio galaxies have always held a special significance in understanding the intr
 
 {% for item in site.data.pastprojects %}
 <div class="panel">
-<div class="panel-heading" data-toggle="{{forloop.index}}">     
+<div class="panel-heading noline" data-toggle="{{forloop.index}}">     
 <img alt="" class="panel-heading-question" data-toggle="{{forloop.index}}" src="assets/images/circle-icon.png"><a data-toggle="{{forloop.index}}" href="javascript:void(0)">{{item.title}}</a>
 </div>
 <div class="panel-body hidden-element" data-body="{{forloop.index}}"> 

@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-identifier: home
+identifier: a-home
 ---
 
 <section>
