@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Blog Posts
-identifer: a-blogger
+identifer: blogpage
+page-level: mainpage
 ---
 
 <ul>

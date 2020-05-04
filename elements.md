@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Elements
+page-level: mainpage
 ---
 
 <h2 id="content">Sample Content</h2>

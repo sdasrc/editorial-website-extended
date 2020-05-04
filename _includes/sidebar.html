@@ -13,7 +13,7 @@
       <!-- Menu -->
         <nav id="menu">
           <ul>
-               {% if page.identifier != "a-home" %}
+               {% if page.title != "Home" %}
                  <li><a href="{{ '#nobanner' | absolute_url }}"><i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;&nbsp;Homepage</a></li>    
               {% else %}
                 <li><b><i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;&nbsp;Homepage</b></li> 
@@ -25,7 +25,7 @@
                 <li><b><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Curriculum Vitae</b></li>    
               {% endif %} 
 
-              {% if page.identifier != "a-research" %}
+              {% if page.title != "Research Interests" %}
                  <li><a href="{{ 'research.html' | absolute_url }}"><i class="fa fa-magic"></i>&nbsp;&nbsp;&nbsp;&nbsp;Research</a></li>    
               {% else %}
                 <li><b><i class="fa fa-magic"></i>&nbsp;&nbsp;&nbsp;&nbsp;Research</b></li>  

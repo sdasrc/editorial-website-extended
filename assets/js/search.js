@@ -12,7 +12,7 @@
       }
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<li>No results found</li>';
+      searchResults.innerHTML = '<li>No results found.</li>';
     }
   }
 
@@ -42,6 +42,7 @@
       this.field('title', { boost: 10 });
       this.field('author');
       this.field('category');
+      this.field('description');
       this.field('content');
       this.field('tags');
     });
@@ -52,11 +53,12 @@
         'title': window.store[key].title,
         'author': window.store[key].author,
         'category': window.store[key].category,
+        'description': window.store[key].category,
         'content': window.store[key].content,
         'tags': window.store[key].content
       });
 
-      output.innerHTML = "Your results for  "+searchTerm;
+      output.innerHTML = "Your results for \'"+searchTerm+"\' are";
 
       var results = idx.search(searchTerm); // Get lunr to perform a search
       displaySearchResults(results, window.store); // We'll write this in the next section

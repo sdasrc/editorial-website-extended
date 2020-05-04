@@ -1,13 +1,15 @@
 ---
 title : AIPS - Some Lessons Learnt The Hard Way
+short-title: AIPS Guide
 Date :  2020-05-01
 author: Soumyadeep Das
-layout: post
+layout: project-post
 image: assets/images/posts/2020-05-01-aips-guide-v1/banner.jpg
 image-alt: AIPS Banner image default
 description:  Collection of some quick guides and troubleshooting.
 permalink: /projects/2020/05/aips-guide-v1/
 tags: aips guide vla imaging
+page-level: repopage
 ---
  
 <!-- Add images to assets/images/posts/2020-05-01-aips-guide-v1 -->

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Game of Thrones Hindi Download link
+page-level: mainpage
 ---
 ## Season 4
 <ul class="actions">

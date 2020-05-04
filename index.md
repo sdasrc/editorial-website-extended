@@ -1,7 +1,8 @@
 ---
 layout: home
 title: Home
-identifier: a-home
+identifier: homepage
+page-level: homepage
 ---
 
 <section>

@@ -1,10 +1,39 @@
 <!-- Header -->
   <header id="header">
-    <a href="{{ '' | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> {{ site.subtitle }}</a>
-        <section id="search" class="alt">
-      <form method="get" action="/search.html">
-        <input type="text" name="query" id="search-box" placeholder="Search" />
-      </form>
-    </section>
+    {% if page.title == "Home" %}
+        <a href="{{ '#nobanner' | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> {{ site.subtitle }}</a>
+        {% endif %}
+
+    {% if page.page-level == "mainpage" %}
+    <ul class="actions">
+                <li><a class="logo" href="{{ '#nobanner' | absolute_url }}" ><strong>Home&nbsp;&nbsp;&nbsp;&nbsp;></strong></a></li>
+                <li class="logo"><strong style="color: #999999">{{ page.title }}</strong></li>
+            </ul>
+        {% endif %}
+
+    
+    {% if page.page-level == "repopage" %}
+        <ul class="actions">
+                <li><a class="logo" href="{{ '#nobanner' | absolute_url }}" ><strong>Home&nbsp;&nbsp;&nbsp;&nbsp;></strong></a></li>
+                <li><a class="logo" href="{{ 'repos.html' | absolute_url }}" ><strong style="color: #777777">Repos&nbsp;&nbsp;&nbsp;&nbsp;></strong></a></li>
+                <li class="logo"><strong style="color: #aaaaaa">{{ page.short-title }}</strong></li>
+            </ul>
+        {% endif %}
+
+        {% if page.page-level == "postpage" %}            
+        <ul class="actions">
+                <li><a class="logo" href="{{ '#nobanner' | absolute_url }}" ><strong>Home&nbsp;&nbsp;&nbsp;&nbsp;></strong></a></li>
+                <li><a class="logo" href="{{ 'blogger.html' | absolute_url }}" ><strong style="color: #777777">Blogs&nbsp;&nbsp;&nbsp;&nbsp;></strong></a></li>
+                <li class="logo"><strong style="color: #aaaaaa">{{ page.short-title }}</strong></li>
+            </ul>    
+        {% endif %}
+
+         {% if (page.page-level != "repopage") and (page.page-level != "postpage") %}  
+             <section id="search" class="alt">
+             <form method="get" action="/search.html">
+                <input type="text" name="query" id="search-box" placeholder="Search" />
+             </form>
+             </section>
+        {% endif %}
 
   </header>

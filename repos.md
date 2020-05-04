@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Project Repositories
-identifer: b-repos
+identifer: repopage
+page-level: mainpage
 ---
 <div  class="posts">
 {% for post in site.projects %}

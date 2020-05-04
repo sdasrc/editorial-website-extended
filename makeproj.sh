@@ -2,7 +2,7 @@
 echo "Enter post title with hyphens. Eg - my-default-post : "
 read postname
 postbase=`date +"%Y-%m-%d"`"-$postname"
-postmd="_posts/$postbase.md"
+postmd="_projects/$postbase.md"
 assetdir="assets/images/posts"
 postdir="$assetdir/$postbase"
 touch $postmd
@@ -13,13 +13,13 @@ echo "title : Enter Your Title Here"  >> $postmd
 echo "short-title: Short Title" >> $postmd
 echo "Date : " `date +"%Y-%m-%d"` >> $postmd
 echo "author: Soumyadeep Das" >> $postmd
-echo "layout: post" >> $postmd
+echo "layout: project-post" >> $postmd
 echo "image: $postdir/banner.jpg" >>  $postmd
 echo "image-alt: Text description of the image" >>  $postmd
 echo "description:  Short description here. Will appear in main page." >>  $postmd
 echo "permalink: /posts/`date +"%Y"`/`date +"%m"`/$postname/" >> $postmd
 echo "tags: tag1 tag2 tag3 tag4"  >> $postmd
-echo "page-level: postpage" >> $postmd
+echo "page-level: repopage" >> $postmd
 echo ---  >> $postmd
 echo " "  >> $postmd
 echo "<!-- Add images to $postdir -->" >> $postmd

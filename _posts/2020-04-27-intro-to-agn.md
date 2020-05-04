@@ -1,11 +1,13 @@
 ---
 title: 'Introduction to Active Galactic Nuclei'
+short-title: Intro to AGN
 date: 2020-04-27
 author: Soumyadeep Das
 layout: post
 image: assets/images/posts/2020-04-27-intro-to-agn/banner.jpg
 image-alt: AGN Default Banner Image
 permalink: /posts/2020/04/intro-to-agn/
+page-level: postpage
 tags: 
   - agn
   - sample-blog

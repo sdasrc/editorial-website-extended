@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Memes from Outer Space
-identifer: a-meme
+identifer: memepage
+page-level: mainpage
 ---
 <!-- This the page where memes will appear.
 
