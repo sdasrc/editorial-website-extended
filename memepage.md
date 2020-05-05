@@ -10,18 +10,14 @@ page-level: mainpage
 
 Astrophysicist with telescope. -->
 
-<div class="box alt">
-                <div class="row 50% uniform">
-                    <div class="4u"><span class="image fit"><img src="assets/images/memes/memes-01.jpg" alt="" /></span></div>
-                    <div class="4u$"><span class="image fit"><img src="assets/images/memes/memes-02.jpg" alt="" /></span></div>
-                    <!-- Break -->
-                    <div class="4u"><span class="image fit"><img src="assets/images/memes/memes-03.jpg" alt="" /></span></div>
-                    <div class="4u$"><span class="image fit"><img src="assets/images/memes/memes-04.jpg" alt="" /></span></div>
-                    <!-- Break -->
-                    <div class="4u"><span class="image fit"><img src="assets/images/memes/memes-05.jpg" alt="" /></span></div>
-                    <div class="4u$"><span class="image fit"><img src="assets/images/memes/memes-06.jpg" alt="" /></span></div>
-                    <!-- Break -->
-                    <div class="4u"><span class="image fit"><img src="assets/images/memes/memes-07.jpg" alt="" /></span></div>
-                    <div class="4u$"><span class="image fit"><img src="assets/images/memes/memes-08.jpg" alt="" /></span></div>
-                </div>
-            </div>
+<div style="width: 90%" class="posts">
+{% for post in site.data.memes %}
+<article>
+    <h4 style="margin-bottom: 10px;">{{ post.img-alt }}</h4>
+       <a href="{{ post.img-src | absolute }}" target="_blank" class="image"><img src="{{ post.img-thumb }}" alt="{{ post.img-alt }}" data-echo="{{ post.img-src }}" />
+                
+            </a>
+        </article>
+  {% endfor %}
+</div>
+

@@ -1,0 +1,54 @@
+- img-src: assets/images/memes/leopard-cub-1.jpg
+  img-thumb: assets/images/memes/leopard-cub-1-thumb.jpg
+  img-alt: The fiercest out there
+  img-weight: 20
+
+- img-src: assets/images/memes/i-am-darkness-1.jpg
+  img-thumb: assets/images/memes/i-am-darkness-1-thumb.jpg
+  img-alt: I am darkness
+  img-weight: 10
+
+- img-src: assets/images/memes/memes-01.jpg
+  img-thumb: assets/images/memes/memes-01-thumb.jpg
+  img-alt: Feelings of Power
+  img-weight: 10
+
+- img-src: assets/images/memes/memes-02.jpg
+  img-thumb: assets/images/memes/memes-02-thumb.jpg
+  img-alt: Calibration Error
+  img-weight: 10
+
+- img-src: assets/images/memes/memes-03.jpg
+  img-thumb: assets/images/memes/memes-03-thumb.jpg
+  img-alt: CASA Cookbook
+  img-weight: 10
+
+- img-src: assets/images/memes/memes-04.jpg
+  img-thumb: assets/images/memes/memes-04-thumb.jpg
+  img-alt: My code works I dunno how
+  img-weight: 10
+
+- img-src: assets/images/memes/memes-05.jpg
+  img-thumb: assets/images/memes/memes-05-thumb.jpg
+  img-alt: Eclipsed by RFI
+  img-weight: 10
+
+- img-src: assets/images/memes/memes-06.jpg
+  img-thumb: assets/images/memes/memes-06-thumb.jpg
+  img-alt: Dying Star
+  img-weight: 10
+
+- img-src: assets/images/memes/memes-07.jpg
+  img-thumb: assets/images/memes/memes-07-thumb.jpg
+  img-alt: Solar eclipse eclipsed by clouds
+  img-weight: 10
+
+- img-src: assets/images/memes/memes-08.jpg
+  img-thumb: assets/images/memes/memes-08-thumb.jpg
+  img-alt: Radio loud galaxies and jets
+  img-weight: 10
+
+# - img-src: assets/images/memes/antman-meme.jpg
+#   img-thumb: assets/images/memes/antman-meme-thumb.jpg
+#   img-alt: What actually happened in the quantum realm
+#   img-weight: 10
