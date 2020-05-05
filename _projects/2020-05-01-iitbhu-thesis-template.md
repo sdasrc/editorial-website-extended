@@ -5,6 +5,7 @@ Date :  2020-05-01
 author: Soumyadeep Das
 layout: project-post
 image: assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.jpg
+image-thumb: assets/images/posts/2020-05-01-iitbhu-thesis-template/banner-thumb.jpg
 image-alt: Thesis banner
 description:  Unofficial IITBHU thesis template in LaTex.
 permalink: /posts/2020/05/iitbhu-thesis-template/

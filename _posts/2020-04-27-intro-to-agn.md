@@ -5,6 +5,7 @@ date: 2020-04-27
 author: Soumyadeep Das
 layout: post
 image: assets/images/posts/2020-04-27-intro-to-agn/banner.jpg
+image-thumb: assets/images/posts/2020-04-27-intro-to-agn/banner-thumb.jpg
 image-alt: AGN Default Banner Image
 permalink: /posts/2020/04/intro-to-agn/
 page-level: postpage
@@ -35,7 +36,7 @@ Plume like jets coming out of both sides of a galaxy, that is probably the image
 
 Jet creation process occurs in the vicinity of the central engine and can be broken down essentially into three main parts - extraction of plasma packets from the disk by the disk magnetic field, accumulation of the plasma packets along the axis, and acceleration of jets outwards away from the disk.  
 
-<p><span class="image left"><img src="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure.png' | relative_url }}" alt="" /></span>Jets give us an approximate idea of the power of the central engine - stronger the engine, larger the jets. Near the center, these jets are relativistic and often appear single sided courtesy doppler shifts. As these jets move out, they are slowed down by the intergalactic medium. Low power Seyfert AGNs have tiny bubble like jets, moderate Fanaroff Riley I (FR I) classes have large structures jets. Largest jets seen are those in quasars, like the one pictured at the center of the page (Hercules A). Jets are made of magnetized plasma, and acceleration of charged particles give rise to radio emission (synchrotron mechanism, class XII stuff!). Jets dominate AGN emission in the γ-rays and often in the radio band. </p>
+<p><span class="image left"><img src="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure-thumb.jpg' | relative_url }}" alt="" data-echo="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure.png' | relative_url }}"/></span>Jets give us an approximate idea of the power of the central engine - stronger the engine, larger the jets. Near the center, these jets are relativistic and often appear single sided courtesy doppler shifts. As these jets move out, they are slowed down by the intergalactic medium. Low power Seyfert AGNs have tiny bubble like jets, moderate Fanaroff Riley I (FR I) classes have large structures jets. Largest jets seen are those in quasars, like the one pictured at the center of the page (Hercules A). Jets are made of magnetized plasma, and acceleration of charged particles give rise to radio emission (synchrotron mechanism, class XII stuff!). Jets dominate AGN emission in the γ-rays and often in the radio band. </p>
 
 
 ## The AGN Zoo

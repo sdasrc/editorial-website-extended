@@ -33,7 +33,7 @@
 
                     
                     {% if page.image %}
-                    <span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
+                    <span class="image main"><img src="{{ page.image-thumb | absolute_url }}" alt="" data-echo="{{ page.image | absolute_url }}"/></span>
                     {% endif %}
                     <div align="justify">{{ content }}</div>
 
@@ -50,5 +50,7 @@
             {% include sidebar.html %}
         </div>
         {% include footer.html %}
+      {% include lazyload.html %}
+
     </body>
 </html>
