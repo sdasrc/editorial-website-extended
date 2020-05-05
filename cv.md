@@ -35,7 +35,7 @@ Numerical Methods, Introduction to Astrophysics, Computational and Statistical P
 <hr style="width:100%"> 
 
 <h2 style="color:#f56a6a;">Experience</h2> 
-(Go to my <a href="{{ 'projects' | absolute_url }}">Research Interests</a>).<br><br>
+(Go to my <a href="{{ 'research' | absolute_url }}">Research Interests</a>).<br><br>
 <b>Looking from All Angles at a Source Straddling the Radio-loud/Radio-quiet AGN Divide.</b><br>
 VSRP Summer Internship Under Dr. Preeti Kharb, National Center For Radio Astrophysics (NCRA-TIFR).<br>
 Pune, India. (May. 2018 - July. 2018)
