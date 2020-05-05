@@ -1,11 +1,14 @@
 ---
 layout: page
 title: Curriculum Vitae
+tagline: My professional resume.
+description: Education - Indian Institute of Technology (BHU), Varanasi (India). Integrated Dual Degree (B.Tech. + M.Tech.) in Engineering Physics (Aug. 2014 - May. 2019).
 identifer: cvpage
 page-level: mainpage
+permalink: resume/
 ---
 
-<a href="assets/pdf/SoumyadeepDasCV.pdf" class = "button" target="_blank">View in PDF Format</a>
+<a href="{{ 'assets/docs/SoumyadeepDasCV.pdf' | absolute_url }}" class = "button" target="_blank">View in PDF Format</a>
 <a name="top"></a>
 <h2 style="color:#f56a6a;">Education</h2> 
 <b>Indian Institute of Technology (BHU), Varanasi (India)</b> <br>
@@ -32,7 +35,7 @@ Numerical Methods, Introduction to Astrophysics, Computational and Statistical P
 <hr style="width:100%"> 
 
 <h2 style="color:#f56a6a;">Experience</h2> 
-(Go to my <a href="{{ 'projects.html' | absolute_url }}">Research Interests</a>).<br><br>
+(Go to my <a href="{{ 'projects' | absolute_url }}">Research Interests</a>).<br><br>
 <b>Looking from All Angles at a Source Straddling the Radio-loud/Radio-quiet AGN Divide.</b><br>
 VSRP Summer Internship Under Dr. Preeti Kharb, National Center For Radio Astrophysics (NCRA-TIFR).<br>
 Pune, India. (May. 2018 - July. 2018)
@@ -76,7 +79,7 @@ Thiruvananthapuram, India. (May. 2016 - July. 2016)
 <li>2016 - PHY 102 - Physics II (Electromagnetism)</li>
 </ul>
 <hr style="width:100%"> 
-<h2 style="color:#f56a6a;">Publications</h2> (Go to the <a href="{{ 'publ.html' | absolute_url }}">Publications Page</a>).<br>
+<h2 style="color:#f56a6a;">Publications</h2> (Go to the <a href="{{ 'publications' | absolute_url }}">Publications Page</a>).<br>
 <ul>
 <li>2018 &nbsp; - &nbsp; S. Nambiar, S. Das, S. Vig, G.R.K.S.S. Manyam, ”Star cluster detection and characterization using generalized Parzen density estimation”, MNRAS, accepted for publication, Oct. 17, 2018.</li>
 <br>

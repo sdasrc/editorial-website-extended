@@ -1,13 +1,13 @@
 ---
 title : LaTex IDD/Masters/PHD Thesis Template for Indian Institute of Technology (BHU) Varanasi 
-short-title: Latex Thesis Template
+tagline: IIT BHU Latex Thesis Template
+description: Simple, intuitive, and easy to use (unofficial) Thesis Template in LaTeX for PhD and Masters' students of IIT BHU. Forked from CUED PhD thesis template and adapted according to insitute guidelines.
 Date :  2020-05-01
 author: Soumyadeep Das
 layout: project-post
 image: assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.jpg
 image-thumb: assets/images/posts/2020-05-01-iitbhu-thesis-template/banner-thumb.jpg
-image-alt: Thesis banner
-description:  Unofficial IITBHU thesis template in LaTex.
+image-alt: Unofficial IITBHU thesis template in LaTex.
 permalink: /posts/2020/05/iitbhu-thesis-template/
 tags: github iit bhu thesis template
 page-level: repopage

@@ -11,21 +11,21 @@ page-level: homepage
 	</header>
 	<div class="posts">
 		<article>
-			<a href="{{ site.posts.last.url }}" class="image"><img src="{{ site.posts.last.image-thumb }}" alt="Latest Blogpost Image" data-echo="{{ site.posts.last.image }}"/></a>
+			<a href="{{ site.posts.last.url | absolute_url  }}" class="image"><img src="{{ site.posts.last.image-thumb | absolute_url  }}" alt="{{ site.posts.last.image-alt }}" data-echo="{{ site.posts.last.image | absolute_url  }}"/></a>
 			<h3>{{ site.posts.last.title }}</h3>
 			<p>{{ site.posts.last.content | strip_html | truncatewords: 30 }}</p>
 			<ul class="actions">
-				<li><a href="{{ site.posts.last.url }}" class="button icon fa-angle-double-right">Read More</a></li>
-				<li><a href="blogger.html" class="button special icon fa-pencil-square-o">Go to Blogs Page</a></li>
+				<li><a href="{{ site.posts.last.url | absolute_url  }}" class="button icon fa-angle-double-right">Read More</a></li>
+				<li><a href="{{ 'blogs' | absolute_url  }}" class="button special icon fa-pencil-square-o">Go to Blogs Page</a></li>
 			</ul>
 		</article>
 		<article>
-			<a href="{{ site.projects.last.url }}" class="image"><img  src="{{ site.projects.last.image-thumb }}" alt="{{ site.projects.last.image-alt }}" data-echo="{{ site.projects.last.image }}"/></a>
+			<a href="{{ site.projects.last.url | absolute_url  }}" class="image"><img  src="{{ site.projects.last.image-thumb | absolute_url  }}" alt="{{ site.projects.last.image-alt }}" data-echo="{{ site.projects.last.image | absolute_url  }}"/></a>
 			<h3>{{ site.projects.last.title }}</h3>
 			<p>{{ site.projects.last.content | strip_html | truncatewords: 30 }}</p>
 			<ul class="actions">
-				<li><a href="{{ site.projects.last.url }}" class="button icon fa-angle-double-right">Read More</a></li>
-				<li><a href="repos.html" class="button special icon fa-paper-plane">Go to My Projects</a></li>
+				<li><a href="{{ site.projects.last.url | absolute_url  }}" class="button icon fa-angle-double-right">Read More</a></li>
+				<li><a href="{{ 'repos' | absolute_url }} " class="button special icon fa-paper-plane">Go to My Projects</a></li>
 			</ul>
 		</article>
 		</div>

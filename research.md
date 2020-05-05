@@ -1,10 +1,13 @@
 ---
 layout: page
 title: Research Interests
+tagline: Multiwavelength AGN observations, imaging, analysis and research.
+description: My primary interests lie in imaging and analysis of radio interferometric data of different classes of AGN at different resolutions, frequencies, and sensitivities. I am skilled in CASA, AIPS, and proficient in Python and C.
 identifier: researchpage
+permalink: research/
 page-level: mainpage
 ---
-<p><span class="image left"><img src="assets/images/fr1-public.png" alt="NGC 2329 FR I" /></span>
+<p><span class="image left"><img src="{{ 'assets/images/fr1-public-thumb.jpg' | absolute_url }}" alt="AGN image made in AIPS - NGC 2329, the BCG of A569." src="{{ 'assets/images/fr1-public.png' | absolute_url }}" /></span>
 Radio galaxies have always held a special significance in understanding the intricacies of active galactic nuclei (AGN) as well as in the growth and evolution of galaxies in general. A vast majority of galaxies are host to supermassive black-holes in their central nucleus. Accretion of matter onto these black holes lead to the production of massive amounts of radiative energy encompassing X-Ray to infrared bands, rendering the nucleus `active'. Often the active galactic nuclei eject matter at relativistic speeds, forming jets which are observed on parsec (pc) to megaparsec (Mpc) scales. These jets emit primarily in radio wavelengths, thus forming radio galaxies. Radio galaxies are classified into well-defined groups separated by radio morphology, radio luminosity, and physical size. The smallest radio galaxies are Compact Steep Spectrum (CSS) and Gigahertz Peaked Spectrum (GPS) sources, extending up to tens of kiloparsecs. These sources are believed to be young and just beginning to emit radio jets. On the other hand, more evolved radio galaxies are classified into FR I and FR II classes (Fanaroff Riley Classification), extending from hundreds of kiloparsec to megaparsec scales.</p>
 <hr>
 
@@ -61,14 +64,14 @@ Radio galaxies have always held a special significance in understanding the intr
 <div  class="posts">
 {% for post in site.projects limit:2 %}
 <article>
-    <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-            <a href="{{ post.url }}" class="image"><img src="{{ post.image-thumb }}" alt="{{ post.image-alt }}" data-echo="{{ post.image }}" />
-                <h4 style="margin-top: 6px;">{{ post.description }}</h4>
+    <a href="{{ post.url | absolute_url }}"><h3>{{ post.title }}</h3></a>
+            <a href="{{ post.url | absolute_url }}" class="image"><img src="{{ post.image-thumb | absolute_url }}" alt="{{ post.image-alt }}" data-echo="{{ post.image | absolute_url }}" />
+                <p style="margin-top: 10px; color: #444444;">{{ post.description }}</p>
             </a>
         </article>
   {% endfor %}
 </div>
-<a href="{{ 'repos.html' | absolute_url }}" class="button special icon fa-code">Explore all softwares and repositories</a>
+<a href="{{ 'repos' | absolute_url }}" class="button special icon fa-code">Explore all softwares and repositories</a>
 
 <hr>
 

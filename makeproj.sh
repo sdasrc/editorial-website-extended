@@ -10,13 +10,13 @@ mkdir $postdir
 cp "$assetdir/banner.jpg" $postdir
 echo --- >> $postmd
 echo "title : Enter Your Title Here"  >> $postmd
-echo "short-title: Short Title" >> $postmd
+echo "tagline: Short description here. Will appear in main page." >> $postmd
+echo "description: Describe the page in less than 160 words. Mention important keywords for SEO." >>  $postmd
 echo "Date : " `date +"%Y-%m-%d"` >> $postmd
 echo "author: Soumyadeep Das" >> $postmd
 echo "layout: project-post" >> $postmd
 echo "image: $postdir/banner.jpg" >>  $postmd
 echo "image-alt: Text description of the image" >>  $postmd
-echo "description:  Short description here. Will appear in main page." >>  $postmd
 echo "permalink: /posts/`date +"%Y"`/`date +"%m"`/$postname/" >> $postmd
 echo "tags: tag1 tag2 tag3 tag4"  >> $postmd
 echo "page-level: repopage" >> $postmd

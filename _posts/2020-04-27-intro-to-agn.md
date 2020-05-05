@@ -1,12 +1,13 @@
 ---
 title: 'Introduction to Active Galactic Nuclei'
-short-title: Intro to AGN
+tagline: Intro to AGN
+description: Active galactic nuclei (AGN) are some of the most energetic, luminous sources in the universe, giving out persistent radiation. Our understanding of AGN is still very limited. Thanks to the advances in science and the tenacity of researcher, we are making exciting discoveries regularly.
 date: 2020-04-27
 author: Soumyadeep Das
 layout: post
 image: assets/images/posts/2020-04-27-intro-to-agn/banner.jpg
 image-thumb: assets/images/posts/2020-04-27-intro-to-agn/banner-thumb.jpg
-image-alt: AGN Default Banner Image
+image-alt: Active Galaxtic Nuclei 
 permalink: /posts/2020/04/intro-to-agn/
 page-level: postpage
 tags: 
@@ -36,11 +37,25 @@ Plume like jets coming out of both sides of a galaxy, that is probably the image
 
 Jet creation process occurs in the vicinity of the central engine and can be broken down essentially into three main parts - extraction of plasma packets from the disk by the disk magnetic field, accumulation of the plasma packets along the axis, and acceleration of jets outwards away from the disk.  
 
-<p><span class="image left"><img src="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure-thumb.jpg' | relative_url }}" alt="" data-echo="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure.png' | relative_url }}"/></span>Jets give us an approximate idea of the power of the central engine - stronger the engine, larger the jets. Near the center, these jets are relativistic and often appear single sided courtesy doppler shifts. As these jets move out, they are slowed down by the intergalactic medium. Low power Seyfert AGNs have tiny bubble like jets, moderate Fanaroff Riley I (FR I) classes have large structures jets. Largest jets seen are those in quasars, like the one pictured at the center of the page (Hercules A). Jets are made of magnetized plasma, and acceleration of charged particles give rise to radio emission (synchrotron mechanism, class XII stuff!). Jets dominate AGN emission in the γ-rays and often in the radio band. </p>
+<p><span class="image left"><img src="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure-thumb.jpg' | relative_url }}" alt="AGN structure and composition" data-echo="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure.png' | relative_url }}"/></span>Jets give us an approximate idea of the power of the central engine - stronger the engine, larger the jets. Near the center, these jets are relativistic and often appear single sided courtesy doppler shifts. As these jets move out, they are slowed down by the intergalactic medium. Low power Seyfert AGNs have tiny bubble like jets, moderate Fanaroff Riley I (FR I) classes have large structures jets. Largest jets seen are those in quasars, like the one pictured at the center of the page (Hercules A). Jets are made of magnetized plasma, and acceleration of charged particles give rise to radio emission (synchrotron mechanism, class XII stuff!). Jets dominate AGN emission in the γ-rays and often in the radio band. </p>
 
 
 ## The AGN Zoo
 As I have already mentioned, AGN radiation spans the entire electromagnetic spectrum, each wavelength consisting of unique observational signatures, telling us different stories. Reverse engineering these signatures has led to the identification of several distinct features - leading to simply too many classes of AGN. There are so many types of AGN that regular words like group, herd, etc., do not do justice. Currently we know of over 50 classes of AGN. There are several ways of classification – based on the observing frequencies (such as Radio galaxies), nuclear activity (eg., LINERs), brightness and luminosity (LLAGNs), variability (Blazars), difference in emission lines (Seyferts), and so on. All these classes are based on observational attributes or selection bias, and so they overlap frequently. A source might appear to be a Seyfert in optical observations and then behave like an FR in radio wavelengths. Being such a chaotic and confusing area of research, this has been aptly named a zoo. The confusion is inevitable, and anyone claiming to completely understand this zoo is deceiving themselves. 
+
+<div class="box">
+<h4>AGN FACT SHEET</h4>
+<ul>
+    <li>AGN do not continously eat matter and spewjets. AGN go through large phases of inactivity. Such AGN are said to have been switched-off.</li>
+
+    <li>Our Milky Way is said to have hosted an active nuclei thousands of years ago. With a collision with Andromeda, we may see revival of the AGN.</li>
+
+    <li>AGN are bad for health! An active galaxy will not support life due to the presence of unsurvivable amounts of radiation.</li>
+
+    <li>The oldest observed AGN is ULAS J1120+0641. Its light takes 12.9 billion years to reach us. Thus when we look at it, we are seeing the skies just 770 million years after the big bang!</li>
+</ul>
+</div>
+
 
 ## AGN - The Key to Many Puzzles
 Active galactic nuclei are crucial to our understanding of the life and evolution of galaxies, and of the early history of universe. Due to their immense power, AGN can be seen upto incredible redshifts (higher the redshift, older is the structure.) AGN observations thus hold clues about the early stages of the universe and the very first objects formed. AGN also influence galaxy observations, and vice versa. It has been observed that the largest of AGN are found in old elliptical galaxies; young and dimmer AGN in newer spirals. On one hand, shocks from AGN act as catalyst to star formation, while on the other hand, AGN are known to heat up the star forming gases, thus quenching star formation. Further, AGN provide a window to understanding black-hole physics - we can now calculate critical black hole param- eters by studying AGN spectral information. 
@@ -52,15 +67,3 @@ In itself AGN has remained quite a mystery thus far. The very structure and comp
 Dramatic increases in our computational power have made AGN a test bed for relativistic simulations. AGN, hosting the largest of SMBHs, are the primary targets for gravitational wave astronomy. A significant amount of research on AGN has also been achieved using the Indian facilities such as the GMRT, ASTROSAT and the Himalayan Chandra Telescope (HCT). The future holds more dedicated studies of AGN which will strengthen our understanding and help solve the mysteries of the universe.
 
 
-<!--             <div class="box">
-            <h4>AGN FACT SHEET</h4>
-            <ul>
-                <li>AGN do not continously eat matter and spewjets. AGN go through large phases of inactivity. Such AGN are said to have been switched-off.</li>
-
-                <li>Our Milky Way is said to have hosted an active nuclei thousands of years ago. With a collision with Andromeda, we may see revival of the AGN.</li>
-
-                <li>AGN are bad for health! An active galaxy will not support life due to the presence of unsurvivable amounts of radiation.</li>
-
-                <li>The oldest observed AGN is ULAS J1120+0641. Its light takes 12.9 billion years to reach us. Thus when we look at it, we are seeing the skies just 770 million years after the big bang!</li>
-            </ul>
-            </div> -->

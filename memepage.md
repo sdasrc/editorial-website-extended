@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Memes from Outer Space
+tagline: A place to chill out with some memes.
+description: Memes are memes. Here is a collection of some OC memes illustrating the life of a researcher, existential difficulties of an astronomer, and cute baby cheetahs.
+permalink: memepage/
 identifer: memepage
 page-level: mainpage
 ---
@@ -14,7 +17,7 @@ Astrophysicist with telescope. -->
 {% for post in site.data.memes %}
 <article>
     <h4 style="margin-bottom: 10px;">{{ post.img-alt }}</h4>
-       <a href="{{ post.img-src | absolute }}" target="_blank" class="image"><img src="{{ post.img-thumb }}" alt="{{ post.img-alt }}" data-echo="{{ post.img-src }}" />
+       <a href="{{ post.img-src | absolute_url }}" target="_blank" class="image"><img src="{{ post.img-thumb | absolute_url }}" alt="Meme : {{ post.img-alt }}" data-echo="{{ post.img-src | absolute_url  }}" />
                 
             </a>
         </article>

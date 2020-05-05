@@ -26,7 +26,7 @@
                 	</header>
 
                   {% if page.image %}
-                	<span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
+                	<span class="image main"><img src="{{ page.image-thumb | absolute_url }}" alt="{{ page.image-alt | absolute_url }}" data-echo="{{ page.image | absolute_url }}" /></span>
                   {% endif %}
 
                 {{ content }}

@@ -1,13 +1,13 @@
 ---
 title : AIPS - Some Lessons Learnt The Hard Way
-short-title: AIPS Guide
+tagline: Collected wisdom for using AIPS effectively.
+description:  The Astronomical Image Processing System (AIPS) is a software package to support the reduction and analysis of data taken with radio telescopes. Here is a collection of some quick guides and troubleshooting tips.
 Date :  2020-05-01
 author: Soumyadeep Das
 layout: project-post
 image: assets/images/posts/2020-05-01-aips-guide-v1/banner.jpg
 image-thumb: assets/images/posts/2020-05-01-aips-guide-v1/banner-thumb.jpg
-image-alt: AIPS Banner image default
-description:  Collection of some quick guides and troubleshooting.
+image-alt: AIPS is a software package to support the reduction and analysis of data taken with radio telescopes. 
 permalink: /projects/2020/05/aips-guide-v1/
 tags: aips guide vla imaging
 page-level: repopage
