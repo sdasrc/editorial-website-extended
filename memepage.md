@@ -17,8 +17,12 @@ Astrophysicist with telescope. -->
 {% for post in site.data.memes %}
 <article>
     <h4 style="margin-bottom: 10px;">{{ post.img-alt }}</h4>
-       <a href="{{ post.img-src | absolute_url }}" target="_blank" class="image"><img src="{{ post.img-thumb | absolute_url }}" alt="Meme : {{ post.img-alt }}" data-echo="{{ post.img-src | absolute_url  }}" />
-                
+       <a href="{{ post.img-src | absolute_url }}" target="_blank" class="image">
+        <picture>
+            <source data-srcset="{{ post.img-webp | absolute_url }}" type="image/webp" >
+            <source data-srcset="{{ post.img | absolute_url }}" type="image/jpeg" > 
+            <img src="{{ post.img-thumb | absolute_url }}" alt="Meme : {{ post.img-alt }}" data-src="{{ post.img | absolute_url }}"  class="lazyload" />
+      </picture>               
             </a>
         </article>
   {% endfor %}

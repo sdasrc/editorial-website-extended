@@ -6,6 +6,7 @@ Date :  2020-05-01
 author: Soumyadeep Das
 layout: project-post
 image: assets/images/posts/2020-05-01-aips-guide-v1/banner.jpg
+image-webp: assets/images/posts/2020-05-01-aips-guide-v1/banner.webp
 image-thumb: assets/images/posts/2020-05-01-aips-guide-v1/banner-thumb.jpg
 image-alt: AIPS is a software package to support the reduction and analysis of data taken with radio telescopes. 
 permalink: /projects/2020/05/aips-guide-v1/

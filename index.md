@@ -11,7 +11,13 @@ page-level: homepage
 	</header>
 	<div class="posts">
 		<article>
-			<a href="{{ site.posts.last.url | absolute_url  }}" class="image"><img src="{{ site.posts.last.image-thumb | absolute_url  }}" alt="{{ site.posts.last.image-alt }}" data-echo="{{ site.posts.last.image | absolute_url  }}"/></a>
+			<a href="{{ site.posts.last.url | absolute_url  }}" class="image">
+				<picture>
+                <source data-srcset="{{ site.posts.last.image-webp | absolute_url }}" type="image/webp" >
+                <source data-srcset="{{ site.posts.last.image | absolute_url }}" type="image/jpeg" > 
+                <img src="{{ site.posts.last.image-thumb | absolute_url }}" alt="{{ site.posts.last.image-alt }}" data-src="{{ site.posts.last.image | absolute_url }}"  class="lazyload" />
+                </picture> 
+			</a>
 			<h3>{{ site.posts.last.title }}</h3>
 			<p>{{ site.posts.last.content | strip_html | truncatewords: 30 }}</p>
 			<ul class="actions">
@@ -20,7 +26,13 @@ page-level: homepage
 			</ul>
 		</article>
 		<article>
-			<a href="{{ site.projects.last.url | absolute_url  }}" class="image"><img  src="{{ site.projects.last.image-thumb | absolute_url  }}" alt="{{ site.projects.last.image-alt }}" data-echo="{{ site.projects.last.image | absolute_url  }}"/></a>
+			<a href="{{ site.projects.last.url | absolute_url  }}" class="image">
+				<picture>
+                <source data-srcset="{{ site.projects.last.image-webp | absolute_url }}" type="image/webp" >
+                <source data-srcset="{{ site.projects.last.image | absolute_url }}" type="image/jpeg" > 
+                <img src="{{ site.projects.last.image-thumb | absolute_url }}" alt="{{ site.projects.last.image-alt }}" data-src="{{ site.projects.last.image | absolute_url }}"  class="lazyload" />
+                </picture> 
+			</a>
 			<h3>{{ site.projects.last.title }}</h3>
 			<p>{{ site.projects.last.content | strip_html | truncatewords: 30 }}</p>
 			<ul class="actions">
