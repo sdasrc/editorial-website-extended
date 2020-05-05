@@ -73,18 +73,18 @@ Close Button
         }
         @media screen and (max-width: 480px) and (orientation:portrait){
                 .overlay-inside {
-                padding-top: 30vh; 
-                padding-left:10vw; 
-                padding-right:10vw; 
+                padding-top: 10em; 
+                padding-left:3em; 
+                padding-right: 3em; 
                 height: auto;
             }
         }
 
         @media screen and (max-height: 480px) and (orientation:landscape){
                 .overlay-inside {
-                padding-top: 10vh; 
-                padding-left:20vw; 
-                padding-right:20vw; 
+                padding-top: 3em; 
+                padding-left:3em; 
+                padding-right: 3em; 
                 height: auto;
             }
         }        
