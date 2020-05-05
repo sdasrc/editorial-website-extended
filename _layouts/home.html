@@ -8,101 +8,15 @@
 
 {% include head.html %}
 <body>
-  <style type="text/css">
 
-      p.banner-head{
-        text-align:center;
-        color: white;
-        font-size: 2.6em;
-        letter-spacing: 0.14em;
-        font-family: "Bebas Neue";
-        font-weight: 400;
-         transform: scale(1.2, 1);
-        margin: 0.35em 0 0.25em 0;
-        text-shadow: 1px 1px 5px #444444;
-      }
-      p.banner-body{
-        text-align:center;
-        color:white;
-        font-size: 1.5em;
-        letter-spacing: 0.14em;
-        padding: 0.25em 0 0.25em 0;
-        margin: 0.25em 0 0.25em 0;
-         transform: scale(0.9, 1);
-        font-family: "Open Sans";
-        font-weight: 600;
-        margin: 0 0 0 0;
-        text-shadow: 1px 1px 5px #444444;
-      }
-      p.banner-close{
-        text-align:center;
-        color:white;
-        font-size: 3.5em;
-        padding: 0;
-        margin: 0.5em 0 0.5em 0;
-        font-family: "Open Sans";
-        font-weight: 600;
-        text-shadow: 1px 1px 5px #444444;
-      }
-      hr.banner-line{
-            border: none;
-    /* Set the hr color */
-        color: white; /* old IE */
-        background-color: white; /* Modern Browsers */
-        margin: 0 0 0 0;
-        height: 2px;
-        width: 28em;
-      }
-
-           ul.banner-icons {
-              border-radius: 50px; 
-              width: 20em; 
-              height: 4em; 
-            display:table-row;
-              border: 1px solid white;
-            cursor: pointer;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-            ul.banner-icons li {
-            display: table-cell;
-            vertical-align: middle;
-                padding: 0 1em 0 0;
-            }
-
-              ul.banner-icons  ul li p {
-              display: table-cell;
-            vertical-align: middle;
-             } 
-
-                ul.banner-icons li:last-child {
-                    padding-right: 0;
-                }
-
-                ul.banner-icons li .icon {
-                    color: white;
-                }
-                ul.banner-icons li .icon-ai {
-                    color: white;
-                }
-
-                    ul.banner-icons li .icon:before {
-                        font-size: 0.75em;
-                    }
-                    ul.banner-icons li .icon-ai:before {
-                        font-size: 0.75em;
-                    }
-  </style>
-
+    <link rel="stylesheet" type="text/css" href="assets/css/home-overlay-fonts.css">
         <div id="myNav" class="overlay">
 
         <!-- Button to close the overlay navigation -->
 
         <!-- Overlay content -->
         <div class="overlay-content overlay-img" 
-        style="background-image: url(assets/images/banner-bg-img-1-thumb.jpg);"
+        style="background-image: url(assets/images/banner-bg-img-1-thumb.jpg) center center no-repeat; background-size: cover;"
         data-echo-background="assets/images/banner-bg-img-1.jpg">
 
               <div class="overlay-inside" >
@@ -113,14 +27,14 @@
                           <br>
                       <p class="banner-body">ASTROPHYSICS. AGN.<br>INTERFEROMETRY.</p>
                               <ul class="banner-icons">
-                              <li><p class="banner-body" style="font-size: 250%;"><a href="{{ site.linkedin_url }}" class="icon fa-linkedin" target="_blank"></a></p></li>
-                              <li><p class="banner-body" style="font-size: 250%;"><a href="{{ site.github_url }}" class="icon fa-github" target="_blank"></a></p></li>
-                              <li><p class="banner-body" style="font-size: 250%;"><a href="{{ site.googlescholar_url }}" class="icon-ai ai-google-scholar" target="_blank"></a></p></li>
-                              <li><p class="banner-body" style="font-size: 250%;"><a href="{{ site.ads_url }}" class="icon-ai ai-ads" target="_blank"></a></p></li></ul>
+                              <li><p class="banner-body banner-icon-p"><a href="{{ site.linkedin_url }}" class="icon fa-linkedin" target="_blank"></a></p></li>
+                              <li><p class="banner-body banner-icon-p"><a href="{{ site.github_url }}" class="icon fa-github" target="_blank"></a></p></li>
+                              <li><p class="banner-body banner-icon-p"><a href="{{ site.googlescholar_url }}" class="icon-ai ai-google-scholar" target="_blank"></a></p></li>
+                              <li><p class="banner-body banner-icon-p"><a href="{{ site.ads_url }}" class="icon-ai ai-ads" target="_blank"></a></p></li></ul>
 
                           <hr style="height: 1px;" class="banner-line">
                   </div>
-                  <p class="banner-close" ><a href="javascript:void(0)" class="closebtn btn icon fa-angle-double-down" onclick="closeNav()"></a></p>
+                  <p class="banner-close banner-head" ><a href="javascript:void(0)" class="closebtn btn icon fa-angle-double-down" onclick="closeNav()"></a></p>
                   </center>
                 </div>
 

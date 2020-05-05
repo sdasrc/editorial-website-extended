@@ -11,7 +11,7 @@ page-level: homepage
 	</header>
 	<div class="posts">
 		<article>
-			<a href="{{ site.posts.last.url }}" class="image"><img src="{{ site.posts.last.image }}" alt="Latest Blogpost Image" /></a>
+			<a href="{{ site.posts.last.url }}" class="image"><img src="{{ site.posts.last.image-thumb }}" alt="Latest Blogpost Image" data-echo="{{ site.posts.last.image }}"/></a>
 			<h3>{{ site.posts.last.title }}</h3>
 			<p>{{ site.posts.last.content | strip_html | truncatewords: 30 }}</p>
 			<ul class="actions">
@@ -20,7 +20,7 @@ page-level: homepage
 			</ul>
 		</article>
 		<article>
-			<a href="{{ site.projects.last.url }}" class="image"><img  src="{{ site.projects.last.image }}" alt="{{ site.projects.last.image-alt }}" /></a>
+			<a href="{{ site.projects.last.url }}" class="image"><img  src="{{ site.projects.last.image-thumb }}" alt="{{ site.projects.last.image-alt }}" data-echo="{{ site.projects.last.image }}"/></a>
 			<h3>{{ site.projects.last.title }}</h3>
 			<p>{{ site.projects.last.content | strip_html | truncatewords: 30 }}</p>
 			<ul class="actions">

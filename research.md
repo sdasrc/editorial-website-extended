@@ -62,7 +62,7 @@ Radio galaxies have always held a special significance in understanding the intr
 {% for post in site.projects limit:2 %}
 <article>
     <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-            <a href="{{ post.url }}" class="image"><img src="{{ post.image }}" alt="{{ post.image-alt }}" />
+            <a href="{{ post.url }}" class="image"><img src="{{ post.image-thumb }}" alt="{{ post.image-alt }}" data-echo="{{ post.image }}" />
                 <h4 style="margin-top: 6px;">{{ post.description }}</h4>
             </a>
         </article>
