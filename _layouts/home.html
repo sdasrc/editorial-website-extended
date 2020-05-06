@@ -10,14 +10,52 @@
 <body>
 
     <link rel="stylesheet" type="text/css" href="assets/css/home-overlay-fonts.css">
+
+      <style type="text/css">
+        .wrapper {
+              width:100vw;
+              height: 100vh;
+              position: relative;
+              background-color: #afafaf;
+          }
+
+          .wrapper .image {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              height: auto;
+              position: absolute;
+            left:0;
+            text-align:center;
+            right:0;
+            size: 100%;
+            top:0;
+            bottom:0;
+            margin:auto;
+            width:100%;
+            height:100%;
+                  vertical-align: middle;
+          }     
+      </style>
+
         <div id="myNav" class="overlay">
 
         <!-- Button to close the overlay navigation -->
 
         <!-- Overlay content -->
-        <div class="overlay-content overlay-img" 
+        <!-- <div class="overlay-content overlay-img wrapper" 
         style="background-image: url(assets/images/banner-bg-img-1-thumb.jpg) center center no-repeat; background-size: cover;"
-        data-echo-background="assets/images/banner-bg-img-1.jpg">
+        data-echo-background="assets/images/banner-bg-img-1.jpg"> -->
+        <div class="overlay-content overlay-img wrapper">
+                <span  class="image">
+                  <picture>
+                <source data-srcset="{{ 'assets/images/banner-bg-img-1.webp' | absolute_url }}" type="image/webp" >
+                <source data-srcset="{{ 'assets/images/banner-bg-img-1.jpg' | absolute_url }}" type="image/jpeg" > 
+                <img src="{{ 'assets/images/banner-bg-img-1-thumb.jpg' | absolute_url }}" alt="{{ post.image-alt }}" data-src="{{ 'assets/images/banner-bg-img-1.jpg' | absolute_url }}"  class="lazyload" />
+                </picture> 
+                  <img src="">
+                </span>
+
 
               <div class="overlay-inside" >
                 <center>
