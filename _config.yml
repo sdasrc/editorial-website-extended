@@ -22,6 +22,7 @@ collections:
 author:
     name: Soumyadeep Das
     avatar : assets/images/profile_picture.png
+    avatar-webp: assets/images/profile_picture.webp
     avatar-thumb: assets/images/profile_picture-thumb.jpg
     # author-bio : "Incoming PhD Student at ICRAR/UWA Perth."
     author-bio : "Graduated with Dual Degree (B.Tech. and M.Tech.) in Engg. Physics, IIT Varanasi, India."
