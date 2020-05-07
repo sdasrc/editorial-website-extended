@@ -5,7 +5,7 @@ tagline: Astrophysics. AGN. Interferometry. I am an incoming PhD Student at ICRA
 email: soumyadeep.das.phy14@iitbhu.ac.in
 description: Astrophysics. AGN. Interferometry. I am an incoming PhD Student at ICRAR/UWA Perth. I am interested in multiwavelength AGN research, studies of evolutionary path of radio galaxies, AGN restart, and the role of the host environment on AGN life-cycle. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://thephoenix01.github.io" # the base hostname & protocol for your site
+url: "https://soumyadeepdas.gitlab.io" # the base hostname & protocol for your site
 logo: assets/images/favicon.png
 
 
@@ -31,7 +31,7 @@ author:
     ads : https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0002-3493-6638&sort=date%20desc%2C%20bibcode%20desc
     facebook: https://www.facebook.com/TheSoumyadeepDas
     github: https://github.com/thephoenix01
-    gitlab: 
+    gitlab: https://gitlab.com/thephoenix01
     googleplus: 
     googlescholar : https://scholar.google.com/citations?user=02NSBH4AAAAJ&hl=en
     instagram: https://www.instagram.com/_thephoenix01_/
