@@ -8,7 +8,7 @@ page-level: mainpage
 permalink: resume/
 ---
 
-<a href="{{ 'assets/docs/SoumyadeepDasCV.pdf' | absolute_url }}" class = "button" target="_blank">View in PDF Format</a>
+<a href="{{ 'assets/docs/SoumyadeepDasCV.pdf' | absolute_url }}" class = "button" target="_blank" rel="noopener noreferrer" >View in PDF Format</a>
 <a name="top"></a>
 <h2 style="color:#f56a6a;">Education</h2> 
 <b>Indian Institute of Technology (BHU), Varanasi (India)</b> <br>
