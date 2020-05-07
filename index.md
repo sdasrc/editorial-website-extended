@@ -45,6 +45,7 @@ page-level: homepage
 
   
 
+
 <!-- Section -->
 <section>
 	<header class="major">
@@ -55,11 +56,7 @@ page-level: homepage
 		<article>
 			<!-- <span class="icon fa-diamond"></span> -->
 			<span style="padding-right:15px; display:inline-block;">
-				<picture>
-                <source data-srcset="assets/images/ico-agn-300.webp" type="image/webp" >
-                <source data-srcset="assets/images/ico-agn-300.png" type="image/png" > 
-                <img src="assets/images/ico-agn-300.png" alt="Active Galactic Nuclei" width="80"  class="lazyload" />
-                </picture> 
+                <img alt="Active Galactic Nuclei" src="assets/images/ico-agn-thumb.png" data-src="assets/images/ico-agn.png"   class="lazyload" width="80" />
 			</span>
 			<div class="content">
 				<h3>Active Galactic Nuclei</h3>
@@ -69,7 +66,7 @@ page-level: homepage
 		<article>
 			<!-- <span class="icon fa-paper-plane"></span> -->
 			<span style="padding-right:15px; display:inline-block;">
-			<img src="assets/images/ico-telescope.svg" alt="Amateur Astronomy and Astrophotohraphy" width="80"/>
+            <img alt="Amateur Astronomy and Astrophotohraphy" src="assets/images/ico-telescope-thumb.png" data-src="assets/images/ico-telescope.png"   class="lazyload" width="80" />
 			</span>
 			<div class="content">
 				<h3>Amateur Astronomy</h3>
@@ -79,7 +76,7 @@ page-level: homepage
 		<article>
 			<!-- <span class="icon fa-signal"></span> -->
 			<span style="padding-right:15px; display:inline-block;">
-			<img src="assets/images/ico-radio-antenna.svg" alt="Radio Astronomy" width="80"/>
+                <img alt="Radio Astronomy" src="assets/images/ico-radio-thumb.png" data-src="assets/images/ico-radio.png"   class="lazyload" width="80" />
 			</span>
 			<div class="content">
 				<h3>Radio Astronomy</h3>
@@ -89,7 +86,7 @@ page-level: homepage
 		<article>
 			<!-- <span class="icon fa-rocket"></span> -->
 			<span style="padding-right:15px; display:inline-block;">
-			<img src="assets/images/ico-python.svg" alt="Programming" width="80"/>
+            <img alt="Programming" src="assets/images/ico-py-thumb.png" data-src="assets/images/ico-py.png"   class="lazyload" width="80" />
 			</span>
 			<div class="content">
 				<h3>Programming</h3>
@@ -98,8 +95,7 @@ page-level: homepage
 		</article>
 		<article>
 			<!-- <span class="icon fa-rocket"></span> -->
-			<span style="padding-right:15px; display:inline-block;">
-			<img src="assets/images/ico-misc.svg" alt="Programming" width="80"/>
+			<span style="padding-right:15px; display:inline-block;"><img alt="Miscellaneous" src="assets/images/ico-misc-thumb.png" data-src="assets/images/ico-misc.png"   class="lazyload" width="80" />
 			</span>
 			<div class="content">
 				<h3>Miscellaneous</h3>
@@ -120,9 +116,9 @@ page-level: homepage
 <article style="width: 70%;">
 	<span style="padding-right:15px; display:inline-block;">
 		<picture>
-                <source data-srcset="assets/images/crest-iitbhu-300.webp" type="image/webp" >
-                <source data-srcset="assets/images/crest-iitbhu-300.png" type="image/png" > 
-                <img src="assets/images/crest-iitbhu-300.png" alt="IIT BHU Crest" width="90"  class="lazyload" />
+                <source data-srcset="assets/images/crest-iitbhu-180.webp" type="image/webp" >
+                <source data-srcset="assets/images/crest-iitbhu-180.png" type="image/png" > 
+                <img src="assets/images/crest-iitbhu-180.png" alt="IIT BHU Crest" width="90"  class="lazyload" />
                 </picture>
 	</span>
 	<div class="content">
@@ -143,16 +139,16 @@ page-level: homepage
 	<div class="crest-row" style="width: 200px;" >
   <div class="crest-column">
     <picture>
-                <source data-srcset="assets/images/crest-uwa-300.webp" type="image/webp" >
-                <source data-srcset="assets/images/crest-uwa-300.png" type="image/png" > 
-                <img src="assets/images/crest-uwa-300.png" alt="UWA Perth Crest" width="90"  class="lazyload" />
+                <source data-srcset="assets/images/crest-uwa-180.webp" type="image/webp" >
+                <source data-srcset="assets/images/crest-uwa-180.png" type="image/png" > 
+                <img src="assets/images/crest-uwa-180.png" alt="UWA Perth Crest" width="90"  class="lazyload" />
                 </picture>
   </div>
   <div class="crest-column">
     <picture>
-                <source data-srcset="assets/images/crest-icrar-300.webp" type="image/webp" >
-                <source data-srcset="assets/images/crest-icrar-300.png" type="image/png" > 
-                <img src="assets/images/crest-icrar-300.png" alt="ICRAR Crest" width="90"  class="lazyload" />
+                <source data-srcset="assets/images/crest-icrar-180.webp" type="image/webp" >
+                <source data-srcset="assets/images/crest-icrar-180.png" type="image/png" > 
+                <img src="assets/images/crest-icrar-180.png" alt="ICRAR Crest" width="90"  class="lazyload" />
                 </picture>width="100%"/>
   </div>
 </div> 

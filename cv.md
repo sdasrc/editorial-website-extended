@@ -10,7 +10,7 @@ permalink: resume/
 
 <a href="{{ 'assets/docs/SoumyadeepDasCV.pdf' | absolute_url }}" class = "button" target="_blank" rel="noopener noreferrer" >View in PDF Format</a>
 <a name="top"></a>
-<h2 style="color:#f56a6a;">Education</h2> 
+<h2 style="color:#d32f2f;">Education</h2> 
 <b>Indian Institute of Technology (BHU), Varanasi (India)</b> <br>
 Integrated Dual Degree (B.Tech. + M.Tech.) in Engineering Physics (Aug. 2014 - May. 2019)
  <ul>
@@ -19,7 +19,7 @@ Integrated Dual Degree (B.Tech. + M.Tech.) in Engineering Physics (Aug. 2014 - M
   <li>Awarded with IIT Color, the second highest honor of IIT Varanasi for contributing to the overall growth of astronomy in and around the institute.</li>
 </ul> 
 <hr style="width:100%"> 
-<h2 style="color:#f56a6a;">Skills</h2> 
+<h2 style="color:#d32f2f;">Skills</h2> 
 
 <b>General Programming</b> - C, C++, Python, Matlab, FORTRAN, HTML, PHP, XML.<br>
 <b>Simulation and Science</b> - AIPS, CASA, SaoImage DS9, Astropy, Scipy, LaTeX, and FORTRAN simulations.<br>
@@ -27,14 +27,14 @@ Integrated Dual Degree (B.Tech. + M.Tech.) in Engineering Physics (Aug. 2014 - M
 <b>Other</b> - Photoshop, Arduino programming, Android development. Tinkering with simple circuits.
 <hr style="width:100%"> 
 
-<h2 style="color:#f56a6a;">Courses and Academic Background</h2> 
+<h2 style="color:#d32f2f;">Courses and Academic Background</h2> 
 <b>Background</b> - Synthesis Imaging in Radio Interferometry, First Course in General Relativity. <br>
 <b>Coursework</b> - Classical and Quantum Mechanics, Relativistic Electrodynamics, Magnetohydrodynamics, Linear Algebra, Mathematical and
 Numerical Methods, Introduction to Astrophysics, Computational and Statistical Physics.<br>
 <b>Other Courses</b> - Probability and Statistics, Statistical simulations, Pattern Recognition, Programming and Data-structures.<br>
 <hr style="width:100%"> 
 
-<h2 style="color:#f56a6a;">Experience</h2> 
+<h2 style="color:#d32f2f;">Experience</h2> 
 (Go to my <a href="{{ 'research' | absolute_url }}">Research Interests</a>).<br><br>
 <b>Looking from All Angles at a Source Straddling the Radio-loud/Radio-quiet AGN Divide.</b><br>
 VSRP Summer Internship Under Dr. Preeti Kharb, National Center For Radio Astrophysics (NCRA-TIFR).<br>
@@ -70,7 +70,7 @@ Thiruvananthapuram, India. (May. 2016 - July. 2016)
 </ul>
 
 <hr style="width:100%"> 
-<h2 style="color:#f56a6a;">Teaching Assistant Positions</h2> 
+<h2 style="color:#d32f2f;">Teaching Assistant Positions</h2> 
 <ul>
 <li>2019 - PHY 304 - Computational Physics (Theory and Lab)</li>
 <li>2018 - PHY 303 - Electromagnetic Waves</li>
@@ -79,7 +79,7 @@ Thiruvananthapuram, India. (May. 2016 - July. 2016)
 <li>2016 - PHY 102 - Physics II (Electromagnetism)</li>
 </ul>
 <hr style="width:100%"> 
-<h2 style="color:#f56a6a;">Publications</h2> (Go to the <a href="{{ 'publications' | absolute_url }}">Publications Page</a>).<br>
+<h2 style="color:#d32f2f;">Publications</h2> (Go to the <a href="{{ 'publications' | absolute_url }}">Publications Page</a>).<br>
 <ul>
 <li>2018 &nbsp; - &nbsp; S. Nambiar, S. Das, S. Vig, G.R.K.S.S. Manyam, ”Star cluster detection and characterization using generalized Parzen density estimation”, MNRAS, accepted for publication, Oct. 17, 2018.</li>
 <br>
@@ -88,7 +88,7 @@ Thiruvananthapuram, India. (May. 2016 - July. 2016)
 </ul>
 <hr style="width:100%"> 
 
-<h2 style="color:#f56a6a;">Conferences</h2> 
+<h2 style="color:#d32f2f;">Conferences</h2> 
 <ul>
 <li> 2019 &nbsp;- &nbsp;Presented a poster on ”Instrumental calibration requirements for observation of redshifted 21-cm signal from neutral hydrogen” at the Metre Wavelength Sky II Conference (MYSKY-II) held at National Centre for
 Radio Astrophysics, Pune, India</li>
@@ -96,7 +96,7 @@ Radio Astrophysics, Pune, India</li>
 </ul>
 
 <hr style="width:100%"> 
-<h2 style="color:#f56a6a;">Achievements, Awards and Extra-curricular activities</h2> 
+<h2 style="color:#d32f2f;">Achievements, Awards and Extra-curricular activities</h2> 
 <ul>
 <li>2017 &nbsp;-&nbsp;  Winner, Codefest Appathon - Android Development Competition, Dept. of CSE, IIT (BHU) Varanasi.</li>
 <li>2016 &nbsp;-&nbsp;  Founder, Corona - Bi-monthly collegiate astronomy magazine.</li>
