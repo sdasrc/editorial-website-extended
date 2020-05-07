@@ -19,6 +19,8 @@ collections:
     projects:
         output: true
 
+myversion: 1.0.1
+
 author:
     name: Soumyadeep Das
     avatar : assets/images/profile_picture.png
