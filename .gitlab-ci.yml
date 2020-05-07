@@ -1,17 +1,31 @@
 image: ruby
 
+cache:
+  paths:
+  - vendor/
+
+before_script:
+  - bundle install --path vendor
+
 pages:
-  stage: build
-  environment:
-    name: review/$CI_BUILD_REF_NAME
-    url: http://$CI_BUILD_REF_NAME.andrewbanchich.gitlab.io/editorial-jekyll-theme
+  stage: deploy
   script:
-  - gem install jekyll
-  - jekyll build -d public
-  - gem build editorial_jekyll_theme.gemspec
+  - bundle exec jekyll build -d public
   artifacts:
     paths:
     - public
-    - "editorial_jekyll_theme-*.gem"
   only:
   - master
+
+test:
+  stage: test
+  script:
+  - bundle exec jekyll build -d test
+  artifacts:
+    paths:
+    - test
+  except:
+  - master
+
+exclude:
+  - vendor  
