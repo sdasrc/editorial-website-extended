@@ -19,7 +19,7 @@ collections:
     projects:
         output: true
 
-myversion: 3.1.1
+myversion: 3.1.2
 
 author:
     name: Soumyadeep Das
@@ -41,7 +41,7 @@ author:
     slack:
     stackoverflow : https://stackoverflow.com/users/4701760/thephoenix01
     steam : https://steamcommunity.com/profiles/76561198859680680
-    twitter: https://twitter.com/thephoenix01
+    twitter: https://twitter.com/_thephoenix01_
 
 plugins:
   - jekyll-seo-tag

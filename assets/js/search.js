@@ -58,7 +58,7 @@
         'tags': window.store[key].content
       });
 
-      output.innerHTML = "Your results for \'"+searchTerm+"\' are";
+      output.innerHTML = "Search results for "+searchTerm;
 
       var results = idx.search(searchTerm); // Get lunr to perform a search
       displaySearchResults(results, window.store); // We'll write this in the next section
