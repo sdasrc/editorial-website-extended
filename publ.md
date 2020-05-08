@@ -1,8 +1,7 @@
 ---
 layout: page
 title: My Publications
-tagline: Refereed publications, conference proceedings, and other academic works.
-description: Nambiar, S., Das, S., Vig, S., & Gorthi, R. S. S. (2019). Star cluster detection and characterization using generalized Parzen density estimation. MNRAS.
+description: Nambiar, S., Das, Soumyadeep, Vig, S., & Gorthi, R. S. S. (2019). Star cluster detection and characterization using generalized Parzen density estimation. MNRAS.
 identifer: publpage
 permalink: publications/
 page-level: mainpage

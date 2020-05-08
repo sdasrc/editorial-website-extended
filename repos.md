@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Project Repositories
-tagline: My project details, repos, and guides.
-description: Apart from Astrophysics, I tinker with android app development, digital design, linux, and LaTeX. This page hosts my academic projects as well as non-academic repos.
+description: Repos of Astrophysics projects, linux, latex, and design by Soumyadeep Das.
 identifer: repopage
 permalink: repos/
 page-level: mainpage

@@ -15,16 +15,16 @@
     {% if page.page-level == "repopage" %}
         <ul class="actions">
                 <li><a class="logo" href="{{ '#nobanner' | absolute_url }}" ><strong>Home&nbsp;&nbsp;&nbsp;&nbsp;></strong></a></li>
-                <li><a class="logo" href="{{ 'repos.html' | absolute_url }}" ><strong style="color: #777777">Repos&nbsp;&nbsp;&nbsp;&nbsp;></strong></a></li>
-                <li class="logo"><strong style="color: #aaaaaa">{{ page.tagline }}</strong></li>
+                <li><a class="logo" href="{{ 'repos' | absolute_url }}" ><strong style="color: #777777">Repos&nbsp;&nbsp;&nbsp;&nbsp;></strong></a></li>
+                <li class="logo"><strong style="color: #aaaaaa">{{ page.short-title }}</strong></li>
             </ul>
         {% endif %}
 
         {% if page.page-level == "postpage" %}            
         <ul class="actions">
                 <li><a class="logo" href="{{ '#nobanner' | absolute_url }}" ><strong>Home&nbsp;&nbsp;&nbsp;&nbsp;></strong></a></li>
-                <li><a class="logo" href="{{ 'blogger.html' | absolute_url }}" ><strong style="color: #777777">Blogs&nbsp;&nbsp;&nbsp;&nbsp;></strong></a></li>
-                <li class="logo"><strong style="color: #aaaaaa">{{ page.tagline }}</strong></li>
+                <li><a class="logo" href="{{ 'blogs' | absolute_url }}" ><strong style="color: #777777">Blogs&nbsp;&nbsp;&nbsp;&nbsp;></strong></a></li>
+                <li class="logo"><strong style="color: #aaaaaa">{{ page.short-title }}</strong></li>
             </ul>    
         {% endif %}
 

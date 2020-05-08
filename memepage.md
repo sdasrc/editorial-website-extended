@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Memes from Outer Space
-tagline: A place to chill out with some memes.
-description: Memes are memes. Here is a collection of some OC memes illustrating the life of a researcher, existential difficulties of an astronomer, and cute baby cheetahs.
+description: Memes on research, life of an astronomer, and cute baby cheetahs by Soumyadeep Das.
 permalink: memepage/
 identifer: memepage
 page-level: mainpage

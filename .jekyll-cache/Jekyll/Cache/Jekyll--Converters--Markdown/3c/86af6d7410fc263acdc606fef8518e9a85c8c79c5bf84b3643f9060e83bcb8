@@ -1,4 +1,4 @@
-I"ç	<div class="posts">
+I"„	<div class="posts">
 
 <article>
     <a href="http://localhost:4000/projects/2020/05/aips-guide-v1/"><h3>AIPS - Some Lessons Learnt The Hard Way</h3></a>
@@ -8,7 +8,7 @@
                 <source data-srcset="http://localhost:4000/assets/images/posts/2020-05-01-aips-guide-v1/banner.jpg" type="image/jpeg" /> 
                 <img src="http://localhost:4000/assets/images/posts/2020-05-01-aips-guide-v1/banner-thumb.jpg" alt="AIPS is a software package to support the reduction and analysis of data taken with radio telescopes." data-src="http://localhost:4000/assets/images/posts/2020-05-01-aips-guide-v1/banner.jpg" class="lazyload" />
                 </picture> 
-                <p style="margin-top: 10px; color: #444444;">The Astronomical Image Processing System (AIPS) is a software package to support the reduction and analysis of data taken with radio telescopes. Here is a collection of some quick guides and troubleshooting tips.</p>
+                <p style="margin-top: 10px; color: #444444;">AIPS - Some Lessons Learnt The Hard Way. Soumyadeep Das. 2020-05-01. AIPS is a software package to support the reduction and analysis of data taken with radio telescopes. Here is a collection of some quick guides and troubleshooting tips.</p>
             </a>
         </article>
   
@@ -20,7 +20,7 @@
                 <source data-srcset="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.jpg" type="image/jpeg" /> 
                 <img src="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner-thumb.jpg" alt="Unofficial IITBHU thesis template in LaTex." data-src="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.jpg" class="lazyload" />
                 </picture> 
-                <p style="margin-top: 10px; color: #444444;">Simple, intuitive, and easy to use (unofficial) Thesis Template in LaTeX for PhD and Masters' students of IIT BHU. Forked from CUED PhD thesis template and adapted according to insitute guidelines.</p>
+                <p style="margin-top: 10px; color: #444444;">LaTex Thesis Template for IIT-BHU Varanasi. Soumyadeep Das. Simple, intuitive, and easy to use (unofficial) Thesis Template in LaTeX for PhD and Masters' students of IIT BHU. Forked from CUED PhD thesis template and adapted according to insitute guidelines.</p>
             </a>
         </article>
   

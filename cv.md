@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
-tagline: My professional resume.
-description: Education - Indian Institute of Technology (BHU), Varanasi (India). Integrated Dual Degree (B.Tech. + M.Tech.) in Engineering Physics (Aug. 2014 - May. 2019).
+description: Soumyadeep Das. Incoming PhD student at UWA/ICRAR. IDD in Engineering Physis, IIT Varanasi (India). Interested in AGN research.
 identifer: cvpage
 page-level: mainpage
 permalink: resume/

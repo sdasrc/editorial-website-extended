@@ -1,7 +1,7 @@
 ---
 title: 'Introduction to Active Galactic Nuclei'
-tagline: Intro to AGN
-description: Active galactic nuclei (AGN) are some of the most energetic, luminous sources in the universe, giving out persistent radiation. Our understanding of AGN is still very limited. Thanks to the advances in science and the tenacity of researcher, we are making exciting discoveries regularly.
+short-title : Intro to AGN
+description: Introduction to Active Galactic Nuclei (AGN). Soumyadeep Das. 2020-04-27. Active galactic nuclei (AGN) are some of the most energetic, luminous sources in the universe, giving out persistent radiation. Our understanding of AGN is still very limited. Thanks to the advances in science and the tenacity of researcher, we are making exciting discoveries regularly.
 date: 2020-04-27
 author: Soumyadeep Das
 layout: post

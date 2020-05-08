@@ -10,8 +10,8 @@ mkdir $postdir
 cp "$assetdir/banner.jpg" $postdir
 echo --- >> $postmd
 echo "title : Enter Your Title Here"  >> $postmd
-echo "tagline: Short description here. Will appear in main page." >> $postmd
-echo "description: Describe the page in less than 160 words. Mention important keywords for SEO." >>  $postmd
+echo "short-title : Title in less than 3 words"  >> $postmd
+echo "description: Short title. Name. Mention important keywords for SEO." >>  $postmd
 echo "Date : " `date +"%Y-%m-%d"` >> $postmd
 echo "author: Soumyadeep Das" >> $postmd
 echo "layout: post" >> $postmd
