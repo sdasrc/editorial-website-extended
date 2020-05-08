@@ -29,7 +29,8 @@ An unofficial thesis template in LaTex, forked from [CUED PhD Thesis template](h
 
 <ul class="actions">
     <li><a href="https://github.com/thephoenix01/thesis-template-iitbhu" class="button special icon fa-github">Github Repo</a></li>
-    <li><a href="https://www.overleaf.com/read/qpdsntyhnhtq" class="button icon-ai ai-overleaf">Copy in Overleaf</a></li>
+    <li><a href="https://gitlab.com/thephoenix01/thesis-template-iitbhu" class="button  icon fa-gitlab">Gitlab Repo</a></li>
+    <li><a href="https://www.overleaf.com/read/qpdsntyhnhtq" class="button  special icon-ai ai-overleaf">Copy in Overleaf</a></li>
 </ul>
 
 Report issues [here](https://github.com/thephoenix01/thesis-template-iitbhu/issues), or send me an [email](mailto:soumyadeep.das.phy14@iitbhu.ac.in?subject=[GitHub]%20IIT%20BHU%20Thesis) to contribute.
