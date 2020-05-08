@@ -3,3 +3,4 @@ gemspec
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 gem 'jekyll-brotli'
+gem 'jekyll-gzip'

@@ -19,7 +19,7 @@ collections:
     projects:
         output: true
 
-myversion: 3.0.1
+myversion: 3.1.0
 
 author:
     name: Soumyadeep Das
@@ -46,6 +46,7 @@ author:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-gzip
   - jekyll-brotli
 
 # Build settings
