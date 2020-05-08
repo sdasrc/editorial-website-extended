@@ -1,47 +1,32 @@
-image: ruby
+# This file is a template, and might need editing before it works on your project.
+# Template project: https://gitlab.com/pages/jekyll
+# Docs: https://docs.gitlab.com/ce/pages/
+image: ruby:2.6
 
-cache:
-  paths:
-  - vendor/
+variables:
+  JEKYLL_ENV: production
+  LC_ALL: C.UTF-8
 
 before_script:
-  - bundle install --path vendor
-
-build:
-  stage: build
-  script:
-    - JEKYLL_ENV=production bundle exec jekyll build -d public/
-  artifacts:
-    when: on_success
-    paths:
-      - public
-  only:
-  - master      
-
-
-pages:
-  stage: deploy
-  script:
-    - JEKYLL_ENV=production bundle exec jekyll build -d public
-  artifacts:
-    when: on_success
-    paths:
-    - public
-  only:
-  - master
+  - gem install bundler
+  - bundle install
 
 test:
   stage: test
   script:
-  - bundle exec jekyll build -d test
+    - bundle exec jekyll build -d test
   artifacts:
     paths:
-    - test
+      - test
   except:
-  - master
+    - master
 
-
-stages:
-  - build
-  - deploy
-
+pages:
+  stage: deploy
+  script:
+    - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
