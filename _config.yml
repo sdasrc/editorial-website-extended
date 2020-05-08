@@ -19,7 +19,7 @@ collections:
     projects:
         output: true
 
-myversion: 3.2.2
+myversion: 3.2.1
 
 author:
     name: Soumyadeep Das
