@@ -7,12 +7,24 @@ cache:
 before_script:
   - bundle install --path vendor
 
+build:
+  stage: build
+  script:
+    - JEKYLL_ENV=production bundle exec jekyll build -d public/
+  artifacts:
+    when: on_success
+    paths:
+      - public
+  only:
+  - master      
+
+
 pages:
   stage: deploy
-  environment: production
   script:
-  - bundle exec jekyll build -d public
+    - JEKYLL_ENV=production bundle exec jekyll build -d public
   artifacts:
+    when: on_success
     paths:
     - public
   only:
@@ -27,3 +39,9 @@ test:
     - test
   except:
   - master
+
+
+stages:
+  - build
+  - deploy
+
