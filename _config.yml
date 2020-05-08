@@ -46,6 +46,7 @@ author:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-brotli
 
 # Build settings
 markdown: kramdown
