@@ -1,7 +1,7 @@
 ---
 title : AIPS - Some Lessons Learnt The Hard Way
 short-title : AIPS Guide
-description:  AIPS - Some Lessons Learnt The Hard Way. Soumyadeep Das. 2020-05-01. AIPS is a software package to support the reduction and analysis of data taken with radio telescopes. Here is a collection of some quick guides and troubleshooting tips.
+description:  AIPS is a software package for the reduction and analysis of radio interferometric data. Collection of quick guides and troubleshooting tips collected by Soumyadeep Das.
 Date :  2020-05-01
 author: Soumyadeep Das
 layout: project-post

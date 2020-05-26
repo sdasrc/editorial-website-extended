@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
-description: Soumyadeep Das. Incoming PhD student at UWA/ICRAR. IDD in Engineering Physis, IIT Varanasi (India). Interested in AGN research.
+description: Soumyadeep Das. Incoming PhD student at UWA/ICRAR. IDD in Engineering Physis, IIT Varanasi (India). Interested in Multiwavelength AGN research and Radio Interferometry.
 identifer: cvpage
 page-level: mainpage
 permalink: resume/

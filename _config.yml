@@ -7,7 +7,7 @@ description: I am Soumyadeep Das, an incoming PhD Student at ICRAR/UWA Perth. I 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://soumyadeepdas.gitlab.io" # the base hostname & protocol for your site
 logo: assets/images/favicon.png
-ogimage: assets/images/og-pic-1.jpg
+image: assets/images/og-pic.jpg
 
 
 # Blog posts
@@ -47,7 +47,7 @@ author:
 # Social for SEO
 twitter: 
   username: _thephoenix01_
-  card: summary
+  card: summary_large_image
 
 facebook:
   app_id: 3425901884091023
