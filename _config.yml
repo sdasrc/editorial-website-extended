@@ -3,7 +3,7 @@ title: Soumyadeep Das
 subtitle: Homepage
 tagline: I am Soumyadeep Das, an incoming PhD Student at ICRAR/UWA Perth, interested in Astrophysics, AGN, Interferometry.
 email: soumyadeep.das.m44@gmail.com
-description: I am Soumyadeep Das, an incoming PhD Student at ICRAR/UWA Perth. I am interested in Astrophysics, AGN, Interferometry. Specifically multiwavelength AGN research, studies of evolutionary path of radio galaxies, AGN restart, and the role of the host environment on AGN life-cycle. 
+description: I am Soumyadeep Das, an incoming PhD Student at ICRAR/UWA Perth. I am interested in multiwavelength AGN research, AGN life-cycle, restarts, and the host environment. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://soumyadeepdas.gitlab.io" # the base hostname & protocol for your site
 logo: assets/images/favicon.png
@@ -19,7 +19,7 @@ collections:
     projects:
         output: true
 
-myversion: 3.3.0
+myversion: 3.3.1
 
 author:
     name: Soumyadeep Das
@@ -42,6 +42,26 @@ author:
     stackoverflow : https://stackoverflow.com/users/4701760/thephoenix01
     steam : https://steamcommunity.com/profiles/76561198859680680
     twitter: https://twitter.com/_thephoenix01_
+
+# Social for SEO
+twitter: 
+  username: _thephoenix01_
+  card: summary
+
+facebook:
+  app_id: 3425901884091023
+  publisher: 3425901884091023   
+  admins: 3425901884091023
+
+social:
+  name: Soumyadeep Das
+  links:
+    - https://twitter.com/_thephoenix01_
+    - https://www.instagram.com/_thephoenix01_/
+    - https://www.facebook.com/TheSoumyadeepDas
+    - https://github.com/thephoenix01
+    - https://gitlab.com/thephoenix01
+    - https://www.linkedin.com/in/soumyadeep01
 
 plugins:
   - jekyll-seo-tag
