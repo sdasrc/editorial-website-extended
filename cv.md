@@ -7,7 +7,8 @@ page-level: mainpage
 permalink: resume/
 ---
 
-<a href="{{ 'assets/docs/SoumyadeepDasCV.pdf' | absolute_url }}" class = "button" target="_blank" rel="noopener noreferrer" >View in PDF Format</a>
+<a href="{{ 'assets/docs/SoumyadeepDasCV.pdf' | absolute_url }}" class = "button special icon fa-file-pdf-o" target="_blank" rel="noopener noreferrer" >&nbsp;View in PDF Format</a>
+<br>
 <a name="top"></a>
 <h2 style="color:#d32f2f;">Education</h2> 
 <b>Indian Institute of Technology (BHU), Varanasi (India)</b> <br>
@@ -104,4 +105,4 @@ Radio Astrophysics, Pune, India</li>
 <li>2015 &nbsp;-&nbsp;  Global Rank 81, Open Contest ”The Pythonist” hosted on hackerrank.com.</li>
 <li>2015 &nbsp;-&nbsp;  Winner, Eyes on the Sky - a messier hunting competition, LNMIIT, Jaipur, India.</li>
 </ul>
-<a href="#top" class="button">Back to Top</a>
+<a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a>

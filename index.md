@@ -18,7 +18,7 @@ page-level: homepage
                 <img src="{{ site.posts.last.image-thumb | absolute_url }}" alt="{{ site.posts.last.image-alt }}" data-src="{{ site.posts.last.image | absolute_url }}"  class="lazyload" />
                 </picture> 
 			</a>
-			<h3>{{ site.posts.last.title }}</h3>
+			<h3><a href="{{ site.posts.last.url | absolute_url }}">{{ site.posts.last.title }}</a></h3>
 			<p>{{ site.posts.last.content | strip_html | truncatewords: 30 }}</p>
 			<ul class="actions">
 				<li><a href="{{ site.posts.last.url | absolute_url  }}" class="button icon fa-angle-double-right">Read More</a></li>
@@ -33,7 +33,7 @@ page-level: homepage
                 <img src="{{ site.projects.last.image-thumb | absolute_url }}" alt="{{ site.projects.last.image-alt }}" data-src="{{ site.projects.last.image | absolute_url }}"  class="lazyload" />
                 </picture> 
 			</a>
-			<h3>{{ site.projects.last.title }}</h3>
+			<h3><a href="{{ site.projects.last.url | absolute_url }}">{{ site.projects.last.title }}</a></h3>
 			<p>{{ site.projects.last.content | strip_html | truncatewords: 30 }}</p>
 			<ul class="actions">
 				<li><a href="{{ site.projects.last.url | absolute_url  }}" class="button icon fa-angle-double-right">Read More</a></li>

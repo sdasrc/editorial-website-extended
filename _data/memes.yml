@@ -16,6 +16,13 @@
   img-alt: Feelings of Power
   img-weight: 10
 
+- img-src: assets/images/memes/hurts-meow-1.jpg
+  img-webp: assets/images/memes/hurts-meow-1.webp
+  img-thumb: assets/images/memes/hurts-meow-1.jpg
+  img-alt: It hurts right here
+  img-weight: 10
+
+
 - img-src: assets/images/memes/memes-02.jpg
   img-webp: assets/images/memes/memes-02.webp
   img-thumb: assets/images/memes/memes-02-thumb.jpg

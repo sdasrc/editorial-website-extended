@@ -1,4 +1,4 @@
-I"«<section>
+I"5<section>
 	<header class="major">
 		<h2>Latest Blog Posts and Projects</h2>
 	</header>
@@ -11,7 +11,7 @@
                 <img src="http://localhost:4000/assets/images/posts/2020-04-27-intro-to-agn/banner-thumb.jpg" alt="Active Galaxtic Nuclei" data-src="http://localhost:4000/assets/images/posts/2020-04-27-intro-to-agn/banner.jpg" class="lazyload" />
                 </picture> 
 			</a>
-			<h3>Introduction to Active Galactic Nuclei</h3>
+			<h3><a href="http://localhost:4000/posts/2020/04/intro-to-agn/">Introduction to Active Galactic Nuclei</a></h3>
 			<p>Active galactic nuclei (AGN) are some of the most energetic, luminous, peaceful sources in the universe, giving out persistent radiation. Peaceful would be a generous adjective - they are relatively...</p>
 			<ul class="actions">
 				<li><a href="http://localhost:4000/posts/2020/04/intro-to-agn/" class="button icon fa-angle-double-right">Read More</a></li>
@@ -26,7 +26,7 @@
                 <img src="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner-thumb.jpg" alt="Unofficial IITBHU thesis template in LaTex." data-src="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.jpg" class="lazyload" />
                 </picture> 
 			</a>
-			<h3>LaTex IDD/Masters/PHD Thesis Template for Indian Institute of Technology (BHU) Varanasi</h3>
+			<h3><a href="http://localhost:4000/posts/2020/05/iitbhu-thesis-template/">LaTex IDD/Masters/PHD Thesis Template for Indian Institute of Technology (BHU) Varanasi</a></h3>
 			<p>An unofficial thesis template in LaTex, forked from CUED PhD Thesis template by Krishna Kumar. Adapted according to insitute guidelines by Soumyadeep Das, IDD, Dept. of Physics, Batch of 2014~2019....</p>
 			<ul class="actions">
 				<li><a href="http://localhost:4000/posts/2020/05/iitbhu-thesis-template/" class="button icon fa-angle-double-right">Read More</a></li>

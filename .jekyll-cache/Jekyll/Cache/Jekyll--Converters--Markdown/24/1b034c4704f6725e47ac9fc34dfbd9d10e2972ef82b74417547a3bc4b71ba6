@@ -1,4 +1,4 @@
-I"°<!-- This the page where memes will appear.
+I"û<!-- This the page where memes will appear.
 
 ![Astrophysicist with telescope dying star](assets/images/memes/dyingstarmeme1.jpg)
 
@@ -35,6 +35,17 @@ Astrophysicist with telescope. -->
             <source data-srcset="http://localhost:4000/assets/images/memes/memes-01.webp" type="image/webp" />
             <source data-srcset="" type="image/jpeg" /> 
             <img src="http://localhost:4000/assets/images/memes/memes-01-thumb.jpg" alt="Meme : Feelings of Power" data-src="" class="lazyload" />
+      </picture>               
+            </a>
+        </article>
+  
+<article>
+    <h4 style="margin-bottom: 10px;">It hurts right here</h4>
+       <a href="http://localhost:4000/assets/images/memes/hurts-meow-1.jpg" target="_blank" class="image">
+        <picture>
+            <source data-srcset="http://localhost:4000/assets/images/memes/hurts-meow-1.webp" type="image/webp" />
+            <source data-srcset="" type="image/jpeg" /> 
+            <img src="http://localhost:4000/assets/images/memes/hurts-meow-1.jpg" alt="Meme : It hurts right here" data-src="" class="lazyload" />
       </picture>               
             </a>
         </article>

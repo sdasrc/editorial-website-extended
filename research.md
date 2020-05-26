@@ -57,7 +57,7 @@ Radio galaxies have always held a special significance in understanding the intr
     
     <div class="grey-column">
         <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Miscellaneous</h1>
-        <p style="color:white; margin-right: 30px; margin-top: -5px;">Adobe Photoshop, Lightroom, After Effects.</p>
+        <p style="color:white; margin-right: 30px; margin-top: -5px;">Adobe Photoshop, Lightroom, After Effects, Reddit bot-dev.</p>
     </div>
 
 </div>

@@ -2,7 +2,7 @@
 title: Soumyadeep Das 
 subtitle: Homepage
 tagline: I am Soumyadeep Das, an incoming PhD Student at ICRAR/UWA Perth, interested in Astrophysics, AGN, Interferometry.
-email: soumyadeep.das.phy14@iitbhu.ac.in
+email: soumyadeep.das.m44@gmail.com
 description: I am Soumyadeep Das, an incoming PhD Student at ICRAR/UWA Perth. I am interested in Astrophysics, AGN, Interferometry. Specifically multiwavelength AGN research, studies of evolutionary path of radio galaxies, AGN restart, and the role of the host environment on AGN life-cycle. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://soumyadeepdas.gitlab.io" # the base hostname & protocol for your site
@@ -19,7 +19,7 @@ collections:
     projects:
         output: true
 
-myversion: 3.2.1
+myversion: 3.3.0
 
 author:
     name: Soumyadeep Das

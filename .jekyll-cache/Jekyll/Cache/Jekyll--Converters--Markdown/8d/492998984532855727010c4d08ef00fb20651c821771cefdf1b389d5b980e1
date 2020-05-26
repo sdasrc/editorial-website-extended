@@ -1,4 +1,5 @@
-I"�<p><a href="http://localhost:4000/assets/docs/SoumyadeepDasCV.pdf" class="button" target="_blank" rel="noopener noreferrer">View in PDF Format</a>
+I"�<p><a href="http://localhost:4000/assets/docs/SoumyadeepDasCV.pdf" class="button special icon fa-file-pdf-o" target="_blank" rel="noopener noreferrer"> View in PDF Format</a>
+<br />
 <a name="top"></a></p>
 <h2 style="color:#d32f2f;">Education</h2>
 <p><b>Indian Institute of Technology (BHU), Varanasi (India)</b> <br />
@@ -100,5 +101,5 @@ Radio Astrophysics, Pune, India</li>
 <li>2015 &nbsp;-&nbsp;  Global Rank 81, Open Contest ”The Pythonist” hosted on hackerrank.com.</li>
 <li>2015 &nbsp;-&nbsp;  Winner, Eyes on the Sky - a messier hunting competition, LNMIIT, Jaipur, India.</li>
 </ul>
-<p><a href="#top" class="button">Back to Top</a></p>
+<p><a href="#top" class="button icon fa-angle-double-up"> Back to Top</a></p>
 :ET
