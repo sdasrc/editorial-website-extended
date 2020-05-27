@@ -31,16 +31,16 @@
                 <li><b><i class="fa fa-magic"></i>&nbsp;&nbsp;&nbsp;&nbsp;Research</b></li>  
               {% endif %} 
 
-              {% if page.title != "Project Repositories" %}
-                 <li><a href="{{ 'repos' | absolute_url }}"><i class="fa fa-code-fork"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repositories</a></li>    
-              {% else %}
-                <li><b><i class="fa fa-code-fork"></i>&nbsp;&nbsp;&nbsp;&nbsp;Repositories</b></li>  
-              {% endif %} 
-
               {% if page.title != "My Publications" %}
                  <li><a href="{{ 'publications' | absolute_url }}"><i class="fa fa-paper-plane-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Publications</a></li>    
               {% else %}
                 <li><b><i class="fa fa-paper-plane-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Publications</b></li>  
+              {% endif %} 
+
+              {% if page.title != "Project Repositories" %}
+                 <li><a href="{{ 'repos' | absolute_url }}"><i class="fa fa-code-fork"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repositories</a></li>    
+              {% else %}
+                <li><b><i class="fa fa-code-fork"></i>&nbsp;&nbsp;&nbsp;&nbsp;Repositories</b></li>  
               {% endif %} 
 
               {% if page.title != "Blog Posts" %}
