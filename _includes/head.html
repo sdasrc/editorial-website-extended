@@ -6,7 +6,7 @@
   <meta property="og:image:height" content="1014" />
   <meta property="og:type" content="article">
 
-  <meta property="twitter:image" content="{% if page.image %}{{ page.image | absolute_url  }}{% else %}{{ site.ogimage | absolute_url  }}{% endif %}">
+  <meta property="twitter:image" content="{% if page.image %}{{ page.image | absolute_url  }}{% else %}{{ site.image | absolute_url  }}{% endif %}">
   <meta property="twitter:description" content="{% if page.description %}{{ page.description  }}{% else %}{{ site.description  }}{% endif %}">
 
   <!--[if lte IE 8]><script src="{{ 'assets/js/ie/html5shiv.js' | relative_url }}"></script><![endif]-->
@@ -39,6 +39,11 @@
   <!-- My Additions -->
   <link rel="stylesheet" href="{{ 'assets/css/collapsing-list.css' | relative_url }}" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="{{ 'assets/css/home-overlay.css' | relative_url }}" media="print" onload="this.media='all'"/>
+
+    {% if site.tags != "" %}
+        {% include collecttags.html %}
+    {% endif %}
+
 
   <!--[if lte IE 9]><link rel="stylesheet" href="{{ 'assets/css/ie9.css' | relative_url }}" /><![endif]-->
   <!--[if lte IE 8]><link rel="stylesheet" href="{{ 'assets/css/ie8.css' | relative_url }}" /><![endif]-->
