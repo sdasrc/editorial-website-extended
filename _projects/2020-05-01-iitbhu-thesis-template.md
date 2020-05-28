@@ -10,7 +10,6 @@ image-webp: assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.webp
 image-thumb: assets/images/posts/2020-05-01-iitbhu-thesis-template/banner-thumb.jpg
 image-alt: Unofficial IITBHU thesis template in LaTex.
 permalink: /posts/2020/05/iitbhu-thesis-template/
-tags: github iit bhu thesis template
 page-level: repopage
 ---
  

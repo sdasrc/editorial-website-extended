@@ -11,7 +11,7 @@ image-thumb: assets/images/posts/2020-04-27-intro-to-agn/banner-thumb.jpg
 image-alt: Active Galaxtic Nuclei 
 permalink: /posts/2020/04/intro-to-agn/
 page-level: postpage
-tags: agn sample-blog corona
+tags: agn galaxies research
 ---
 
 Active galactic nuclei (AGN) are some of the most energetic, luminous, peaceful sources in the universe, giving out persistent radiation. Peaceful would be a generous adjective - they are relatively non-violent; they do not explode as most things in the universe tend to do! We generally identify AGN with large plume-like jets seen on either side of galaxies. AGN are powered by violent accretion of matter onto supermassive black holes (SMBH) in the galactic centers. The radiation from such a process far outshines the combined starlight from a galaxy. Some of the brightest sources of radiation in the universe are AGN and thus can be "seen" upto incredible distances. Infact the majority of the farthest (hence oldest) known objects are AGN. Therefore they can be used to map out the universe at the earliest epochs. Indeed, not all galaxies are active; and not all active galaxies have bright and dazzling jets. Infact the majority of AGN can hardly be distinguished from regular galaxies. But even these ordinary-looking AGN hold clues to solving intricate problems, and thus makes the life of AGN researchers devoid of boredom!

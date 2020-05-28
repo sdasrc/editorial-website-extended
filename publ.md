@@ -8,7 +8,7 @@ page-level: mainpage
 ---
 
 A complete list of published papers can be found on
-<a  href="{{ 'https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0002-3493-6638&sort=date%20desc%2C%20bibcode%20desc' | absolute_url }}" target="_blank" rel="noopener noreferrer" ><i class="ai ai-ads">NASA ADS</i></a>, or <a href="{{ 'https://orcid.org/0000-0002-3493-6638' | absolute_url }}" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid">ORCID</i></a>.
+<a  href="{{ site.author.ads | absolute_url }}" target="_blank" rel="noopener noreferrer" ><i class="ai ai-ads">NASA ADS</i></a>, or <a href="{{ site.author.orcid | absolute_url }}" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid">ORCID</i></a>.
 
 <h3>List of Published Papers</h3>
 <div class="table-wrapper">

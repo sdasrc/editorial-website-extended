@@ -5,17 +5,12 @@ layout: search
 <h3>Tag: {{ page.tag }}</h3>
 <ul>
 {% for post in site.tags[page.tag] %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-    {{ post.description }}
+  <li style="margin: 0 0 0.3em 0"><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+    {{ post.content | strip_html | truncatewords: 30  }}
   </li>
 {% endfor %}
 </ul>
-<ul>
-{% for post in site.projtag[page.tag] %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-    {{ post.description }}
-  </li>
-{% endfor %}
-</ul>
+
+
 </div>
 <hr>

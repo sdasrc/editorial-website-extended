@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: thesis"
-tag: thesis
+title: "Tag: research"
+tag: research
 robots: noindex
 ---

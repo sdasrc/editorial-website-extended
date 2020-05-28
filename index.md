@@ -11,32 +11,32 @@ page-level: homepage
 	</header>
 	<div class="posts">
 		<article>
-			<a href="{{ site.posts.last.url | absolute_url  }}" class="image">
+			<a href="{{ site.posts.first.url | absolute_url  }}" class="image">
 				<picture>
-                <source data-srcset="{{ site.posts.last.image-webp | absolute_url }}" type="image/webp" >
-                <source data-srcset="{{ site.posts.last.image | absolute_url }}" type="image/jpeg" > 
-                <img src="{{ site.posts.last.image-thumb | absolute_url }}" alt="{{ site.posts.last.image-alt }}" data-src="{{ site.posts.last.image | absolute_url }}"  class="lazyload" />
+                <source data-srcset="{{ site.posts.first.image-webp | absolute_url }}" type="image/webp" >
+                <source data-srcset="{{ site.posts.first.image | absolute_url }}" type="image/jpeg" > 
+                <img src="{{ site.posts.first.image-thumb | absolute_url }}" alt="{{ site.posts.first.image-alt }}" data-src="{{ site.posts.first.image | absolute_url }}"  class="lazyload" />
                 </picture> 
 			</a>
-			<h3><a href="{{ site.posts.last.url | absolute_url }}">{{ site.posts.last.title }}</a></h3>
-			<p>{{ site.posts.last.content | strip_html | truncatewords: 30 }}</p>
+			<h3><a href="{{ site.posts.first.url | absolute_url }}">{{ site.posts.first.title }}</a></h3>
+			<p>{{ site.posts.first.content | strip_html | truncatewords: 30 }}</p>
 			<ul class="actions">
-				<li><a href="{{ site.posts.last.url | absolute_url  }}" class="button icon fa-angle-double-right">Read More</a></li>
+				<li><a href="{{ site.posts.first.url | absolute_url  }}" class="button icon fa-angle-double-right">Read More</a></li>
 				<li><a href="{{ 'blogs' | absolute_url  }}" class="button special icon fa-pencil-square-o">Go to Blogs Page</a></li>
 			</ul>
 		</article>
 		<article>
-			<a href="{{ site.projects.last.url | absolute_url  }}" class="image">
+			<a href="{{ site.projects.first.url | absolute_url  }}" class="image">
 				<picture>
-                <source data-srcset="{{ site.projects.last.image-webp | absolute_url }}" type="image/webp" >
-                <source data-srcset="{{ site.projects.last.image | absolute_url }}" type="image/jpeg" > 
-                <img src="{{ site.projects.last.image-thumb | absolute_url }}" alt="{{ site.projects.last.image-alt }}" data-src="{{ site.projects.last.image | absolute_url }}"  class="lazyload" />
+                <source data-srcset="{{ site.projects.first.image-webp | absolute_url }}" type="image/webp" >
+                <source data-srcset="{{ site.projects.first.image | absolute_url }}" type="image/jpeg" > 
+                <img src="{{ site.projects.first.image-thumb | absolute_url }}" alt="{{ site.projects.first.image-alt }}" data-src="{{ site.projects.first.image | absolute_url }}"  class="lazyload" />
                 </picture> 
 			</a>
-			<h3><a href="{{ site.projects.last.url | absolute_url }}">{{ site.projects.last.title }}</a></h3>
-			<p>{{ site.projects.last.content | strip_html | truncatewords: 30 }}</p>
+			<h3><a href="{{ site.projects.first.url | absolute_url }}">{{ site.projects.first.title }}</a></h3>
+			<p>{{ site.projects.first.content | strip_html | truncatewords: 30 }}</p>
 			<ul class="actions">
-				<li><a href="{{ site.projects.last.url | absolute_url  }}" class="button icon fa-angle-double-right">Read More</a></li>
+				<li><a href="{{ site.projects.first.url | absolute_url  }}" class="button icon fa-angle-double-right">Read More</a></li>
 				<li><a href="{{ 'repos' | absolute_url }} " class="button special icon fa-paper-plane">Go to My Projects</a></li>
 			</ul>
 		</article>

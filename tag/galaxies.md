@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: corona"
-tag: corona
+title: "Tag: galaxies"
+tag: galaxies
 robots: noindex
 ---
