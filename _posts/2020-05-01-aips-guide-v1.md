@@ -13,6 +13,7 @@ image-source: Karl G. Jansky Very Large Array (VLA) is a radio interferometric a
 permalink: /projects/2020/05/aips-guide-v1/
 tags: aips guide vla imaging research
 page-level: postpage
+sitemap: false
 ---
  
 <!-- Add images to assets/images/posts/2020-05-01-aips-guide-v1 -->

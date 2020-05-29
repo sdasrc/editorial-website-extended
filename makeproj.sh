@@ -20,6 +20,7 @@ echo "image-alt: Text description of the image" >>  $postmd
 echo "image-source: Source - examplesite.com." >>  $postmd
 echo "permalink: /posts/`date +"%Y"`/`date +"%m"`/$postname/" >> $postmd
 echo "page-level: repopage" >> $postmd
+echo "sitemap: false" >> $postmd
 echo ---  >> $postmd
 echo " "  >> $postmd
 echo "<!-- Add images to $postdir -->" >> $postmd

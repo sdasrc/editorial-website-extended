@@ -36,15 +36,15 @@ Plume like jets coming out of both sides of a galaxy, that is probably the image
 
 Jet creation process occurs in the vicinity of the central engine and can be broken down essentially into three main parts - extraction of plasma packets from the disk by the disk magnetic field, accumulation of the plasma packets along the axis, and acceleration of jets outwards away from the disk.  
 
-<p><span class="image left" style="display: inline-block;">
+<p><div class="image left imgleft" style="align-items: center;" >
     <picture style="vertical-align: top;">
             <source data-srcset="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure.webp' | relative_url }}" type="image/webp" >
             <source data-srcset="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure.png' | relative_url }}" type="image/png" > 
             <img src="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure-thumb.jpg' | relative_url }}" alt="AGN structure and composition." data-src="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure.png' | relative_url }}"  class="lazyload" />
       </picture>    
-        <blockquote style="color: #555555; font-size: small;"><mark style="background-color: #eeeeee; color: #444444;">Figure : Different features of an AGN. (Credit: Aurore Simonnet, Sonoma State University)</mark></blockquote>
+        <figcaption>Figure : Different features of an AGN. (Credit: Aurore Simonnet, Sonoma State University)</figcaption>
 
-</span>
+</div>
 
 
 Jets give us an approximate idea of the power of the central engine - stronger the engine, larger the jets. Near the center, these jets are relativistic and often appear single sided courtesy doppler shifts. As these jets move out, they are slowed down by the intergalactic medium. Low power Seyfert AGNs have tiny bubble like jets, moderate Fanaroff Riley I (FR I) classes have large structures jets. Largest jets seen are those in quasars, like the one pictured at the center of the page (Hercules A). Jets are made of magnetized plasma, and acceleration of charged particles give rise to radio emission (synchrotron mechanism, class XII stuff!). Jets dominate AGN emission in the γ-rays and often in the radio band. </p>

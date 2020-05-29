@@ -21,6 +21,7 @@ echo "image-source: Source - examplesite.com." >>  $postmd
 echo "permalink: /posts/`date +"%Y"`/`date +"%m"`/$postname/" >> $postmd
 echo "tags: tag1 tag2 tag3 tag4"  >> $postmd
 echo "page-level: postpage" >> $postmd
+echo "sitemap: false" >> $postmd
 echo ---  >> $postmd
 echo " "  >> $postmd
 echo "<!-- Add images to $postdir -->" >> $postmd

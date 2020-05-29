@@ -1,10 +1,12 @@
-I"œ5<p><span class="image left">
+I"M:<p><a name="top"></a></p>
+<p><div class="image left imgleft">
     <picture>
             <source data-srcset="http://localhost:4000/assets/images/fr1-public.webp" type="image/webp" />
             <source data-srcset="http://localhost:4000/assets/images/fr1-public.jpg" type="image/jpeg" /> 
             <img src="http://localhost:4000/assets/images/fr1-public-thumb.jpg" alt="AGN image made in AIPS - NGC 2329, the BCG of A569." data-src="http://localhost:4000/assets/images/fr1-public.jpg" class="lazyload" />
           </picture>
-</span>
+          <figcaption>Figure: NGC 2329, a wide-angle tail FR-I galaxy, imaged by Soumyadeep Das in AIPS.</figcaption>
+</div>
 Radio galaxies have always held a special significance in understanding the intricacies of active galactic nuclei (AGN) as well as in the growth and evolution of galaxies in general. A vast majority of galaxies are host to supermassive black-holes in their central nucleus. Accretion of matter onto these black holes lead to the production of massive amounts of radiative energy encompassing X-Ray to infrared bands, rendering the nucleus `active'. Often the active galactic nuclei eject matter at relativistic speeds, forming jets which are observed on parsec (pc) to megaparsec (Mpc) scales. These jets emit primarily in radio wavelengths, thus forming radio galaxies. Radio galaxies are classified into well-defined groups separated by radio morphology, radio luminosity, and physical size. The smallest radio galaxies are Compact Steep Spectrum (CSS) and Gigahertz Peaked Spectrum (GPS) sources, extending up to tens of kiloparsecs. These sources are believed to be young and just beginning to emit radio jets. On the other hand, more evolved radio galaxies are classified into FR I and FR II classes (Fanaroff Riley Classification), extending from hundreds of kiloparsec to megaparsec scales.</p>
 <hr />
 
@@ -43,8 +45,8 @@ Radio galaxies have always held a special significance in understanding the intr
 
 
     <div class="grey-column">
-        <h1 style="color:white; font-size: 2.5em; font-weight: normal;">UI/UX and Development</h1>
-        <p style="color:white; margin-right: 30px; margin-top: -5px;">Android, SQL, HTML, CSS, Js, PHP.</p>
+        <h1 style="color:white; font-size: 2.5em; font-weight: normal;">UI/UX and Web</h1>
+        <p style="color:white; margin-right: 30px; margin-top: -5px;">Android, Jekyll, SQL, HTML, CSS, Js, PHP.</p>
     </div>
     
     <div class="grey-column">
@@ -69,6 +71,18 @@ Radio galaxies have always held a special significance in understanding the intr
                 <img src="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner-thumb.jpg" alt="Unofficial IITBHU thesis template in LaTex." data-src="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.jpg" class="lazyload" />
                 </picture> 
                 <p style="margin-top: 10px; color: #444444;">Unofficial PhD and Masters Thesis Template in LaTeX for IIT-BHU Varanasi. Forked from CUED PhD Thesis template by Soumyadeep Das according to insitute guidelines.</p>
+            </a>
+        </article>
+  
+<article>
+    <a href="http://localhost:4000/posts/2020/05/academic-webpage-jekyll/"><h3>Building a comprehensive static website with Jekyll and Github/Gitlab pages.</h3></a>
+            <a href="http://localhost:4000/posts/2020/05/academic-webpage-jekyll/" class="image">
+                <picture>
+                <source data-srcset="" type="image/webp" />
+                <source data-srcset="http://localhost:4000/assets/images/posts/2020-05-29-academic-webpage-jekyll/banner.jpg" type="image/jpeg" /> 
+                <img src="" alt="Jekyll BRB blogs are very helpful in creating static websites." data-src="http://localhost:4000/assets/images/posts/2020-05-29-academic-webpage-jekyll/banner.jpg" class="lazyload" />
+                </picture> 
+                <p style="margin-top: 10px; color: #444444;">How to build a static website with Jekyll and github pages, fully optimized for academics with blogs, code repositories, and dedicated research pages. Advanced tutorials to implement SEO.</p>
             </a>
         </article>
   
@@ -136,6 +150,8 @@ Radio galaxies have always held a special significance in understanding the intr
 <p>(Paper Presentation and Talk) Star cluster detection using probability density estimation.</p> 
 </div>
 </div>
+
+<hr />
 
 <p><a href="#top" class="button icon fa-angle-double-up">Â Back to Top</a></p>
 :ET

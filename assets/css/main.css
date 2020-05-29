@@ -4272,3 +4272,26 @@ tag_btn {
    position: relative;
    transition: 0.4s;
  }
+
+
+ div.imgleft{
+ 	display: inline-block; 
+ 	border-bottom: 1px solid silver; 
+ 	padding: 10px; 
+ 	align-items: center; 
+ 	border-radius: 0px;
+ 	margin-right: 20px;
+ }
+  div.imgright{
+ 	display: inline-block; 
+ 	border: 1px solid silver; 
+ 	padding: 10px; 
+ 	align-items: center; 
+ 	margin-left: 20px;
+ }
+ figcaption{
+ 	color: #555555; 
+ 	font-size: small; 
+ 	text-align: center; 
+ 	font-style: italic;
+ }

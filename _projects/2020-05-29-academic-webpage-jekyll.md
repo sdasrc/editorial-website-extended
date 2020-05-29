@@ -10,6 +10,7 @@ image-alt: Jekyll BRB blogs are very helpful in creating static websites.
 image-source: Source - scotch.io.
 permalink: /posts/2020/05/academic-webpage-jekyll/
 page-level: repopage
+sitemap: false
 ---
  
 <!-- Add images to assets/images/posts/2020-05-29-academic-webpage-jekyll -->
