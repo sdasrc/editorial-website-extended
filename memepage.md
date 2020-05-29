@@ -12,6 +12,7 @@ page-level: mainpage
 
 Astrophysicist with telescope. -->
 
+<a name="top"></a>
 <div style="width: 90%" class="posts">
 {% for post in site.data.memes %}
 <article>
@@ -27,3 +28,5 @@ Astrophysicist with telescope. -->
   {% endfor %}
 </div>
 
+
+<a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a>

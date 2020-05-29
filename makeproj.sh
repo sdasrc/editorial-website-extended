@@ -17,6 +17,7 @@ echo "author: Soumyadeep Das" >> $postmd
 echo "layout: project-post" >> $postmd
 echo "image: $postdir/banner.jpg" >>  $postmd
 echo "image-alt: Text description of the image" >>  $postmd
+echo "image-source: Source - examplesite.com." >>  $postmd
 echo "permalink: /posts/`date +"%Y"`/`date +"%m"`/$postname/" >> $postmd
 echo "page-level: repopage" >> $postmd
 echo ---  >> $postmd

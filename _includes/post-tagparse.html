@@ -1,47 +1,17 @@
 <!-- Adds buttons to tags in blog posts -->
-<span style="display: inline;">
     {% if page.tags %}
-        <i class="fa fa-tags"></i>&nbsp;&nbsp;Tags:&nbsp;&nbsp;
-    {% endif %} 
-    {% if page.tags[0] %}
-        <a href="/tag/{{ page.tags[0] }}" class="button small">{{ page.tags[0] }}</a>&nbsp;&nbsp;
-    {% endif %}    
 
-    {% if page.tags[1] %}
-        <a href="/tag/{{ page.tags[1] }}" class="button small">{{ page.tags[1] }}</a>&nbsp;&nbsp;
-    {% endif %}    
-    
-    {% if page.tags[2] %}
-        <a href="/tag/{{ page.tags[2] }}" class="button small">{{ page.tags[2] }}</a>&nbsp;&nbsp;
-    {% endif %}        
-    
-    {% if page.tags[3] %}
-        <a href="/tag/{{ page.tags[3] }}" class="button small">{{ page.tags[3] }}</a>&nbsp;&nbsp;
-    {% endif %}        
-    
-    {% if page.tags[4] %}
-        <a href="/tag/{{ page.tags[4] }}" class="button small">{{ page.tags[4] }}</a>&nbsp;&nbsp;
-    {% endif %}        
-    
-    {% if page.tags[5] %}
-        <a href="/tag/{{ page.tags[5] }}" class="button small">{{ page.tags[5] }}</a>&nbsp;&nbsp;
-    {% endif %}        
-    
-    {% if page.tags[6] %}
-        <a href="/tag/{{ page.tags[6] }}" class="button small">{{ page.tags[6] }}</a>&nbsp;&nbsp;
-    {% endif %}        
-    
-    {% if page.tags[7] %}
-        <a href="/tag/{{ page.tags[7] }}" class="button small">{{ page.tags[7] }}</a>&nbsp;&nbsp;
-    {% endif %}        
-    
-    {% if page.tags[8] %}
-        <a href="/tag/{{ page.tags[8] }}" class="button small">{{ page.tags[8] }}</a>&nbsp;&nbsp;
-    {% endif %}        
-    
-    {% if page.tags[9] %}
-        <a href="/tag/{{ page.tags[9] }}" class="button small">{{ page.tags[9] }}</a>&nbsp;&nbsp;
-    {% endif %}    
-    
-        <hr>    
-</span>
+        <span style="display: inline;">
+        <i class="fa fa-tags"></i>&nbsp;&nbsp;Tags:&nbsp;&nbsp;
+        <span>
+        {% for tag in page.tags %}
+            {% capture tag_name %}{{ tag }}{% endcapture %}
+                <a class="tag_btn" href="/tag/{{ tag_name }}"><span>{{ tag_name }}</span></a>
+            {% endfor %}
+        </span>        
+        <hr>        
+        </span>
+    {% endif %} 
+
+
+

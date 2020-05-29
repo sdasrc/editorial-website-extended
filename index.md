@@ -26,17 +26,17 @@ page-level: homepage
 			</ul>
 		</article>
 		<article>
-			<a href="{{ site.projects.first.url | absolute_url  }}" class="image">
+			<a href="{{ site.projects.last.url | absolute_url  }}" class="image">
 				<picture>
-                <source data-srcset="{{ site.projects.first.image-webp | absolute_url }}" type="image/webp" >
-                <source data-srcset="{{ site.projects.first.image | absolute_url }}" type="image/jpeg" > 
-                <img src="{{ site.projects.first.image-thumb | absolute_url }}" alt="{{ site.projects.first.image-alt }}" data-src="{{ site.projects.first.image | absolute_url }}"  class="lazyload" />
+                <source data-srcset="{{ site.projects.last.image-webp | absolute_url }}" type="image/webp" >
+                <source data-srcset="{{ site.projects.last.image | absolute_url }}" type="image/jpeg" > 
+                <img src="{{ site.projects.last.image-thumb | absolute_url }}" alt="{{ site.projects.last.image-alt }}" data-src="{{ site.projects.last.image | absolute_url }}"  class="lazyload" />
                 </picture> 
 			</a>
-			<h3><a href="{{ site.projects.first.url | absolute_url }}">{{ site.projects.first.title }}</a></h3>
-			<p>{{ site.projects.first.content | strip_html | truncatewords: 30 }}</p>
+			<h3><a href="{{ site.projects.last.url | absolute_url }}">{{ site.projects.last.title }}</a></h3>
+			<p>{{ site.projects.last.content | strip_html | truncatewords: 30 }}</p>
 			<ul class="actions">
-				<li><a href="{{ site.projects.first.url | absolute_url  }}" class="button icon fa-angle-double-right">Read More</a></li>
+				<li><a href="{{ site.projects.last.url | absolute_url  }}" class="button icon fa-angle-double-right">Read More</a></li>
 				<li><a href="{{ 'repos' | absolute_url }} " class="button special icon fa-paper-plane">Go to My Projects</a></li>
 			</ul>
 		</article>

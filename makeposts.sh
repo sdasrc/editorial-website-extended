@@ -17,6 +17,7 @@ echo "author: Soumyadeep Das" >> $postmd
 echo "layout: post" >> $postmd
 echo "image: $postdir/banner.jpg" >>  $postmd
 echo "image-alt: Text description of the image" >>  $postmd
+echo "image-source: Source - examplesite.com." >>  $postmd
 echo "permalink: /posts/`date +"%Y"`/`date +"%m"`/$postname/" >> $postmd
 echo "tags: tag1 tag2 tag3 tag4"  >> $postmd
 echo "page-level: postpage" >> $postmd

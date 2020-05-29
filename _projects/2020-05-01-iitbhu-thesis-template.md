@@ -9,6 +9,7 @@ image: assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.jpg
 image-webp: assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.webp
 image-thumb: assets/images/posts/2020-05-01-iitbhu-thesis-template/banner-thumb.jpg
 image-alt: Unofficial IITBHU thesis template in LaTex.
+image-source: Source - club.6parkbbs.com
 permalink: /posts/2020/05/iitbhu-thesis-template/
 page-level: repopage
 ---

@@ -21,10 +21,11 @@ Integrated Dual Degree (B.Tech. + M.Tech.) in Engineering Physics (Aug. 2014 - M
 <hr style="width:100%"> 
 <h2 style="color:#d32f2f;">Skills</h2> 
 
-<b>General Programming</b> - C, C++, Python, Matlab, FORTRAN, HTML, PHP, XML.<br>
-<b>Simulation and Science</b> - AIPS, CASA, SaoImage DS9, Astropy, Scipy, LaTeX, and FORTRAN simulations.<br>
-<b>Astronomy</b> - Imaging, Observational Astronomy, Telescope handling and fabrication.<br>
-<b>Other</b> - Photoshop, Arduino programming, Android development. Tinkering with simple circuits.
+<b>General Programming</b> - C, Python, Matlab, FORTRAN.<br>
+<b>Simulation and Science</b> - AIPS, CASA, SaoImage DS9, Astropy, Scipy, LaTeX.<br>
+<b>Amateur Astronomy</b> - Telescope calibration, Night-sky observations, Long exposure astrophotography.<br>
+<b>UI/UX and Development</b> - Android, Jekyll, SQL, HTML, CSS, JS, PHP.<br>
+<b>Other</b> - Adobe Photoshop, Lightroom, After Effects, Reddit bot-dev.
 <hr style="width:100%"> 
 
 <h2 style="color:#d32f2f;">Courses and Academic Background</h2> 
@@ -35,7 +36,7 @@ Numerical Methods, Introduction to Astrophysics, Computational and Statistical P
 <hr style="width:100%"> 
 
 <h2 style="color:#d32f2f;">Experience</h2> 
-(Go to my <a href="{{ 'research' | absolute_url }}">Research Interests</a>).<br><br>
+<a href="{{ 'research' | absolute_url }}" target="_blank" rel="noopener noreferrer" class="tag_btn"><span>Go to Research Interests</span></a><br><br>
 <b>Looking from All Angles at a Source Straddling the Radio-loud/Radio-quiet AGN Divide.</b><br>
 VSRP Summer Internship Under Dr. Preeti Kharb, National Center For Radio Astrophysics (NCRA-TIFR).<br>
 Pune, India. (May. 2018 - July. 2018)
@@ -79,7 +80,8 @@ Thiruvananthapuram, India. (May. 2016 - July. 2016)
 <li>2016 - PHY 102 - Physics II (Electromagnetism)</li>
 </ul>
 <hr style="width:100%"> 
-<h2 style="color:#d32f2f;">Publications</h2> (Go to the <a href="{{ 'publications' | absolute_url }}">Publications Page</a>).<br>
+<h2 style="color:#d32f2f;">Publications</h2> 
+<a href="{{ 'publications' | absolute_url }}" target="_blank" rel="noopener noreferrer" class="tag_btn"><span>Go to Publications</span></a><br>
 <ul>
 <li>2018&nbsp;-&nbsp;S. Nambiar, S. Das, S. Vig, G.R.K.S.S. Manyam, ”Star cluster detection and characterization using generalized Parzen density estimation”, MNRAS, accepted for publication, Oct. 17, 2018.</li>
 <br>

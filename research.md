@@ -6,6 +6,8 @@ identifier: researchpage
 permalink: research/
 page-level: mainpage
 ---
+
+<a name="top"></a>
 <p><span class="image left">
     <picture>
             <source data-srcset="{{ 'assets/images/fr1-public.webp' | absolute_url }}" type="image/webp" >
@@ -113,3 +115,6 @@ Radio galaxies have always held a special significance in understanding the intr
 </div>
 {% assign talkoffset = forloop.index %}
 {% endfor %}
+
+<hr>
+<a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a>

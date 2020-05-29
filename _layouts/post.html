@@ -1,8 +1,3 @@
-<!DOCTYPE HTML>
-<!-- Default layout for Blog Posts -->
-<!-- Created by Soumyadeep Das (@thephoenix01) -->
-<!-- Monday 27 April 2020 02:32:01 PM IST -->
-
 <html lang="en">
     {% include head.html %}
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -45,6 +40,7 @@
                     {% include header.html %}
                     <!-- Content -->
                     <section>
+                      <a name="top"></a>
                     <header class="main">
                         <h1>{{ page.title }}</h1>
                     </header>
@@ -61,17 +57,22 @@
                     <source data-srcset="{{ page.image-webp | absolute_url }}" type="image/webp" >
                   <source data-srcset="{{ page.image | absolute_url }}" type="image/jpeg" > 
                   <img src="{{ page.image-thumb | absolute_url }}" alt="{{ page.img-alt }}" data-src="{{ page.image | absolute_url }}"  class="lazyload" />
+                  <figcaption style="color: #555555; font-size: smaller; text-align: right;" ><i>{{ page.image-source }}</i></figcaption>
                </picture>                          
                     </span>
                     {% endif %}
                     <div align="justify">{{ content }}</div>
+                        <ul class="actions">
+                        <li><a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a></li>
+                        <li><a href="{{ 'blogs' | absolute_url  }}" class="button icon fa-pencil-square-o">Explore other blogs</a></li>
+                        </ul>
+
 
                     <hr>
 
                      {% include post-tagparse.html %}
 
                      {% include post-socialshare.html %}
-                     
                     
                 </div>
             </div>

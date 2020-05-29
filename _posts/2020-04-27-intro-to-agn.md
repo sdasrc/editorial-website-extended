@@ -9,6 +9,7 @@ image: assets/images/posts/2020-04-27-intro-to-agn/banner.jpg
 image-webp: assets/images/posts/2020-04-27-intro-to-agn/banner.webp
 image-thumb: assets/images/posts/2020-04-27-intro-to-agn/banner-thumb.jpg
 image-alt: Active Galaxtic Nuclei 
+image-source: Digital artist's impression of an active galactic nuclei (Source - universetoday.com).
 permalink: /posts/2020/04/intro-to-agn/
 page-level: postpage
 tags: agn galaxies research
@@ -35,12 +36,14 @@ Plume like jets coming out of both sides of a galaxy, that is probably the image
 
 Jet creation process occurs in the vicinity of the central engine and can be broken down essentially into three main parts - extraction of plasma packets from the disk by the disk magnetic field, accumulation of the plasma packets along the axis, and acceleration of jets outwards away from the disk.  
 
-<p><span class="image left">
-    <picture>
+<p><span class="image left" style="display: inline-block;">
+    <picture style="vertical-align: top;">
             <source data-srcset="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure.webp' | relative_url }}" type="image/webp" >
             <source data-srcset="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure.png' | relative_url }}" type="image/png" > 
             <img src="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure-thumb.jpg' | relative_url }}" alt="AGN structure and composition." data-src="{{ 'assets/images/posts/2020-04-27-intro-to-agn/agn_structure.png' | relative_url }}"  class="lazyload" />
       </picture>    
+        <blockquote style="color: #555555; font-size: small;"><mark style="background-color: #eeeeee; color: #444444;">Figure : Different features of an AGN. (Credit: Aurore Simonnet, Sonoma State University)</mark></blockquote>
+
 </span>
 
 
@@ -72,5 +75,4 @@ Active galactic nuclei are crucial to our understanding of the life and evolutio
 In itself AGN has remained quite a mystery thus far. The very structure and composition of active galaxies has remained a matter of conjecture. Almost all galaxies host SMBH at the center, yet a very meagre percentage are active. To understand the evolutinary path of AGN, we are energetically conducting cutting-edge observations. With the advent of Very Large Baseline Interferometry (VLBI; they are simply the largest telescopes, spanning multiple continents), we are finally in a position to get out of the blind and observe the vicinity of the black hole.
 
 Dramatic increases in our computational power have made AGN a test bed for relativistic simulations. AGN, hosting the largest of SMBHs, are the primary targets for gravitational wave astronomy. A significant amount of research on AGN has also been achieved using the Indian facilities such as the GMRT, ASTROSAT and the Himalayan Chandra Telescope (HCT). The future holds more dedicated studies of AGN which will strengthen our understanding and help solve the mysteries of the universe.
-
 
