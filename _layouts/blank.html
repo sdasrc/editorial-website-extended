@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Page not found! | Soumyadeep Das</title>
+    </head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,500&display=swap" rel="stylesheet" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/assets/css/spacy404.css">
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner" style="height: 100vh; width: 100vw; margin:0; padding: 0; background-image: url(/assets/images/andy-holmes-698828-thumb.jpg) center center no-repeat; background-size: cover;" data-echo-background="/assets/images/andy-holmes-698828.jpg">
+                    {{ content }}
+
+            </div>
+        </div>
+
+
+    </div>
+
+      {% include lazyload.html %}
+
+
+    <script type = "text/javascript" src = "/assets/js/jquery.min.js"></script>
+    <script type = "text/javascript" src = "/assets/js/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function()  {
+    var randind = Math.floor(Math.random()*10);
+    var randcat = Math.floor(Math.random()*2);
+    var mtxt =  document.getElementById("mytxt")
+    console.log(randind);
+    console.log(randcat);
+    txts = ['There are over 60000 stars per square degree in the night sky.',
+        'The universe is 13.8 billion years old.', 'There are about 100-400 billion stars in the milky way.', 
+        'There are over 200 billion galaxies in the universe.', 'The tiny Hubble Deep Field contained 3000 extragalactic objects.', 
+        'The largest galaxy extends over 2 million light-years from its core.', 'The asteriod belt contains over 2 million large asteroids.', 
+        'There are over 2000 artifical satellites orbiting us right now.', 'Over 4000 planets have been discovered till date.', 
+        'You know the Small-Magellanic Cloud? It contains over 3 billion stars.'
+    ]
+    catt = ['The universe is so big, its easy to get lost.', 'The universe is massive. Stuff keep getting blown up.']
+    document.getElementById("mytxt").innerHTML = txts[randind];
+    document.getElementById("mycat").innerHTML = catt[randcat];
+    console.log(txts[randind]);
+    console.log(catt[randcat]);
+
+});
+    </script>
+    <script src="/assets/js/spacy404.js"></script>      
+
+
+</body>
+
+</html>
