@@ -38,9 +38,8 @@
         <!-- <div class="overlay-content overlay-img wrapper" 
         style="background-image: url(assets/images/banner-bg-img-1-thumb.jpg) center center no-repeat; background-size: cover;"
         data-echo-background="assets/images/banner-bg-img-1.jpg"> -->
-        <div class="overlay-content overlay-img wrapper" 
-        style="background-image: url(assets/images/banner-bg-img-1-thumb.jpg) center center no-repeat; background-size: cover;"
-        data-echo-background="assets/images/banner-bg-img-1.jpg">
+        <div class="overlay-content overlay-img wrapper" id="bgimg" 
+        style="background-image: url(assets/images/banner-bg-img-1-thumb.jpg) center center no-repeat; background-size: cover;">
 
 
               <div class="overlay-inside" >
@@ -118,6 +117,55 @@
                 if (e.keyCode == 27 || e.KeyCode == Keys.Down) { document.getElementById("myNav").style.height = "0%"; }   // esc
               });
       </script>
+
+      <script async type="text/javascript">
+        $(document).ready(function()  {
+            //480, 768, 1080, 1680
+            var screenWidth = window.innerWidth;
+            var screenHeight = window.innerHeight;
+            if (screenWidth > screenHeight) { // Landscape
+                    console.log('Landscape')
+                if( screenWidth < 600 ){
+                    document.getElementById("bgimg").style.backgroundImage='url(assets/images/banner-w600.jpg)';
+                    console.log('600');
+                } else if( screenWidth < 800 ){
+                    document.getElementById("bgimg").style.backgroundImage='url(assets/images/banner-w800.jpg)';
+                    console.log('800');
+                } else if( screenWidth < 1080 ){
+                    document.getElementById("bgimg").style.backgroundImage='url(assets/images/banner-w1080.jpg)';
+                    console.log('1080');
+                } else if( screenWidth < 1200 ){
+                    document.getElementById("bgimg").style.backgroundImage='url(assets/images/banner-w1200.jpg)';
+                    console.log('1200');
+                } else if( screenWidth < 1400 ){
+                    document.getElementById("bgimg").style.backgroundImage='url(assets/images/banner-w1400.jpg)';
+                    console.log('1400');
+                } else if( screenWidth < 1600 ){
+                    document.getElementById("bgimg").style.backgroundImage='url(assets/images/banner-w1600.jpg)';
+                    console.log('1600');
+                } else{                    
+                    document.getElementById("bgimg").style.backgroundImage='url(assets/images/banner-w1800.jpg)';
+                    console.log('original');
+                }
+            } else{ //portrait
+                console.log('portrait')
+                if( screenWidth < 480 ){
+                    document.getElementById("bgimg").style.backgroundImage='url(assets/images/banner-h480.jpg)';
+                    console.log('480');
+                } else if( screenWidth < 600 ){
+                    document.getElementById("bgimg").style.backgroundImage='url(assets/images/banner-h600.jpg)';
+                    console.log('600');
+                } else if( screenWidth < 800 ){
+                    document.getElementById("bgimg").style.backgroundImage='url(assets/images/banner-h800.jpg)';
+                    console.log('800');
+                } else{                    
+                    document.getElementById("bgimg").style.backgroundImage='url(assets/images/banner-h801.jpg)';
+                    console.log('original');
+                }
+            }
+        });
+
+    </script> 
 
 
       {% include lazyload.html %}

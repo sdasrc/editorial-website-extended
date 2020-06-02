@@ -5,4 +5,4 @@ newname=$2
 newimg=$2.$3
 newext=$3
 echo "$imgfile $newimg"
-convert $imgfile -sampling-factor 4:2:0 -strip -quality 85 -interlace Plane -colorspace RGB $newimg
+convert $imgfile -sampling-factor 4:2:0 -strip -quality 85  -interlace Plane -colorspace RGB $newimg
