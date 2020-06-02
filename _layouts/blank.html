@@ -19,7 +19,7 @@
 
         <!-- Main -->
         <div id="main">
-            <div class="inner" style="height: 100vh; width: 100vw; margin:0; padding: 0; background-image: url(/assets/images/andy-holmes-698828-thumb.jpg) center center no-repeat; background-size: cover;" data-echo-background="/assets/images/andy-holmes-698828.jpg">
+            <div id="404bg" class="inner" style="height: 100vh; width: 100vw; margin:0; padding: 0; background-image: url(/assets/images/andy-holmes-698828-thumb.jpg) center center no-repeat; background-size: cover;" >
                     {{ content }}
 
             </div>
@@ -35,27 +35,59 @@
     <script type = "text/javascript" src = "/assets/js/jquery-ui.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function()  {
-    var randind = Math.floor(Math.random()*10);
-    var randcat = Math.floor(Math.random()*2);
-    var mtxt =  document.getElementById("mytxt")
-    console.log(randind);
-    console.log(randcat);
-    txts = ['There are over 60000 stars per square degree in the night sky.',
-        'The universe is 13.8 billion years old.', 'There are about 100-400 billion stars in the milky way.', 
-        'There are over 200 billion galaxies in the universe.', 'The tiny Hubble Deep Field contained 3000 extragalactic objects.', 
-        'The largest galaxy extends over 2 million light-years from its core.', 'The asteriod belt contains over 2 million large asteroids.', 
-        'There are over 2000 artifical satellites orbiting us right now.', 'Over 4000 planets have been discovered till date.', 
-        'You know the Small-Magellanic Cloud? It contains over 3 billion stars.'
-    ]
-    catt = ['The universe is so big, its easy to get lost.', 'The universe is massive. Stuff keep getting blown up.']
-    document.getElementById("mytxt").innerHTML = txts[randind];
-    document.getElementById("mycat").innerHTML = catt[randcat];
-    console.log(txts[randind]);
-    console.log(catt[randcat]);
-
-});
+            var randind = Math.floor(Math.random()*10);
+            var randcat = Math.floor(Math.random()*2);
+            var mtxt =  document.getElementById("mytxt")
+            txts = ['There are over 60000 stars per square degree in the night sky.',
+                'There are 420 million aliens hiding on the moon.', 'There are about 100-400 billion stars in the milky way.', 
+                'There are over 200 billion galaxies in the universe.', 'The tiny Hubble Deep Field contained 3000 extragalactic objects.', 
+                'The largest galaxy extends over 2 million light-years from its core.', 'The asteriod belt contains over 2 million large asteroids.', 
+                'There are over 2000 artifical satellites orbiting us right now.', 'Over 4000 planets have been discovered till date.', 
+                'You know the Small-Magellanic Cloud? It contains over 3 billion stars.'
+            ]
+            catt = ['The universe is so big, its easy to get lost.', 'The universe is massive. Stuff keep getting blown up.']
+            document.getElementById("mytxt").innerHTML = txts[randind];
+            document.getElementById("mycat").innerHTML = catt[randcat];
+        });
     </script>
-    <script src="/assets/js/spacy404.js"></script>      
+
+    <script src="/assets/js/spacy404.js"></script>     
+    <script type="text/javascript">
+        $(document).ready(function()  {
+            //480, 768, 1080, 1680
+            var screenWidth = window.innerWidth;
+            var screenHeight = window.innerHeight;
+            if (screenWidth > screenHeight) { // Landscape
+                    console.log('Landscape')
+                if( screenWidth < 736 ){
+                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-w736.jpg)';
+                    console.log('736');
+                } else if( screenWidth < 1080 ){
+                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-w1080.jpg)';
+                    console.log('1080');
+                } else{                    
+                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-w1280.jpg)';
+                    console.log('original');
+                }
+            } else{ //portrait
+                console.log('portrait')
+                if( screenWidth < 480 ){
+                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-h480.jpg)';
+                    console.log('480');
+                } else if( screenWidth < 600 ){
+                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-h600.jpg)';
+                    console.log('600');
+                } else if( screenWidth < 800 ){
+                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-h800.jpg)';
+                    console.log('800');
+                } else{                    
+                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-h1080.jpg)';
+                    console.log('original');
+                }
+            }
+        });
+
+    </script> 
 
 
 </body>
