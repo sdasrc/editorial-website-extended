@@ -7,6 +7,12 @@
                 border-radius: 2px;
                 text-decoration: none;
             }
+
+            .img-avatar{
+                float: left;
+                margin-right:1rem;
+            }
+
         </style>
 
     <body>
@@ -42,14 +48,14 @@
                     <section>
                       <a name="top"></a>
                     <header class="main">
-                        <h1>{{ page.title }}</h1>
+                        <h2 style="margin: 0 0 0.45em 0; font-size: 2.3em;">{{ page.title }}</h2>
                     </header>
+                    <div >
+                      <img src="/assets/images/avatar-2-thumb.jpg" style="width:50px;height:50px;  border-radius: 50%; border: 0px;"  class="img-avatar" alt="{{ site.author.name }}" data-echo="/assets/images/avatar-2.jpg"> 
+                      <p style="font-family: Source Sans Pro;" class="post-meta"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><b>{{ page.author }}</b><br>
+                    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>&nbsp;&bull;&nbsp;{% include post-readtime.html %}</p>     
 
-                    <p><i class="fa fa-clock-o"></i>&nbsp;&nbsp;{% include post-readtime.html %}</p>
-                    
-                    <p class="post-meta"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-pencil"></i>&nbsp;&nbsp;<b>Author :&nbsp;</b>{{ page.author }}</span></span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-calendar"></i>&nbsp;&nbsp;<b>Published on :&nbsp;</b><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>     
-
+                    </div>
                     
                     {% if page.image %}
                     <span class="image main">

@@ -1,8 +1,8 @@
 {% assign words = page.content | strip_html | number_of_words %}
     {% if words < 180 %}
-      less than 1 minute(s) read.
+      1 min read.
     {% elsif words < 360 %}
-      less than 2 minute(s) read.
+      2 min read.
     {% else %}
-       {{ words | divided_by:site.words_per_minute }} minute(s) read.
+       {{ words | divided_by:site.words_per_minute }} min read.
     {% endif %}
