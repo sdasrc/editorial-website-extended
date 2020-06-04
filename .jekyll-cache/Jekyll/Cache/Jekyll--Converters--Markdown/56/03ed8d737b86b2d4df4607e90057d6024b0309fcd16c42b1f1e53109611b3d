@@ -1,0 +1,5 @@
+I"U<!-- status - publ, beta -->
+<!-- Add images to assets/images/posts/2020-05-01-aips-guide-v1 -->
+<p>The Astronomical Image Processing System (AIPS) is a software package to support the reduction and analysis of data taken with radio telescopes. Developed predominantly for use with the then under-construction VLA, the generality inherent in its design allowed it to become the standard data-reduction package for most radio interferometers, including VLBI. Limited single-dish capability is also featured. Although partially replaced by CASA, it continues to evolve and remains widely used.</p>
+
+:ET

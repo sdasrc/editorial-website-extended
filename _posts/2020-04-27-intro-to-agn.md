@@ -12,6 +12,7 @@ image-alt: Active Galaxtic Nuclei
 image-source: Digital artist's impression of an active galactic nuclei (Source - universetoday.com).
 permalink: /posts/2020/04/intro-to-agn/
 page-level: postpage
+status: beta 
 tags: agn galaxies research
 ---
 

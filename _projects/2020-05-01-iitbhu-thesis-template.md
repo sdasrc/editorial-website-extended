@@ -12,6 +12,7 @@ image-alt: Unofficial IITBHU thesis template in LaTex.
 image-source: Source - club.6parkbbs.com
 permalink: /posts/2020/05/iitbhu-thesis-template/
 page-level: repopage
+status: beta 
 ---
  
 An unofficial thesis template in LaTex, forked from [CUED PhD Thesis template](https://github.com/kks32/phd-thesis-template) by [Krishna Kumar](https://github.com/kks32). Adapted according to insitute guidelines by Soumyadeep Das, IDD, Dept. of Physics, Batch of 2014~2019.
