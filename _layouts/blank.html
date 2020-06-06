@@ -19,7 +19,7 @@
 
         <!-- Main -->
         <div id="main">
-            <div id="404bg" class="inner" style="height: 100vh; width: 100vw; margin:0; padding: 0; background-image: url(/assets/images/andy-holmes-698828-thumb.jpg) center center no-repeat; background-size: cover;" >
+            <div id="404bg" class="inner" style="height: 100vh; width: 100vw; margin:0; padding: 0; background-image: url(/assets/images/andy-holmes-698828-w1280-1-thumb.jpg) center center no-repeat; background-size: cover;" >
                     {{ content }}
 
             </div>
@@ -59,30 +59,27 @@
             var screenHeight = window.innerHeight;
             if (screenWidth > screenHeight) { // Landscape
                     console.log('Landscape')
-                if( screenWidth < 736 ){
-                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-w736.jpg)';
-                    console.log('736');
+                if( screenWidth < 600 ){
+                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-w600.jpg)';
+                    console.log('600');
+                } else if( screenWidth < 800 ){
+                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-w800.jpg)';
+                    console.log('800');
                 } else if( screenWidth < 1080 ){
                     document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-w1080.jpg)';
                     console.log('1080');
                 } else{                    
-                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-w1280.jpg)';
+                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828.jpg)';
                     console.log('original');
                 }
             } else{ //portrait
                 console.log('portrait')
                 if( screenWidth < 480 ){
-                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-h480.jpg)';
+                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-w480.jpg)';
                     console.log('480');
-                } else if( screenWidth < 600 ){
-                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-h600.jpg)';
-                    console.log('600');
-                } else if( screenWidth < 800 ){
-                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-h800.jpg)';
-                    console.log('800');
                 } else{                    
-                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-h1080.jpg)';
-                    console.log('original');
+                    document.getElementById("404bg").style.backgroundImage='url(assets/images/andy-holmes-698828-w655.jpg)';
+                    console.log('655');
                 }
             }
         });
