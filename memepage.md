@@ -12,6 +12,8 @@ page-level: mainpage
 
 Astrophysicist with telescope. -->
 
+
+
 <a name="top"></a>
 <div style="width: 90%" class="posts">
 {% for post in site.data.memes %}
@@ -20,9 +22,10 @@ Astrophysicist with telescope. -->
        <a href="{{ post.img-src | absolute_url }}" target="_blank" class="image">
         <picture>
             <source data-srcset="{{ post.img-webp | absolute_url }}" type="image/webp" >
-            <source data-srcset="{{ post.img | absolute_url }}" type="image/jpeg" > 
+            <source data-srcset="{{ post.img-src | absolute_url }}" type="image/jpeg" > 
             <img src="{{ post.img-thumb | absolute_url }}" alt="Meme : {{ post.img-alt }}" data-src="{{ post.img | absolute_url }}"  class="lazyload" />
-      </picture>               
+      </picture>    
+      {% include file-socialshare.html %}           
             </a>
         </article>
   {% endfor %}

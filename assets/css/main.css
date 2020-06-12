@@ -2067,9 +2067,9 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #555555;
+		color: #333333;
   		word-spacing: 1pt;
-		font-family: "Montserrat", "DejaVu Sans", Verdana, sans-serif;
+		font-family: "Verdana", "DejaVu Sans", Verdana, sans-serif;
 		font-size: 13pt;
 		font-weight: 500;
 		line-height: 1.65;
@@ -2415,7 +2415,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #555555;
+			color: #333333;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -3759,7 +3759,7 @@
             -webkit-transform: scaleX(-1);
             -ms-transform: scaleX(-1);
             transform: scaleX(-1);
-            color: #555555;
+            color: #333333;
             content: '\f002';
             cursor: default;
             display: block;
@@ -3969,7 +3969,7 @@
             }
 
                 #sidebar .toggle:before {
-                    color: #555555;
+                    color: #333333;
                     margin-left: -0.0625em;
                     margin-top: -0.25em;
                     font-size: 1.1rem;
@@ -4152,7 +4152,7 @@ a.nobottom{
     line-height: 32px;
     text-align: center;
     font-size: 20px;
-    color: #444444;
+    color: #333333;
   margin-top:0;
   padding-top:5px;
 }
@@ -4219,7 +4219,7 @@ img{
 .grey-column {
     float: left;
     width: 40%;
-    background-color: #444444;
+    background-color: #333333;
     padding: 10px;
     padding-left: 20px;
     margin: 15px;
@@ -4229,7 +4229,7 @@ img{
      .grey-column {
           float: left;
           width: 80%;
-          background-color: #444444;
+          background-color: #333333;
           padding: 10px;
           padding-left: 20px;
           margin: 15px;
@@ -4278,7 +4278,7 @@ tag_btn {
    background: linear-gradient(to right, #eeeeee, #e3e3e3) !important;
    border: none;
    font-family: Source Sans Pro, Roboto, sans-serif;
-   color: #333333;
+   color: #222222;
    text-align: center;
    text-transform: uppercase;
    font-size: 22px;
@@ -4288,8 +4288,7 @@ tag_btn {
    margin: 5px;
  }
  .tag_marker span {
-   cursor: pointer;
-   color: #333333;
+   color: #222222;
    font-family: Source Sans Pro, Roboto, sans-serif;
    font-weight: 400;
    background: linear-gradient(to right, #eeeeee, #e3e3e3) !important;
@@ -4317,7 +4316,7 @@ tag_btn {
  	margin: 0 0 20px 20px;
  }
  figcaption{
- 	color: #555555; 
+ 	color: #333333; 
  	font-size: small; 
  	text-align: center; 
  	font-style: italic;

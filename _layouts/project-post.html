@@ -1,25 +1,28 @@
 <!DOCTYPE HTML>
-<!-- Default layout for Blog Posts -->
-<!-- Created by Soumyadeep Das (@thephoenix01) -->
-<!-- Monday 27 April 2020 02:32:01 PM IST -->
-
+<!--
+  Editorial by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html lang="en">
-    {% include head.html %}
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <style type="text/css">
-            img{
-                border-radius: 2px;
-                text-decoration: none;
-            }
-            .img-avatar{
-                float: left;
-                margin-right:1rem;
-            }
-        </style>
+{% include head.html %}
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <body>
-        
+<style type="text/css">
+    img{
+        border-radius: 2px;
+        text-decoration: none;
+    }
+
+    .img-avatar{
+        float: left;
+        margin-right:1rem;
+    }
+
+</style>
+
+<body>
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -41,59 +44,67 @@
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
-        <!-- Wrapper -->
-        <div id="wrapper">
-            <!-- Main -->
-            <div id="main">
-                <div class="inner">
-                    {% include header.html %}
-                    <!-- Content -->
-                    <section>
+
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+         <!--      {% if page.title != "Home" %}    -->
+                {% include header.html %}
+    <!--           {% endif %} -->
+                <!-- Content -->
+                <section>
                       <a name="top"></a>
                     <header class="main">
                         <h2 style="margin: 0 0 0.45em 0; font-size: 2.3em;">{{ page.title }}</h2>
                     </header>
+
                     <div >
                       <img src="/assets/images/avatar-2-thumb.jpg" style="width:50px;height:50px;  border-radius: 50%; border: 0px;"  class="img-avatar" alt="{{ site.author.name }}" data-echo="/assets/images/avatar-2.jpg"> 
                       <p style="font-family: Source Sans Pro;" class="post-meta"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><b>{{ page.author }}</b><br>
                     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>     
 
                     </div>
-                      {% if page.status == "beta" %} 
+                    {% if page.status == "beta" %} 
                       <a class="tag_marker"><span>(Warning) This article is not yet ready for publication, and might contain placeholder texts and images.</span></a>
-                      {% endif %}
-                    
-                    {% if page.image %}
+                     {% endif %}
+
+                  {% if page.image %}
                     <span class="image main">
                         <picture>
                     <source data-srcset="{{ page.image-webp | absolute_url }}" type="image/webp" >
                   <source data-srcset="{{ page.image | absolute_url }}" type="image/jpeg" > 
                   <img src="{{ page.image-thumb | absolute_url }}" alt="{{ page.img-alt }}" data-src="{{ page.image | absolute_url }}"  class="lazyload" />
                   <figcaption style="color: #555555; font-size: smaller; text-align: right;" ><i>{{ page.image-source }}</i></figcaption>
-               </picture>  
+               </picture>                          
                     </span>
                     {% endif %}
-                    <div align="justify">{{ content }}</div>
 
-                      <ul class="actions">
+                <div align="justify">{{ content }}</div>
+                <ul class="actions">
                         <li><a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a></li>
-                        <li><a href="{{ 'repos' | absolute_url  }}" class="button icon fa-code-fork">Explore other Repos</a></li>
+                        <li><a href="{{ 'blogs' | absolute_url  }}" class="button icon fa-pencil-square-o">Explore other blogs</a></li>
                         </ul>
-
-
-
-                    <hr>
-
+                        <hr>
+                        
                      {% include post-socialshare.html %}
 
-                    
-                    
-                </div>
-            </div>
-            {% include sidebar.html %}
-        </div>
-        {% include footer.html %}
+              </div>
+          </div>
+
+          {% include sidebar.html %}
+
+      </div>
+
+      {% include footer.html %}
+
+
       {% include lazyload.html %}
 
-    </body>
+
+</body>
+
 </html>

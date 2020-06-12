@@ -1,68 +1,78 @@
+<!DOCTYPE HTML>
+<!--
+  Editorial by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html lang="en">
-    {% include head.html %}
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <style type="text/css">
-            img{
-                border-radius: 2px;
-                text-decoration: none;
-            }
+{% include head.html %}
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            .img-avatar{
-                float: left;
-                margin-right:1rem;
-            }
+<style type="text/css">
+    img{
+        border-radius: 2px;
+        text-decoration: none;
+    }
 
-        </style>
+    .img-avatar{
+        float: left;
+        margin-right:1rem;
+    }
 
-    <body>
-            
-            <script>
-              window.fbAsyncInit = function() {
-                FB.init({
-                  appId      : '3425901884091023',
-                  cookie     : true,
-                  xfbml      : true,
-                  version    : 'v7.0'
-                });
-                  
-                FB.AppEvents.logPageView();   
-                  
-              };
+</style>
 
-              (function(d, s, id){
-                 var js, fjs = d.getElementsByTagName(s)[0];
-                 if (d.getElementById(id)) {return;}
-                 js = d.createElement(s); js.id = id;
-                 js.src = "https://connect.facebook.net/en_US/sdk.js";
-                 fjs.parentNode.insertBefore(js, fjs);
-               }(document, 'script', 'facebook-jssdk'));
-            </script>
-        <!-- Wrapper -->
-        <div id="wrapper">
-            <!-- Main -->
-            <div id="main">
-                <div class="inner">
-                    {% include header.html %}
-                    <!-- Content -->
-                    <section>
+<body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '3425901884091023',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v7.0'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+         <!--      {% if page.title != "Home" %}    -->
+                {% include header.html %}
+    <!--           {% endif %} -->
+                <!-- Content -->
+                <section>
                       <a name="top"></a>
                     <header class="main">
                         <h2 style="margin: 0 0 0.45em 0; font-size: 2.3em;">{{ page.title }}</h2>
                     </header>
+
                     <div >
                       <img src="/assets/images/avatar-2-thumb.jpg" style="width:50px;height:50px;  border-radius: 50%; border: 0px;"  class="img-avatar" alt="{{ site.author.name }}" data-echo="/assets/images/avatar-2.jpg"> 
                       <p style="font-family: Source Sans Pro;" class="post-meta"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><b>{{ page.author }}</b><br>
                     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>&nbsp;&bull;&nbsp;{% include post-readtime.html %}</p>     
 
                     </div>
-
-
-                      {% if page.status == "beta" %} 
+                    {% if page.status == "beta" %} 
                       <a class="tag_marker"><span>(Warning) This article is not yet ready for publication, and might contain placeholder texts and images.</span></a>
                      {% endif %}
-                    
-                    {% if page.image %}
+
+                  {% if page.image %}
                     <span class="image main">
                         <picture>
                     <source data-srcset="{{ page.image-webp | absolute_url }}" type="image/webp" >
@@ -72,25 +82,30 @@
                </picture>                          
                     </span>
                     {% endif %}
-                    <div align="justify">{{ content }}</div>
-                        <ul class="actions">
+
+                <div align="justify">{{ content }}</div>
+                <ul class="actions">
                         <li><a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a></li>
                         <li><a href="{{ 'blogs' | absolute_url  }}" class="button icon fa-pencil-square-o">Explore other blogs</a></li>
                         </ul>
-
-
-                    <hr>
-
+                        <hr>
+                        
                      {% include post-tagparse.html %}
-
                      {% include post-socialshare.html %}
-                    
-                </div>
-            </div>
-            {% include sidebar.html %}
-        </div>
-        {% include footer.html %}
+
+              </div>
+          </div>
+
+          {% include sidebar.html %}
+
+      </div>
+
+      {% include footer.html %}
+
+
       {% include lazyload.html %}
 
-    </body>
+
+</body>
+
 </html>

@@ -1,0 +1,34 @@
+I"#<p><a href="http://localhost:4000/#nobanner" class="tag_btn"><span>Current Site Version : 4.0.1</span></a></p>
+
+<h3 id="jekyll-and-gitlab-pages">Jekyll and Gitlab pages</h3>
+<p>This site is built by static website generator <a href="https://jekyllrb.com/">Jekyll</a>, and is hosted free of cost on <a href="https://about.gitlab.com/stages-devops-lifecycle/pages/">gitlab pages</a>. I have used the latest jekyll version <code class="language-plaintext highlighter-rouge">V4.0</code>.</p>
+
+<p>This site is built upon the simplistic yet elegant Editorial template hosted on <a href="https://html5up.net/editorial">html5up.net</a>. Editorial was adapted for Jekyll by <a href="https://gitlab.com/andrewbanchich/editorial-jekyll-theme">Andrew Banchich</a>.</p>
+
+<h3 id="fonts-and-icon-packs">Fonts and Icon packs</h3>
+<p>I have extensively used <a href="https://fontawesome.com/v4.7.0/icons/">Font Awesome V4.7</a> and <a href="https://jpswalsh.github.io/academicons/">Academicons</a> as icon-pack CDN. This website uses the following three webfonts - <code class="language-plaintext highlighter-rouge">Bebas Neue</code>, <code class="language-plaintext highlighter-rouge">Verdana</code>, <code class="language-plaintext highlighter-rouge">Source Sans Pro</code>, and <code class="language-plaintext highlighter-rouge">Open Sans</code>, delivered by <a href="fonts.google.com">Google Fonts</a>. Many of the ideas used in this site have been borrowed from <a href="https://github.com/academicpages/academicpages.github.io">academicpages.github.io</a>. Home page blinds design is inspired by <a href="https://html5up.net/massively">Massively theme</a>.</p>
+
+<h3 id="search-and-tags">Search and Tags</h3>
+<p>I have used <code class="language-plaintext highlighter-rouge">lunr.js</code> for searching through posts in this site. <a href="https://github.com/olivernn/lunr.js">Github repo</a> and <a href="https://learn.cloudcannon.com/jekyll/jekyll-search-using-lunr-js/">Cloudcannon</a> provide detailed documentation. Tags have been implemented following Long Qian’s <a href="https://longqian.me/2017/02/09/github-jekyll-tag/">tutorial</a>. For even lazier folks out there, Arturo Moncada-Torres has <a href="https://arturomoncadatorres.com/automatically-generating-tag-posts-for-github-pages-using-jekyll/">modified</a> Long Qian’s method to give a more automated, inline approach.</p>
+
+<h3 id="image-handling-and-scripts">Image handling and scripts</h3>
+<p>I have used new, optimized .webp image format with traditional .jpg and .png image formats to provide a better browsing experience. I have implemented lazyloading of images, using aFarkas’ <a href="https://github.com/aFarkas/lazysizes">Lazysizes</a> library. Backgrounds, such as those in the landing and 404 pages, are handled by inline, responsive design adapted javascripts. Images can be optimized for web, converted to .webp, and thumbnails generated using .sh scripts provided in <code class="language-plaintext highlighter-rouge">/assets/images/workshop</code> directory.</p>
+
+<p>Further, dedicated <code class="language-plaintext highlighter-rouge">sh</code> scripts in the root directory can be used to generate post files, complete with all necessary liquid tags and placeholders.</p>
+
+<h3 id="search-engine-optimization-seo">Search Engine Optimization (SEO)</h3>
+<p>I have used jekyll plugin <code class="language-plaintext highlighter-rouge">jekyll-seo-tag</code> to streamline SEO. Detailed documentation can be obtained at the <a href="https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md">github repo</a>.</p>
+
+<h3 id="sitemap">Sitemap</h3>
+<p><code class="language-plaintext highlighter-rouge">jekyll-sitemap</code> plugin is used to generate <a href="http://localhost:4000/sitemap.xml">sitemap</a> and <code class="language-plaintext highlighter-rouge">robots.txt</code>, to be used by search engine webmasters. Refer to the <a href="https://github.com/jekyll/jekyll-sitemap">github repo</a> for documentation.</p>
+<ul>
+  <li></li>
+  <li>jekyll-gzip</li>
+  <li></li>
+  <li>jekyll-brotli</li>
+</ul>
+
+<p>css minify</p>
+
+<p>Collapsing lists</p>
+:ET

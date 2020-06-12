@@ -71,8 +71,11 @@
             <div class="inner">
 
                 {% include header.html %}
-                {% include banner.html %}  
-                <p style="color: #707070; text-align: center; font-size: 14pt;">When the moon hits your eye like a big pizza pie... thats amore!</p>
+                {% include banner.html %} 
+                <div style="margin-bottom: 30px; align-items: center;text-align: center;align-self: center;">
+                  <a style="color: #707070; text-align: center;  font-size: 14pt;" href="{{ site.url | absolute_url }}/somethingcool/" ><i>When the moon hits your eye like a big pizza pie... thats amore!</i></a>
+                </div> 
+                
                 {{ content }}
 
 
