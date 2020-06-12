@@ -1,8 +1,17 @@
 - title: Star cluster detection and characterization using generalized Parzen density estimation.
+  type: paper
   published: 27 October 2018
   authors: Srirag Nambiar, Soumyadeep Das, Sarita Vig, Ramakrishna Sai S Gorthi
-  journal: Monthly Notices of the Royal Astronomical Society
+  journal: Monthly Notices of the Royal Astronomical Society (MNRAS)
   volumeinfo: Volume 482, Issue 3, January 2019, Pages 3789–3802
   doi: https://doi.org/10.1093/mnras/sty2851
   ads: https://ui.adsabs.harvard.edu/abs/2019MNRAS.482.3789N/abstract
   arxiv: https://arxiv.org/abs/1810.11879
+
+- title: Instrumental Calibration for Observations of Redshifted 21-cm Signal from Neutral Hydrogen.
+  type: conference
+  published: 11 June 2020
+  authors:  Jais Kumar, Prasun Dutta, Soumyadeep Das, Nirupam Roy 
+  journal: Institute of Electrical and Electronics Engineers (IEEE)
+  volumeinfo: 2020 URSI Regional Conference on Radio Science ( URSI-RCRS)
+  doi: https://doi.org/10.23919/URSIRCRS49211.2020.9113590

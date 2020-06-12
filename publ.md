@@ -10,13 +10,16 @@ page-level: mainpage
 A complete list of published papers can be found on
 <a  href="{{ site.author.ads | absolute_url }}" target="_blank" rel="noopener noreferrer" ><i class="ai ai-ads">NASA ADS</i></a>, or <a href="{{ site.author.orcid | absolute_url }}" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid">ORCID</i></a>.
 
-<h2>List of Published Papers</h2>
+<h2>List of Published Papers and Conference Proceedings</h2>
 <div class="table-wrapper">
     <table>
         <tbody>
-            {% for paper in site.data.publications %}
+            {% for paper in site.data.publications reversed %}
             <tr>
                 <h4>{{ paper.title }}</h4>
+                    {% if paper.type == "conference" %}
+                    <a class="tag_marker"><span>Conference Proceedings</span></a>
+                    {% endif %}
                 Published on : {{ paper.published }} <br>
                 {{ paper.authors }} <br>
                 {{ paper.journal }}<br>
