@@ -7,8 +7,16 @@ permalink: publications/
 page-level: mainpage
 ---
 
-A complete list of published papers can be found on
-<a  href="{{ site.author.ads | absolute_url }}" target="_blank" rel="noopener noreferrer" ><i class="ai ai-ads">NASA ADS</i></a>, or <a href="{{ site.author.orcid | absolute_url }}" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid">ORCID</i></a>.
+<a name="top"></a>
+
+<ul style="align-items: center; vertical-align: middle;" class="icons" >
+    <li>View the complete list on </li>
+      <li><a href=" {{ site.author.ads }} "  target="_blank"  rel="noopener noreferrer" class="tag_btn"><span class="label">NASA ADS</span></a></li>
+      <li><a href=" {{ site.author.orcid }} " target="_blank"  rel="noopener noreferrer" class="tag_btn"><span class="label">ORCID</span></a></li>
+      <li><a href=" {{ site.author.googlescholar }} " target="_blank"  rel="noopener noreferrer" class="tag_btn"><span class="label">Google Scholar</span></a></li>
+      <li><a href=" {{ site.author.researchgate }}/publications " target="_blank"  rel="noopener noreferrer" class="tag_btn"><span class="label">ResearchGate</span></a></li>
+</ul>
+
 
 <h2>List of Published Papers and Conference Proceedings</h2>
 <div class="table-wrapper">
@@ -43,3 +51,9 @@ A complete list of published papers can be found on
         </tbody>
     </table>
 </div>
+
+<ul class="actions">
+<li><a href="{{ 'resume' | absolute_url  }}" class="button icon fa-file-text">Resume</a></li>
+<li><a href="{{ 'research' | absolute_url  }}" class="button special icon fa-magic">Publications</a></li>
+<li><a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a></li>
+</ul>

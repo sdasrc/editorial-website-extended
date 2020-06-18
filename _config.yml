@@ -20,7 +20,7 @@ collections:
     projects:
         output: true
 
-myversion: 4.0.1
+myversion: 4.1.1
 
 author:
     name: Soumyadeep Das
@@ -39,6 +39,7 @@ author:
     linkedin: https://www.linkedin.com/in/soumyadeep01
     orcid: https://orcid.org/0000-0002-3493-6638
     pinterest:
+    researchgate: https://www.researchgate.net/profile/Soumyadeep_Das9
     slack:
     stackoverflow : https://stackoverflow.com/users/4701760/thephoenix01
     steam : https://steamcommunity.com/profiles/76561198859680680
