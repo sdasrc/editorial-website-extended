@@ -31,23 +31,23 @@ author:
     author-bio : "Graduated with Dual Degree (B.Tech. and M.Tech.) in Engg. Physics, IIT Varanasi, India."
     ads : https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0002-3493-6638&sort=date%20desc%2C%20bibcode%20desc
     facebook: https://www.facebook.com/TheSoumyadeepDas
-    github: https://github.com/thephoenix01
-    gitlab: https://gitlab.com/thephoenix01
+    github: https://github.com/bobocantfly
+    gitlab: https://gitlab.com/bobocantfly
     googleplus: 
     googlescholar : https://scholar.google.com/citations?user=02NSBH4AAAAJ&hl=en
-    instagram: https://www.instagram.com/_thephoenix01_/
+    instagram: https://www.instagram.com/bobocantfly/
     linkedin: https://www.linkedin.com/in/soumyadeep01
     orcid: https://orcid.org/0000-0002-3493-6638
     pinterest:
     researchgate: https://www.researchgate.net/profile/Soumyadeep_Das9
     slack:
-    stackoverflow : https://stackoverflow.com/users/4701760/thephoenix01
+    stackoverflow : https://stackoverflow.com/users/4701760/bobocantfly
     steam : https://steamcommunity.com/profiles/76561198859680680
-    twitter: https://twitter.com/_thephoenix01_
+    twitter: https://twitter.com/bobocantfly
 
 # Social for SEO
 twitter: 
-  username: _thephoenix01_
+  username: bobocantfly
   card: summary_large_image
 
 facebook:
@@ -58,11 +58,11 @@ facebook:
 social:
   name: Soumyadeep Das
   links:
-    - https://twitter.com/_thephoenix01_
-    - https://www.instagram.com/_thephoenix01_/
+    - https://twitter.com/bobocantfly
+    - https://www.instagram.com/bobocantfly/
     - https://www.facebook.com/TheSoumyadeepDas
-    - https://github.com/thephoenix01
-    - https://gitlab.com/thephoenix01
+    - https://github.com/bobocantfly
+    - https://gitlab.com/bobocantfly
     - https://www.linkedin.com/in/soumyadeep01
 
 plugins:
