@@ -31,11 +31,11 @@ author:
     author-bio : "Graduated with Dual Degree (B.Tech. and M.Tech.) in Engg. Physics, IIT Varanasi, India."
     ads : https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0002-3493-6638&sort=date%20desc%2C%20bibcode%20desc
     facebook: https://www.facebook.com/TheSoumyadeepDas
-    github: https://github.com/bobocantfly
-    gitlab: https://gitlab.com/bobocantfly
+    github: https://github.com/admiralprice
+    gitlab: https://gitlab.com/admiralprice
     googleplus: 
     googlescholar : https://scholar.google.com/citations?user=02NSBH4AAAAJ&hl=en
-    instagram: https://www.instagram.com/bobocantfly/
+    instagram: https://www.instagram.com/_admiralprice_/
     linkedin: https://www.linkedin.com/in/soumyadeep01
     orcid: https://orcid.org/0000-0002-3493-6638
     pinterest:
@@ -43,11 +43,11 @@ author:
     slack:
     stackoverflow : https://stackoverflow.com/users/4701760/bobocantfly
     steam : https://steamcommunity.com/profiles/76561198859680680
-    twitter: https://twitter.com/bobocantfly
+    twitter: https://twitter.com/admiralprice
 
 # Social for SEO
 twitter: 
-  username: bobocantfly
+  username: admiralprice
   card: summary_large_image
 
 facebook:
@@ -58,11 +58,11 @@ facebook:
 social:
   name: Soumyadeep Das
   links:
-    - https://twitter.com/bobocantfly
-    - https://www.instagram.com/bobocantfly/
+    - https://twitter.com/admiralprice
+    - https://www.instagram.com/_admiralprice_/
     - https://www.facebook.com/TheSoumyadeepDas
-    - https://github.com/bobocantfly
-    - https://gitlab.com/bobocantfly
+    - https://github.com/admiralprice
+    - https://gitlab.com/admiralprice
     - https://www.linkedin.com/in/soumyadeep01
 
 plugins:
