@@ -97,3 +97,12 @@
   img-link: memes/it-hurts-right-in-my-meow-meow/
   img-weight: 10
 
+- img-src: assets/images/memes/jpg/the-greatest-depths-indeed.jpg
+  img-webp: assets/images/memes/webp/the-greatest-depths-indeed.webp
+  img-420x: assets/images/memes/420x/the-greatest-depths-indeed-420x.jpg
+  webp-420x: assets/images/memes/webp-420/the-greatest-depths-indeed-420x.webp
+  img-thumb: assets/images/memes/thumb/the-greatest-depths-indeed-thumb.jpg
+  img-alt: The greatest depths indeed
+  img-link: memes/the-greatest-depths-indeed/
+  img-weight: 10
+
