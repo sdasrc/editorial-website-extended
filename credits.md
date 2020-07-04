@@ -18,7 +18,7 @@ This site is built by static website generator [Jekyll](https://jekyllrb.com/), 
 This site is built upon the simplistic yet elegant Editorial template hosted on [html5up.net](https://html5up.net/editorial). Editorial was adapted for Jekyll by [Andrew Banchich](https://gitlab.com/andrewbanchich/editorial-jekyll-theme).
 
 ### Fonts and Icon packs
-I have extensively used [Font Awesome V4.7](https://fontawesome.com/v4.7.0/icons/) and [Academicons](https://jpswalsh.github.io/academicons/) as icon-pack CDN. This website uses the following three webfonts - `Bebas Neue`, `Verdana`, `Source Sans Pro`, and `Open Sans`, delivered by [Google Fonts](fonts.google.com). Many of the ideas used in this site have been borrowed from [academicpages.github.io](https://github.com/academicpages/academicpages.github.io). Home page blinds design is inspired by [Massively theme](https://html5up.net/massively).
+I have extensively used [Font Awesome V4.7](https://fontawesome.com/v4.7.0/icons/) and [Academicons](https://jpswalsh.github.io/academicons/) as icon-pack CDN. This website uses the following three webfonts - `Bebas Neue`, `Fira Sans`, `Source Sans Pro`, and `Roboto Mono`, delivered by [Google Fonts](fonts.google.com). Many of the ideas used in this site have been borrowed from [academicpages.github.io](https://github.com/academicpages/academicpages.github.io). Home page blinds design is inspired by [Massively theme](https://html5up.net/massively).
 
 ### Search and Tags
 I have used `lunr.js` for searching through posts in this site. [Github repo](https://github.com/olivernn/lunr.js) and [Cloudcannon](https://learn.cloudcannon.com/jekyll/jekyll-search-using-lunr-js/) provide detailed documentation. Tags have been implemented following Long Qian's [tutorial](https://longqian.me/2017/02/09/github-jekyll-tag/). For even lazier folks out there, Arturo Moncada-Torres has [modified](https://arturomoncadatorres.com/automatically-generating-tag-posts-for-github-pages-using-jekyll/) Long Qian's method to give a more automated, inline approach.
@@ -45,3 +45,5 @@ The Spacy 404 custom error page was implemented following [this](https://codepen
 - Collapsing lists were implemented using [this](https://www.w3schools.com/howto/howto_js_collapsible.asp) tutorial.
 
 In addition to the above mentioned, there are several resources that immensely helped me make this website, but have not been explicitly mentioned. I am hugely indebted towards all of them. I will keep updating this page slowly and try to include every single such source.
+
+<!-- Image Gallery -->
