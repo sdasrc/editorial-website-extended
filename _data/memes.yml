@@ -1,71 +1,99 @@
-- img-src: assets/images/memes/leopard-cub-1.jpg
-  img-webp: assets/images/memes/leopard-cub-1.webp
-  img-thumb: assets/images/memes/leopard-cub-1-thumb.jpg
-  img-alt: The fiercest out there
-  img-weight: 20
-
-- img-src: assets/images/memes/i-am-darkness-1.jpg
-  img-webp: assets/images/memes/i-am-darkness-1.webp
-  img-thumb: assets/images/memes/i-am-darkness-1-thumb.jpg
-  img-alt: I am darkness
+- img-src: assets/images/memes/jpg/hey-look-a-dying-star.jpg
+  img-webp: assets/images/memes/webp/hey-look-a-dying-star.webp
+  img-420x: assets/images/memes/420x/hey-look-a-dying-star-420x.jpg
+  webp-420x: assets/images/memes/webp-420/hey-look-a-dying-star-420x.webp
+  img-thumb: assets/images/memes/thumb/hey-look-a-dying-star-thumb.jpg
+  img-alt: Hey look a dying star
+  img-link: memes/hey-look-a-dying-star/
   img-weight: 10
 
-- img-src: assets/images/memes/memes-01.jpg
-  img-webp: assets/images/memes/memes-01.webp
-  img-thumb: assets/images/memes/memes-01-thumb.jpg
-  img-alt: Feelings of Power
+- img-src: assets/images/memes/jpg/my-code-works-i-dunno-how.jpg
+  img-webp: assets/images/memes/webp/my-code-works-i-dunno-how.webp
+  img-420x: assets/images/memes/420x/my-code-works-i-dunno-how-420x.jpg
+  webp-420x: assets/images/memes/webp-420/my-code-works-i-dunno-how-420x.webp
+  img-thumb: assets/images/memes/thumb/my-code-works-i-dunno-how-thumb.jpg
+  img-alt: My code works i dunno how
+  img-link: memes/my-code-works-i-dunno-how/
   img-weight: 10
 
-- img-src: assets/images/memes/hurts-meow-1.jpg
-  img-webp: assets/images/memes/hurts-meow-1.webp
-  img-thumb: assets/images/memes/hurts-meow-1.jpg
-  img-alt: It hurts right here
-  img-weight: 10
-
-
-- img-src: assets/images/memes/memes-02.jpg
-  img-webp: assets/images/memes/memes-02.webp
-  img-thumb: assets/images/memes/memes-02-thumb.jpg
-  img-alt: Calibration Error
-  img-weight: 10
-
-- img-src: assets/images/memes/memes-03.jpg
-  img-webp: assets/images/memes/memes-03.webp
-  img-thumb: assets/images/memes/memes-03-thumb.jpg
-  img-alt: CASA Cookbook
-  img-weight: 10
-
-- img-src: assets/images/memes/memes-04.jpg
-  img-webp: assets/images/memes/memes-04.webp
-  img-thumb: assets/images/memes/memes-04-thumb.jpg
-  img-alt: My code works I dunno how
-  img-weight: 10
-
-- img-src: assets/images/memes/memes-05.jpg
-  img-webp: assets/images/memes/memes-05.webp
-  img-thumb: assets/images/memes/memes-05-thumb.jpg
-  img-alt: Eclipsed by RFI
-  img-weight: 10
-
-- img-src: assets/images/memes/memes-06.jpg
-  img-webp: assets/images/memes/memes-06.webp
-  img-thumb: assets/images/memes/memes-06-thumb.jpg
-  img-alt: Dying Star
-  img-weight: 10
-
-- img-src: assets/images/memes/memes-07.jpg
-  img-webp: assets/images/memes/memes-07.webp
-  img-thumb: assets/images/memes/memes-07-thumb.jpg
-  img-alt: Solar eclipse eclipsed by clouds
-  img-weight: 10
-
-- img-src: assets/images/memes/memes-08.jpg
-  img-webp: assets/images/memes/memes-08.webp
-  img-thumb: assets/images/memes/memes-08-thumb.jpg
+- img-src: assets/images/memes/jpg/radio-loud-galaxies-and-jets.jpg
+  img-webp: assets/images/memes/webp/radio-loud-galaxies-and-jets.webp
+  img-420x: assets/images/memes/420x/radio-loud-galaxies-and-jets-420x.jpg
+  webp-420x: assets/images/memes/webp-420/radio-loud-galaxies-and-jets-420x.webp
+  img-thumb: assets/images/memes/thumb/radio-loud-galaxies-and-jets-thumb.jpg
   img-alt: Radio loud galaxies and jets
+  img-link: memes/radio-loud-galaxies-and-jets/
   img-weight: 10
 
-# - img-src: assets/images/memes/antman-meme.jpg
-#   img-thumb: assets/images/memes/antman-meme-thumb.jpg
-#   img-alt: What actually happened in the quantum realm
-#   img-weight: 10
+- img-src: assets/images/memes/jpg/the-fiercest-out-there.jpg
+  img-webp: assets/images/memes/webp/the-fiercest-out-there.webp
+  img-420x: assets/images/memes/420x/the-fiercest-out-there-420x.jpg
+  webp-420x: assets/images/memes/webp-420/the-fiercest-out-there-420x.webp
+  img-thumb: assets/images/memes/thumb/the-fiercest-out-there-thumb.jpg
+  img-alt: The fiercest out there
+  img-link: memes/the-fiercest-out-there/
+  img-weight: 10
+
+- img-src: assets/images/memes/jpg/the-curse-of-calibration-error.jpg
+  img-webp: assets/images/memes/webp/the-curse-of-calibration-error.webp
+  img-420x: assets/images/memes/420x/the-curse-of-calibration-error-420x.jpg
+  webp-420x: assets/images/memes/webp-420/the-curse-of-calibration-error-420x.webp
+  img-thumb: assets/images/memes/thumb/the-curse-of-calibration-error-thumb.jpg
+  img-alt: The curse of calibration error
+  img-link: memes/the-curse-of-calibration-error/
+  img-weight: 10
+
+- img-src: assets/images/memes/jpg/solar-eclipse-eclipsed-by-clouds.jpg
+  img-webp: assets/images/memes/webp/solar-eclipse-eclipsed-by-clouds.webp
+  img-420x: assets/images/memes/420x/solar-eclipse-eclipsed-by-clouds-420x.jpg
+  webp-420x: assets/images/memes/webp-420/solar-eclipse-eclipsed-by-clouds-420x.webp
+  img-thumb: assets/images/memes/thumb/solar-eclipse-eclipsed-by-clouds-thumb.jpg
+  img-alt: Solar eclipse eclipsed by clouds
+  img-link: memes/solar-eclipse-eclipsed-by-clouds/
+  img-weight: 10
+
+- img-src: assets/images/memes/jpg/eclipsed-by-rfi.jpg
+  img-webp: assets/images/memes/webp/eclipsed-by-rfi.webp
+  img-420x: assets/images/memes/420x/eclipsed-by-rfi-420x.jpg
+  webp-420x: assets/images/memes/webp-420/eclipsed-by-rfi-420x.webp
+  img-thumb: assets/images/memes/thumb/eclipsed-by-rfi-thumb.jpg
+  img-alt: Eclipsed by rfi
+  img-link: memes/eclipsed-by-rfi/
+  img-weight: 10
+
+- img-src: assets/images/memes/jpg/i-finished-casa-cookbook.jpg
+  img-webp: assets/images/memes/webp/i-finished-casa-cookbook.webp
+  img-420x: assets/images/memes/420x/i-finished-casa-cookbook-420x.jpg
+  webp-420x: assets/images/memes/webp-420/i-finished-casa-cookbook-420x.webp
+  img-thumb: assets/images/memes/thumb/i-finished-casa-cookbook-thumb.jpg
+  img-alt: I finished casa cookbook
+  img-link: memes/i-finished-casa-cookbook/
+  img-weight: 10
+
+- img-src: assets/images/memes/jpg/i-am-the-all-powerful-being.jpg
+  img-webp: assets/images/memes/webp/i-am-the-all-powerful-being.webp
+  img-420x: assets/images/memes/420x/i-am-the-all-powerful-being-420x.jpg
+  webp-420x: assets/images/memes/webp-420/i-am-the-all-powerful-being-420x.webp
+  img-thumb: assets/images/memes/thumb/i-am-the-all-powerful-being-thumb.jpg
+  img-alt: I am the all powerful being
+  img-link: memes/i-am-the-all-powerful-being/
+  img-weight: 10
+
+- img-src: assets/images/memes/jpg/fear-me-for-i-am-darkness.jpg
+  img-webp: assets/images/memes/webp/fear-me-for-i-am-darkness.webp
+  img-420x: assets/images/memes/420x/fear-me-for-i-am-darkness-420x.jpg
+  webp-420x: assets/images/memes/webp-420/fear-me-for-i-am-darkness-420x.webp
+  img-thumb: assets/images/memes/thumb/fear-me-for-i-am-darkness-thumb.jpg
+  img-alt: Fear me for i am darkness
+  img-link: memes/fear-me-for-i-am-darkness/
+  img-weight: 10
+
+- img-src: assets/images/memes/jpg/it-hurts-right-in-my-meow-meow.jpg
+  img-webp: assets/images/memes/webp/it-hurts-right-in-my-meow-meow.webp
+  img-420x: assets/images/memes/420x/it-hurts-right-in-my-meow-meow-420x.jpg
+  webp-420x: assets/images/memes/webp-420/it-hurts-right-in-my-meow-meow-420x.webp
+  img-thumb: assets/images/memes/thumb/it-hurts-right-in-my-meow-meow-thumb.jpg
+  img-alt: It hurts right in my meow meow
+  img-link: memes/it-hurts-right-in-my-meow-meow/
+  img-weight: 10
+

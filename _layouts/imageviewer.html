@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<!--
+  Editorial by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+
+{% include head.html %}
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+<style type="text/css">
+    img{
+        border-radius: 2px;
+        text-decoration: none;
+    }
+
+    .img-avatar{
+        float: left;
+        margin-right:1rem;
+    }
+
+</style>
+
+<body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '3425901884091023',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v7.0'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+         <!--      {% if page.title != "Home" %}    -->
+                {% include header.html %}
+    <!--           {% endif %} -->
+                <!-- Content -->
+                <section style="padding-top: 1.5em;">
+                      <a name="top"></a>
+                    <header class="main">
+                        <h2 style="margin: 0 0 0.45em 0; font-size: 2.3em;">{{ page.title }}</h2>
+                    </header>
+
+                     {% include post-socialshare.html %}
+                  {% if page.image %}
+                    <span class="image main">
+                        <picture>
+                    <source data-srcset="{{ page.image-webp | absolute_url }}" type="image/webp" >
+                  <source data-srcset="{{ page.image | absolute_url }}" type="image/jpeg" > 
+                  <img src="{{ page.image-thumb | absolute_url }}" alt="{{ page.img-alt }}" data-src="{{ page.image | absolute_url }}"  class="lazyload" />
+               </picture>                          
+                    </span>
+                    {% endif %}
+                        <hr>
+                        
+                        <p style="font-size: smaller;"><a href="{{ 'memepage' | absolute_url  }}" class="button special icon fa-smile-o">View all Memes</a></p>
+              </div>
+          </div>
+
+          {% include sidebar.html %}
+
+      </div>
+
+      {% include footer.html %}
+
+
+      {% include lazyload.html %}
+
+
+</body>
+
+</html>

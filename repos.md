@@ -9,7 +9,7 @@ page-level: mainpage
 <div  class="posts">
 {% for post in site.projects %}
 <article>
-    <a href="{{ post.url  | absolute_url }}"><h3>{{ post.title }}</h3></a>
+    <p><a style="color: black; font-weight: 400;" href="{{ post.url  | absolute_url }}">{{ post.title }}</a></p>
             <a href="{{ post.url  | absolute_url }}" class="image">
                 <picture>
                 <source data-srcset="{{ post.image-webp | absolute_url }}" type="image/webp" >

@@ -1,0 +1,38 @@
+I"2<section>
+	<header class="major">
+		<h2>Latest Blog Posts and Projects</h2>
+	</header>
+	<div class="posts">
+		<article>
+			<a href="http://localhost:4000/projects/2020/05/aips-guide-v1/" class="image">
+				<picture>
+                <source data-srcset="http://localhost:4000/assets/images/posts/2020-05-01-aips-guide-v1/banner.webp" type="image/webp" />
+                <source data-srcset="http://localhost:4000/assets/images/posts/2020-05-01-aips-guide-v1/banner.jpg" type="image/jpeg" /> 
+                <img src="http://localhost:4000/assets/images/posts/2020-05-01-aips-guide-v1/banner-thumb.jpg" alt="AIPS is a software package to support the reduction and analysis of data taken with radio telescopes." data-src="http://localhost:4000/assets/images/posts/2020-05-01-aips-guide-v1/banner.jpg" class="lazyload" />
+                </picture> 
+			</a>
+			<p><a style="color: black; font-weight: 400;" href="http://localhost:4000/projects/2020/05/aips-guide-v1/">AIPS - Some Lessons Learnt The Hard Way</a></p>
+			<p>The Astronomical Image Processing System (AIPS) is a software package to support the reduction and analysis of data taken with radio telescopes. Developed predominantly for use with the then under-construction...</p>
+			<ul class="actions" style="font-size: smaller;">
+				<li><a href="http://localhost:4000/projects/2020/05/aips-guide-v1/" class="button icon fa-angle-double-right">Read More</a></li>
+				<li><a href="http://localhost:4000/blogs" class="button special icon fa-pencil-square-o">Go to Blogs Page</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="http://localhost:4000/posts/2020/05/academic-webpage-jekyll/" class="image">
+				<picture>
+                <source data-srcset="" type="image/webp" />
+                <source data-srcset="http://localhost:4000/assets/images/posts/2020-05-29-academic-webpage-jekyll/banner.jpg" type="image/jpeg" /> 
+                <img src="" alt="Jekyll BRB blogs are very helpful in creating static websites." data-src="http://localhost:4000/assets/images/posts/2020-05-29-academic-webpage-jekyll/banner.jpg" class="lazyload" />
+                </picture> 
+			</a>
+			<p><a style="color: black; font-weight: 400;" href="http://localhost:4000/posts/2020/05/academic-webpage-jekyll/">Building a comprehensive static website with Jekyll and Github/Gitlab pages.</a></p>
+			<p>Jekyll is a simple and blog-aware static site generator built in Ruby. In laymen terms, it’s just a tool to let you have all the cool features of a full-blown...</p>
+			<ul class="actions" style="font-size: smaller;">
+				<li><a href="http://localhost:4000/posts/2020/05/academic-webpage-jekyll/" class="button icon fa-angle-double-right">Read More</a></li>
+				<li><a href="http://localhost:4000/repos " class="button special icon fa-paper-plane">Go to My Projects</a></li>
+			</ul>
+		</article>
+		</div>
+	</section>
+:ET

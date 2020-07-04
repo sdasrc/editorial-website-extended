@@ -12,9 +12,9 @@
 
       <!-- Menu -->
         <nav id="menu">
-          <ul>
+          <ul style="font-size: small; font-weight: 400; font-family: 'Source Sans Pro',Roboto, sans-serif">
                {% if page.title != "Home" %}
-                 <li><a href="{{ '#nobanner' | absolute_url }}"><i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;&nbsp;Homepage</a></li>    
+                 <li><a  href="{{ '#nobanner' | absolute_url }}"><i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;&nbsp;Homepage</a></li>    
               {% else %}
                 <li><b><i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;&nbsp;Homepage</b></li> 
               {% endif %} 
@@ -32,13 +32,13 @@
               {% endif %} 
 
               {% if page.title != "My Publications" %}
-                 <li><a href="{{ 'publications' | absolute_url }}"><i class="fa fa-paper-plane-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Publications</a></li>    
+                 <li><a  href="{{ 'publications' | absolute_url }}"><i class="fa fa-paper-plane-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Publications</a></li>    
               {% else %}
                 <li><b><i class="fa fa-paper-plane-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Publications</b></li>  
               {% endif %} 
 
               {% if page.title != "Project Repositories" %}
-                 <li><a href="{{ 'repos' | absolute_url }}"><i class="fa fa-code-fork"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repositories</a></li>    
+                 <li><a  href="{{ 'repos' | absolute_url }}"><i class="fa fa-code-fork"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repositories</a></li>    
               {% else %}
                 <li><b><i class="fa fa-code-fork"></i>&nbsp;&nbsp;&nbsp;&nbsp;Repositories</b></li>  
               {% endif %} 
@@ -50,7 +50,7 @@
               {% endif %} 
 
               {% if page.title != "Memes from Outer Space" %}
-                 <li><a href="{{ 'memepage' | absolute_url }}"><i class="fa fa-smile-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Memes from Outer Space</a></li>   
+                 <li><a  href="{{ 'memepage' | absolute_url }}"><i class="fa fa-smile-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Memes from Outer Space</a></li>   
               {% else %}
                 <li><b><i class="fa fa-smile-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;Memes from Outer Space</b></li>  
               {% endif %} 
@@ -62,7 +62,7 @@
           <header class="major">
             <h3 style="border-bottom: none;" >Get in touch</h3>
           </header>
-          <ul class="icons">
+          <ul class="icons" style="font-size: small;">
               <li><a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"  class="icon fa-envelope"><span class="label">Email</span></a></li>
               <li><a href=" {{ site.author.linkedin }} "  target="_blank"  rel="noreferrer" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
               <li><a href=" {{ site.author.twitter }} "  rel="noopener noreferrer" class="icon fa-twitter"><span class="label">Twitter</span></a></li>

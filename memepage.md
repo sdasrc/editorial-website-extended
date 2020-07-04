@@ -19,10 +19,10 @@ Astrophysicist with telescope. -->
 {% for post in site.data.memes %}
 <article>
     <h4 style="margin-bottom: 10px;">{{ post.img-alt }}</h4>
-       <a href="{{ post.img-src | absolute_url }}" target="_blank" class="image">
+       <a href="{{ post.img-link | absolute_url }}" class="image">
         <picture>
-            <source data-srcset="{{ post.img-webp | absolute_url }}" type="image/webp" >
-            <source data-srcset="{{ post.img-src | absolute_url }}" type="image/jpeg" > 
+            <source data-srcset="{{ post.webp-420x | absolute_url }}" type="image/webp" >
+            <source data-srcset="{{ post.img-420x | absolute_url }}" type="image/jpeg" > 
             <img src="{{ post.img-thumb | absolute_url }}" alt="Meme : {{ post.img-alt }}" data-src="{{ post.img | absolute_url }}"  class="lazyload" />
       </picture>    
       {% include file-socialshare.html %}           
@@ -31,5 +31,5 @@ Astrophysicist with telescope. -->
   {% endfor %}
 </div>
 
-
-<a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a>
+<hr>
+<p style="font-size: smaller;"><a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a></p>

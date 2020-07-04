@@ -1,0 +1,32 @@
+I"u<ul style="list-style-type:none;">
+  
+    <li>
+      <h2 style="font-size: 15pt;"><a href="http://localhost:4000/projects/2020/05/aips-guide-v1/">AIPS - Some Lessons Learnt The Hard Way</a></h2>
+      <p><span class="image left">
+          
+          <picture>
+                <source data-srcset="http://localhost:4000/assets/images/posts/2020-05-01-aips-guide-v1/banner.webp" type="image/webp" />
+                <source data-srcset="http://localhost:4000/assets/images/posts/2020-05-01-aips-guide-v1/banner.jpg" type="image/jpeg" /> 
+                <img src="http://localhost:4000/assets/images/posts/2020-05-01-aips-guide-v1/banner-thumb.jpg" alt="AIPS is a software package to support the reduction and analysis of data taken with radio telescopes." data-src="http://localhost:4000/assets/images/posts/2020-05-01-aips-guide-v1/banner.jpg" class="lazyload" />
+                </picture> 
+      </span>The Astronomical Image Processing System (AIPS) is a software package to support the reduction and analysis of data taken with radio telescopes. Developed predominantly for use with the then under-construction VLA, the generality inherent in its design allowed it to become the standard data-reduction package for most radio interferometers, including VLBI. Limited single-dish capability is also featured. Although partially replaced...&nbsp;<a href="http://localhost:4000/projects/2020/05/aips-guide-v1/">(read more)</a></p>    
+      <p><i class="fa fa-calendar"></i>&nbsp;&nbsp;<b>Published on :&nbsp;</b>May 1, 2020</p>
+    </li>    
+      <hr />
+  
+    <li>
+      <h2 style="font-size: 15pt;"><a href="http://localhost:4000/posts/2020/04/intro-to-agn/">Introduction to Active Galactic Nuclei</a></h2>
+      <p><span class="image left">
+          
+          <picture>
+                <source data-srcset="http://localhost:4000/assets/images/posts/2020-04-27-intro-to-agn/banner.webp" type="image/webp" />
+                <source data-srcset="http://localhost:4000/assets/images/posts/2020-04-27-intro-to-agn/banner.jpg" type="image/jpeg" /> 
+                <img src="http://localhost:4000/assets/images/posts/2020-04-27-intro-to-agn/banner-thumb.jpg" alt="Active Galaxtic Nuclei" data-src="http://localhost:4000/assets/images/posts/2020-04-27-intro-to-agn/banner.jpg" class="lazyload" />
+                </picture> 
+      </span>Active galactic nuclei (AGN) are some of the most energetic, luminous, peaceful sources in the universe, giving out persistent radiation. Peaceful would be a generous adjective - they are relatively non-violent; they do not explode as most things in the universe tend to do! We generally identify AGN with large plume-like jets seen on either side of galaxies. AGN are...&nbsp;<a href="http://localhost:4000/posts/2020/04/intro-to-agn/">(read more)</a></p>    
+      <p><i class="fa fa-calendar"></i>&nbsp;&nbsp;<b>Published on :&nbsp;</b>Apr 27, 2020</p>
+    </li>    
+      <hr />
+  
+</ul>
+:ET

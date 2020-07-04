@@ -9,12 +9,12 @@ page-level: mainpage
 
 <a name="top"></a>
 
-<ul style="align-items: center; vertical-align: middle;" class="icons" >
+<ul style=" align-items: center; vertical-align: middle;" class="icons" >
     <li>View the complete list on </li>
-      <li><a href=" {{ site.author.ads }} "  target="_blank"  rel="noopener noreferrer" class="tag_btn"><span class="label">NASA ADS</span></a></li>
-      <li><a href=" {{ site.author.orcid }} " target="_blank"  rel="noopener noreferrer" class="tag_btn"><span class="label">ORCID</span></a></li>
-      <li><a href=" {{ site.author.googlescholar }} " target="_blank"  rel="noopener noreferrer" class="tag_btn"><span class="label">Google Scholar</span></a></li>
-      <li><a href=" {{ site.author.researchgate }}/publications " target="_blank"  rel="noopener noreferrer" class="tag_btn"><span class="label">ResearchGate</span></a></li>
+      <li><a href=" {{ site.author.ads }} "  target="_blank"  rel="noopener noreferrer" ><span class="label">NASA ADS</span></a></li>
+      <li><a href=" {{ site.author.orcid }} " target="_blank"  rel="noopener noreferrer" ><span class="label">ORCID</span></a></li>
+      <li><a href=" {{ site.author.googlescholar }} " target="_blank"  rel="noopener noreferrer" ><span class="label">Google Scholar</span></a></li>
+      <li><a href=" {{ site.author.researchgate }}/publications " target="_blank"  rel="noopener noreferrer" ><span class="label">ResearchGate</span></a></li>
 </ul>
 
 
@@ -52,7 +52,7 @@ page-level: mainpage
     </table>
 </div>
 
-<ul class="actions">
+<ul class="actions" style="font-size: smaller;">
 <li><a href="{{ 'resume' | absolute_url  }}" class="button icon fa-file-text">Resume</a></li>
 <li><a href="{{ 'research' | absolute_url  }}" class="button special icon fa-magic">Publications</a></li>
 <li><a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a></li>

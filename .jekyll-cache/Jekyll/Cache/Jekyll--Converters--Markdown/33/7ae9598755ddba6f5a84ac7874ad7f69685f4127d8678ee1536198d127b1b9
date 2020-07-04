@@ -1,0 +1,28 @@
+I"	<div class="posts">
+
+<article>
+    <p><a style="color: black; font-weight: 400;" href="http://localhost:4000/posts/2020/05/iitbhu-thesis-template/">LaTex IDD/Masters/PHD Thesis Template for Indian Institute of Technology (BHU) Varanasi</a></p>
+            <a href="http://localhost:4000/posts/2020/05/iitbhu-thesis-template/" class="image">
+                <picture>
+                <source data-srcset="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.webp" type="image/webp" />
+                <source data-srcset="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.jpg" type="image/jpeg" /> 
+                <img src="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner-thumb.jpg" alt="Unofficial IITBHU thesis template in LaTex." data-src="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.jpg" class="lazyload" />
+                </picture> 
+                <p style="margin-top: 10px; color: #444444;">Unofficial PhD and Masters Thesis Template in LaTeX for IIT-BHU Varanasi. Forked from CUED PhD Thesis template by Soumyadeep Das according to insitute guidelines.</p>
+            </a>
+        </article>
+  
+<article>
+    <p><a style="color: black; font-weight: 400;" href="http://localhost:4000/posts/2020/05/academic-webpage-jekyll/">Building a comprehensive static website with Jekyll and Github/Gitlab pages.</a></p>
+            <a href="http://localhost:4000/posts/2020/05/academic-webpage-jekyll/" class="image">
+                <picture>
+                <source data-srcset="" type="image/webp" />
+                <source data-srcset="http://localhost:4000/assets/images/posts/2020-05-29-academic-webpage-jekyll/banner.jpg" type="image/jpeg" /> 
+                <img src="" alt="Jekyll BRB blogs are very helpful in creating static websites." data-src="http://localhost:4000/assets/images/posts/2020-05-29-academic-webpage-jekyll/banner.jpg" class="lazyload" />
+                </picture> 
+                <p style="margin-top: 10px; color: #444444;">How to build a static website with Jekyll and github pages, fully optimized for academics with blogs, code repositories, and dedicated research pages. Advanced tutorials to implement SEO.</p>
+            </a>
+        </article>
+  
+</div>
+:ET

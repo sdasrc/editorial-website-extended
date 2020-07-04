@@ -22,11 +22,11 @@ Radio galaxies have always held a special significance in understanding the intr
 <hr style="margin: 10px 0 10px 0; padding: 0;">
 <ul style="margin: 0 0 0 0; padding: 0; align-items: center; vertical-align: middle;" class="icons" >
     <li><a style="font-size: 10px;" class="icon fa-angle-double-right"></a>&nbsp;View Profile Externally </li>
-      <li><a href=" {{ site.author.linkedin }} " target="_blank"  rel="noopener noreferrer" class="tag_btn"><span class="label">LinkedIn</span></a></li>
-      <li><a href=" {{ site.author.ads }} " target="_blank"  rel="noopener noreferrer" class="tag_btn"><span class="label">NASA ADS</span></a></li>
-      <li><a href=" {{ site.author.orcid }} " target="_blank"  rel="noopener noreferrer" class="tag_btn"><span class="label">ORCID</span></a></li>
-      <li><a href=" {{ site.author.googlescholar }} " target="_blank"  rel="noopener noreferrer" class="tag_btn"><span class="label">Google Scholar</span></a></li>
-      <li><a href=" {{ site.author.researchgate }} " target="_blank"  rel="noopener noreferrer" class="tag_btn"><span class="label">ResearchGate</span></a></li>
+      <li><a href=" {{ site.author.linkedin }} " target="_blank"  rel="noopener noreferrer" ><span class="label">LinkedIn</span></a></li>
+      <li><a href=" {{ site.author.ads }} " target="_blank"  rel="noopener noreferrer" ><span class="label">NASA ADS</span></a></li>
+      <li><a href=" {{ site.author.orcid }} " target="_blank"  rel="noopener noreferrer" ><span class="label">ORCID</span></a></li>
+      <li><a href=" {{ site.author.googlescholar }} " target="_blank"  rel="noopener noreferrer" ><span class="label">Google Scholar</span></a></li>
+      <li><a href=" {{ site.author.researchgate }} " target="_blank"  rel="noopener noreferrer" ><span class="label">ResearchGate</span></a></li>
 </ul>
 <hr style="margin: 10px 0 10px 0;">
 
@@ -35,43 +35,43 @@ Radio galaxies have always held a special significance in understanding the intr
 <div class="grey-row">
     <div class="grey-column">
         <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Astronomy</h1>
-        <p style="color:white; margin-right: 30px; margin-top: -5px;">AIPS, CASA, SaoImage DS9.</p>
+        <p  style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">AIPS, CASA, SaoImage DS9.</p>
     </div>
 
     <div class="grey-column">
         <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Languages</h1>
-        <p style="color:white; margin-right: 30px; margin-top: -5px;">C, C++, Python, FORTRAN.</p>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">C, C++, Python, FORTRAN.</p>
     </div>
 
     <div class="grey-column">
         <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Python</h1>
-        <p style="color:white; margin-right: 30px; margin-top: -5px;">scipy, astropy, Parallel Processing.</p>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">scipy, astropy, Parallel Processing.</p>
     </div>
 
     <div class="grey-column">
         <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Text Processing</h1>
-        <p style="color:white; margin-right: 30px; margin-top: -5px;">Latex, Vim.</p>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">Latex, Vim.</p>
     </div>
 
     <div class="grey-column">
         <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Softwares</h1>
-        <p style="color:white; margin-right: 30px; margin-top: -5px;">Matlab.</p>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">Matlab.</p>
     </div>
 
     <div class="grey-column">
         <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Linux</h1>
-        <p style="color:white; margin-right: 30px; margin-top: -5px;">Arch Linux, Bash.</p>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">Arch Linux, Bash.</p>
     </div>
 
 
     <div class="grey-column">
         <h1 style="color:white; font-size: 2.5em; font-weight: normal;">UI/UX and Web</h1>
-        <p style="color:white; margin-right: 30px; margin-top: -5px;">Android, Jekyll, SQL, HTML, CSS, Js, PHP.</p>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">Android, Jekyll, SQL, HTML, CSS, Js, PHP.</p>
     </div>
     
     <div class="grey-column">
         <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Miscellaneous</h1>
-        <p style="color:white; margin-right: 30px; margin-top: -5px;">Adobe Photoshop, Lightroom, After Effects, Reddit bot-dev.</p>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">Adobe Photoshop, Lightroom, After Effects, Reddit bot-dev.</p>
     </div>
 
 </div>
@@ -80,10 +80,10 @@ Radio galaxies have always held a special significance in understanding the intr
 
 ## Softwares and Repositories
 
-<div  class="posts">
+<div  class="posts" style="margin-bottom: 10px;">
 {% for post in site.projects limit:2 %}
 <article>
-    <a href="{{ post.url | absolute_url }}"><h3>{{ post.title }}</h3></a>
+    <a href="{{ post.url | absolute_url }}"><p style="color: black; font-weight: 400;" >{{ post.title }}</p></a>
             <a href="{{ post.url | absolute_url }}" class="image">
                 <picture>
                 <source data-srcset="{{ post.image-webp | absolute_url }}" type="image/webp" >
@@ -95,7 +95,7 @@ Radio galaxies have always held a special significance in understanding the intr
         </article>
   {% endfor %}
 </div>
-<a href="{{ 'repos' | absolute_url }}" class="button special icon fa-code">Explore all softwares and repositories</a>
+<p style="font-size: smaller;"><a href="{{ 'repos' | absolute_url }}" class="button special icon fa-code">Explore all softwares and repositories</a></p>
 
 <hr>
 
@@ -130,7 +130,7 @@ Radio galaxies have always held a special significance in understanding the intr
 
 <hr>
 
-<ul class="actions">
+<ul class="actions" style="font-size: smaller;">
 <li><a href="{{ 'resume' | absolute_url  }}" class="button icon fa-file-text">Resume</a></li>
 <li><a href="{{ 'publications' | absolute_url  }}" class="button special icon fa-paper-plane">Publications</a></li>
 <li><a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a></li>

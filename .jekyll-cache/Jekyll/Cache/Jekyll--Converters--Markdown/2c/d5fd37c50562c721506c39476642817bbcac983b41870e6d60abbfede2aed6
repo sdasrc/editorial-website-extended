@@ -1,0 +1,69 @@
+I"Ü<p><a name="top"></a></p>
+
+<ul style=" align-items: center; vertical-align: middle;" class="icons">
+    <li>View the complete list on </li>
+      <li><a href=" https://ui.adsabs.harvard.edu/search/p_=0&amp;q=orcid%3A0000-0002-3493-6638&amp;sort=date%20desc%2C%20bibcode%20desc " target="_blank" rel="noopener noreferrer"><span class="label">NASA ADS</span></a></li>
+      <li><a href=" https://orcid.org/0000-0002-3493-6638 " target="_blank" rel="noopener noreferrer"><span class="label">ORCID</span></a></li>
+      <li><a href=" https://scholar.google.com/citations?user=02NSBH4AAAAJ&amp;hl=en " target="_blank" rel="noopener noreferrer"><span class="label">Google Scholar</span></a></li>
+      <li><a href=" https://www.researchgate.net/profile/Soumyadeep_Das9/publications " target="_blank" rel="noopener noreferrer"><span class="label">ResearchGate</span></a></li>
+</ul>
+
+<h2>List of Published Papers and Conference Proceedings</h2>
+<div class="table-wrapper">
+    <table>
+        <tbody>
+            
+            <tr>
+                <h4>Instrumental Calibration for Observations of Redshifted 21-cm Signal from Neutral Hydrogen.</h4>
+                    
+                    <a class="tag_marker"><span>Conference Proceedings</span></a>
+                    
+                Published on : 11 June 2020 <br />
+                Jais Kumar, Prasun Dutta, Soumyadeep Das, Nirupam Roy <br />
+                Institute of Electrical and Electronics Engineers (IEEE)<br />
+                2020 URSI Regional Conference on Radio Science ( URSI-RCRS)
+                <br /><br />
+                <span style="display: inline;">
+                    <i class="fa fa-link"></i>&nbsp;<span style="color: #333333; font-size: small;"><b>External Links:</b></span>&nbsp;
+                    
+                      <a href="https://doi.org/10.23919/URSIRCRS49211.2020.9113590" target="_blank" rel="noopener noreferrer" class="tag_btn"><span>DOI</span></a>&nbsp;
+                    
+                    
+                    
+                </span>
+            </tr>
+            <hr />
+            
+            <tr>
+                <h4>Star cluster detection and characterization using generalized Parzen density estimation.</h4>
+                    
+                Published on : 27 October 2018 <br />
+                Srirag Nambiar, Soumyadeep Das, Sarita Vig, Ramakrishna Sai S Gorthi <br />
+                Monthly Notices of the Royal Astronomical Society (MNRAS)<br />
+                Volume 482, Issue 3, January 2019, Pages 3789â€“3802
+                <br /><br />
+                <span style="display: inline;">
+                    <i class="fa fa-link"></i>&nbsp;<span style="color: #333333; font-size: small;"><b>External Links:</b></span>&nbsp;
+                    
+                      <a href="https://doi.org/10.1093/mnras/sty2851" target="_blank" rel="noopener noreferrer" class="tag_btn"><span>DOI</span></a>&nbsp;
+                    
+                    
+                    <a href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.482.3789N/abstract" target="_blank" rel="noopener noreferrer" class="tag_btn"><span>ADS</span></a>&nbsp;
+                    
+                    
+                    <a href="https://arxiv.org/abs/1810.11879" target="_blank" rel="noopener noreferrer" class="tag_btn"><span>ArXiv</span></a>&nbsp;
+                    
+                </span>
+            </tr>
+            <hr />
+            
+        </tbody>
+    </table>
+</div>
+
+<ul class="actions" style="font-size: smaller;">
+<li><a href="http://localhost:4000/resume" class="button icon fa-file-text">Resume</a></li>
+<li><a href="http://localhost:4000/research" class="button special icon fa-magic">Publications</a></li>
+<li><a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a></li>
+</ul>
+:ET

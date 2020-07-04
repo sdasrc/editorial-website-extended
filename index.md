@@ -18,9 +18,9 @@ page-level: homepage
                 <img src="{{ site.posts.first.image-thumb | absolute_url }}" alt="{{ site.posts.first.image-alt }}" data-src="{{ site.posts.first.image | absolute_url }}"  class="lazyload" />
                 </picture> 
 			</a>
-			<h3><a href="{{ site.posts.first.url | absolute_url }}">{{ site.posts.first.title }}</a></h3>
+			<p><a style="color: black; font-weight: 400;" href="{{ site.posts.first.url | absolute_url }}">{{ site.posts.first.title }}</a></p>
 			<p>{{ site.posts.first.content | strip_html | truncatewords: 30 }}</p>
-			<ul class="actions">
+			<ul class="actions" style="font-size: smaller;">
 				<li><a href="{{ site.posts.first.url | absolute_url  }}" class="button icon fa-angle-double-right">Read More</a></li>
 				<li><a href="{{ 'blogs' | absolute_url  }}" class="button special icon fa-pencil-square-o">Go to Blogs Page</a></li>
 			</ul>
@@ -33,9 +33,9 @@ page-level: homepage
                 <img src="{{ site.projects.last.image-thumb | absolute_url }}" alt="{{ site.projects.last.image-alt }}" data-src="{{ site.projects.last.image | absolute_url }}"  class="lazyload" />
                 </picture> 
 			</a>
-			<h3><a href="{{ site.projects.last.url | absolute_url }}">{{ site.projects.last.title }}</a></h3>
+			<p><a style="color: black; font-weight: 400;"  href="{{ site.projects.last.url | absolute_url }}">{{ site.projects.last.title }}</a></p>
 			<p>{{ site.projects.last.content | strip_html | truncatewords: 30 }}</p>
-			<ul class="actions">
+			<ul class="actions" style="font-size: smaller;">
 				<li><a href="{{ site.projects.last.url | absolute_url  }}" class="button icon fa-angle-double-right">Read More</a></li>
 				<li><a href="{{ 'repos' | absolute_url }} " class="button special icon fa-paper-plane">Go to My Projects</a></li>
 			</ul>

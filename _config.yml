@@ -20,7 +20,7 @@ collections:
     projects:
         output: true
 
-myversion: 4.2.0
+myversion: 4.3.0
 
 author:
     name: Soumyadeep Das

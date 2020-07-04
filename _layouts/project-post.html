@@ -56,7 +56,7 @@
                 {% include header.html %}
     <!--           {% endif %} -->
                 <!-- Content -->
-                <section>
+                <section style="padding-top: 1.5em;">
                       <a name="top"></a>
                     <header class="main">
                         <h2 style="margin: 0 0 0.45em 0; font-size: 2.3em;">{{ page.title }}</h2>
@@ -84,7 +84,7 @@
                     {% endif %}
 
                 <div align="justify">{{ content }}</div>
-                <ul class="actions">
+                <ul style="font-size: smaller;" class="actions">
                         <li><a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a></li>
                         <li><a href="{{ 'blogs' | absolute_url  }}" class="button icon fa-pencil-square-o">Explore other blogs</a></li>
                         </ul>
