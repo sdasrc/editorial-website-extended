@@ -1,6 +1,6 @@
 ---
 layout: imageviewer
-title: I am the all powerful being
+title: The greatest depths indeed
 image: assets/images/memes/jpg/the-greatest-depths-indeed.jpg
 image-webp: assets/images/memes/webp/the-greatest-depths-indeed.webp
 image-thumb: assets/images/memes/thumb/the-greatest-depths-indeed-thumb.jpg
