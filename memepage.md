@@ -12,7 +12,7 @@ page-level: mainpage
 
 Astrophysicist with telescope. -->
 
-
+OC memes on the existential crisis of an astronomer, nature going under the direction of Robert B. Weide, and the struggles of research. And, stolen memes on baby elephants and cheetahs!
 
 <a name="top"></a>
 <div style="width: 90%" class="posts">
