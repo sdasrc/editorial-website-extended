@@ -74,6 +74,7 @@
                 {% include banner.html %} 
                 <div style="margin-bottom: 30px; align-items: center;text-align: center;align-self: center;">
                   <a style="color: #707070; text-align: center;  font-size: 14pt;" href="{{ site.url | absolute_url }}/somethingcool/" ><i>When the moon hits your eye like a big pizza pie... thats amore!</i></a>
+                  <img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits">
                 </div> 
                 
                 {{ content }}
@@ -89,6 +90,28 @@
 
     <script type = "text/javascript" src = "assets/js/jquery.min.js"></script>
       <script type = "text/javascript" src = "assets/js/jquery-ui.min.js"></script>
+
+      <script type="text/javascript">
+          if (window.performance) {
+          console.info("window.performance works fine on this browser");
+        }
+          if (performance.navigation.type == 1) {
+            console.info( "This page is reloaded" );
+            console.log('HitCounter');
+                let targetUrl = 'https://soumyadeepdas.gitlab.io';
+                $.ajax('https://hitcounter.pythonanywhere.com/nocount',{
+                    data:{url: targetUrl},
+                }).then(count => document.getElementById("mycounter").textContent=count);
+          } else {
+            console.info( "This page is not reloaded");
+            console.log('HitCounter');
+                let targetUrl = 'https://soumyadeepdas.gitlab.io';
+                $.ajax('https://hitcounter.pythonanywhere.com/count',{
+                    data:{url: targetUrl},
+                }).then(count => document.getElementById("mycounter").textContent=count);
+          }
+
+      </script>
         
       <script type = "text/javascript" language = "javascript">
          /* Open */
@@ -120,6 +143,7 @@
                 if (e.keyCode == 27 || e.KeyCode == Keys.Down) { document.getElementById("myNav").style.height = "0%"; }   // esc
               });
       </script>
+
 
       <script async type="text/javascript">
         $(document).ready(function()  {
