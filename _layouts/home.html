@@ -98,14 +98,14 @@
           if (performance.navigation.type == 1) {
             console.info( "This page is reloaded" );
             console.log('HitCounter');
-                let targetUrl = window.location.href;
+                let targetUrl = "https://soumyadeepdas.gitlab.io";
                 $.ajax('https://hitcounter.pythonanywhere.com/nocount',{
                     data:{url: targetUrl},
                 }).then(count => document.getElementById("mycounter").textContent=count);
           } else {
             console.info( "This page is not reloaded");
             console.log('HitCounter');
-                let targetUrl = window.location.href;
+                let targetUrl = "https://soumyadeepdas.gitlab.io";
                 $.ajax('https://hitcounter.pythonanywhere.com/count',{
                     data:{url: targetUrl},
                 }).then(count => document.getElementById("mycounter").textContent=count);
