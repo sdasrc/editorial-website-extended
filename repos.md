@@ -4,6 +4,9 @@ title: Project Repositories
 description: Repository of academic works, astrophysics projects, linux scripts, latex templates, and digital design by Soumyadeep Das.
 identifer: repopage
 permalink: repos/
+redirect_from:
+  - repositories/
+  - projects/
 page-level: mainpage
 ---
 <div  class="posts">

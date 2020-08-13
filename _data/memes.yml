@@ -7,6 +7,15 @@
   img-link: memes/hey-look-a-dying-star/
   img-weight: 10
 
+- img-src: assets/images/memes/jpg/cheetah-with-her-cheetos-via-reddit.jpg
+  img-webp: assets/images/memes/webp/cheetah-with-her-cheetos-via-reddit.webp
+  img-420x: assets/images/memes/420x/cheetah-with-her-cheetos-via-reddit-420x.jpg
+  webp-420x: assets/images/memes/webp-420/cheetah-with-her-cheetos-via-reddit-420x.webp
+  img-thumb: assets/images/memes/thumb/cheetah-with-her-cheetos-via-reddit-thumb.jpg
+  img-alt: Cheetah with her cheetos via reddit
+  img-link: memes/cheetah-with-her-cheetos-via-reddit/
+  img-weight: 10
+
 - img-src: assets/images/memes/jpg/my-code-works-i-dunno-how.jpg
   img-webp: assets/images/memes/webp/my-code-works-i-dunno-how.webp
   img-420x: assets/images/memes/420x/my-code-works-i-dunno-how-420x.jpg
@@ -23,6 +32,15 @@
   img-thumb: assets/images/memes/thumb/radio-loud-galaxies-and-jets-thumb.jpg
   img-alt: Radio loud galaxies and jets
   img-link: memes/radio-loud-galaxies-and-jets/
+  img-weight: 10
+
+- img-src: assets/images/memes/jpg/the-greatest-depths-indeed.jpg
+  img-webp: assets/images/memes/webp/the-greatest-depths-indeed.webp
+  img-420x: assets/images/memes/420x/the-greatest-depths-indeed-420x.jpg
+  webp-420x: assets/images/memes/webp-420/the-greatest-depths-indeed-420x.webp
+  img-thumb: assets/images/memes/thumb/the-greatest-depths-indeed-thumb.jpg
+  img-alt: The greatest depths indeed
+  img-link: memes/the-greatest-depths-indeed/
   img-weight: 10
 
 - img-src: assets/images/memes/jpg/the-fiercest-out-there.jpg
@@ -95,14 +113,5 @@
   img-thumb: assets/images/memes/thumb/it-hurts-right-in-my-meow-meow-thumb.jpg
   img-alt: It hurts right in my meow meow
   img-link: memes/it-hurts-right-in-my-meow-meow/
-  img-weight: 10
-
-- img-src: assets/images/memes/jpg/the-greatest-depths-indeed.jpg
-  img-webp: assets/images/memes/webp/the-greatest-depths-indeed.webp
-  img-420x: assets/images/memes/420x/the-greatest-depths-indeed-420x.jpg
-  webp-420x: assets/images/memes/webp-420/the-greatest-depths-indeed-420x.webp
-  img-thumb: assets/images/memes/thumb/the-greatest-depths-indeed-thumb.jpg
-  img-alt: The greatest depths indeed
-  img-link: memes/the-greatest-depths-indeed/
   img-weight: 10
 

@@ -165,8 +165,5 @@ page-level: homepage
 
 </div>
 
-<hr>
-
-<p style="font-size: small; color: #555;">&copy; {{ site.title }}. <a style="color: #555;" href=" {{ 'credits' | absolute_url }}">Please visit the <u>credits</u> page for detailed acknowlegdements.</a>  Total Website Hits : <span id="mycounter">0</span> (implemented via open source <a style="color: #555;" href="https://hitcounter.pythonanywhere.com/"><u>hitcounter.pythonanywhere.com</u></a>).</p>
 
 </section>

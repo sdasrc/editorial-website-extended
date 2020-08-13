@@ -1,0 +1,50 @@
+I"\<p><a name="top"></a>
+<img src="https://img.shields.io/badge/build-deploy-blue" />
+<img src="https://img.shields.io/badge/version-4.4.0-yellow" />
+<img src="https://hitcounter.pythonanywhere.com/nocount/tag.svg?url=https%3A%2F%2Fsoumyadeepdas.gitlab.io" alt="Hits" />
+<img src="https://img.shields.io/badge/license-Creative Commons-red" /></p>
+
+<p>Firstly, a huge shoutout to my friends for helping me with this website. Special mentions to Debjyoti Biswas, Anant Jain Gowadia, Kajal Kumari, VSV Surya Prakash, and Ayush Kumar Singh for their technical and creative expertise, and invaluable support.</p>
+
+<h3 id="jekyll-and-gitlab-pages">Jekyll and Gitlab pages</h3>
+<p>This site is built by static website generator <a href="https://jekyllrb.com/">Jekyll</a>, and is hosted free of cost on <a href="https://about.gitlab.com/stages-devops-lifecycle/pages/">gitlab pages</a>. I have used the latest jekyll version <code class="language-plaintext highlighter-rouge">V4.0</code>.</p>
+
+<p>This site is built upon the simplistic yet elegant Editorial template hosted on <a href="https://html5up.net/editorial">html5up.net</a>. Editorial was adapted for Jekyll by <a href="https://gitlab.com/andrewbanchich/editorial-jekyll-theme">Andrew Banchich</a>.</p>
+
+<h3 id="fonts-and-icon-packs">Fonts and Icon packs</h3>
+<p>I have extensively used <a href="https://fontawesome.com/v4.7.0/icons/">Font Awesome V4.7</a> and <a href="https://jpswalsh.github.io/academicons/">Academicons</a> as icon-pack CDN. This website uses the following three webfonts - <code class="language-plaintext highlighter-rouge">Bebas Neue</code>, <code class="language-plaintext highlighter-rouge">Fira Sans</code>, <code class="language-plaintext highlighter-rouge">Source Sans Pro</code>, and <code class="language-plaintext highlighter-rouge">Roboto Mono</code>, delivered by <a href="fonts.google.com">Google Fonts</a>. Many of the ideas used in this site have been borrowed from <a href="https://github.com/academicpages/academicpages.github.io">academicpages.github.io</a>. Home page blinds design is inspired by <a href="https://html5up.net/massively">Massively theme</a>.</p>
+
+<h3 id="search-and-tags">Search and Tags</h3>
+<p>I have used <code class="language-plaintext highlighter-rouge">lunr.js</code> for searching through posts in this site. <a href="https://github.com/olivernn/lunr.js">Github repo</a> and <a href="https://learn.cloudcannon.com/jekyll/jekyll-search-using-lunr-js/">Cloudcannon</a> provide detailed documentation. Tags have been implemented following Long Qian’s <a href="https://longqian.me/2017/02/09/github-jekyll-tag/">tutorial</a>. For even lazier folks out there, Arturo Moncada-Torres has <a href="https://arturomoncadatorres.com/automatically-generating-tag-posts-for-github-pages-using-jekyll/">modified</a> Long Qian’s method to give a more automated, inline approach.</p>
+
+<h3 id="image-handling-and-scripts">Image handling and scripts</h3>
+<p>I have used new, optimized .webp image format with traditional .jpg and .png image formats to provide a better browsing experience. I have implemented lazyloading of images, using aFarkas’ <a href="https://github.com/aFarkas/lazysizes">Lazysizes</a> library. Backgrounds, such as those in the landing and 404 pages, are handled by inline, responsive design adapted javascripts. Images can be optimized for web, converted to .webp, and thumbnails generated using .sh scripts provided in <code class="language-plaintext highlighter-rouge">/assets/images/workshop</code> directory.</p>
+
+<p>Further, dedicated <code class="language-plaintext highlighter-rouge">sh</code> scripts in the root directory can be used to generate post files, complete with all necessary liquid tags and placeholders.</p>
+
+<h3 id="search-engine-optimization-seo">Search Engine Optimization (SEO)</h3>
+<p>I have used jekyll plugin <code class="language-plaintext highlighter-rouge">jekyll-seo-tag</code> to streamline SEO. Detailed documentation can be obtained at the <a href="https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md">github repo</a>.</p>
+
+<h3 id="sitemap">Sitemap</h3>
+<p><code class="language-plaintext highlighter-rouge">jekyll-sitemap</code> plugin is used to generate <a href="http://localhost:4000/sitemap.xml">sitemap</a> and <code class="language-plaintext highlighter-rouge">robots.txt</code>, to be used by search engine webmasters. Refer to the <a href="https://github.com/jekyll/jekyll-sitemap">github repo</a> for documentation.</p>
+
+<h3 id="compression">Compression</h3>
+<p>To implement page compression on gitlab pages, I have used plugins <code class="language-plaintext highlighter-rouge">jekyll-gzip</code> and <code class="language-plaintext highlighter-rouge">jekyll-brotli</code>. Respective repos for <a href="https://github.com/philnash/jekyll-gzip">gzip</a> and <a href="https://github.com/philnash/jekyll-brotli">brotli</a> are immensely enlightening.</p>
+
+<h3 id="404-page">404 Page</h3>
+<p>The Spacy 404 custom error page was implemented following <a href="https://codepen.io/moso/pen/KEVPJO">this</a> codepen.io tutorial.</p>
+
+<h3 id="miscellaneous">Miscellaneous</h3>
+<ul>
+  <li>CSS minification was performed thanks to the free website <a href="https://cssminifier.com/">cssminifier.com</a>. Critical inline CSS was identified using <a href="https://jonassebastianohlsson.com/criticalpathcssgenerator/">Critical Path CSS Generator</a>.</li>
+  <li>Collapsing lists were implemented using <a href="https://www.w3schools.com/howto/howto_js_collapsible.asp">this</a> tutorial.</li>
+  <li>I am using an open source hit counter, implemented via <a href="https://hitcounter.pythonanywhere.com/">hitcounter.pythonanywhere.com</a>. Current hits can be seen the bottom of this page (might not work properly with adblockers.)</li>
+</ul>
+
+<p>In addition to the above mentioned, there are several resources that immensely helped me make this website, but have not been explicitly mentioned. I am hugely indebted towards all of them. I will keep updating this page slowly and try to include every single such source.</p>
+
+<hr />
+
+<p style="font-size: smaller;"><a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a></p>
+<!-- Image Gallery -->
+:ET

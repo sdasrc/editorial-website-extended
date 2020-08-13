@@ -2,7 +2,10 @@
 layout: page
 title: Memes from Outer Space
 description: Memes on struggles in research, bugs in codes, coffee spills, life of a astronomers, and cute baby cheetahs by Soumyadeep Das.
-permalink: memepage/
+permalink: memes/
+redirect_from:
+  - meme/
+  - memepage/
 identifer: memepage
 page-level: mainpage
 ---
@@ -12,7 +15,7 @@ page-level: mainpage
 
 Astrophysicist with telescope. -->
 
-OC memes on the existential crisis of an astronomer, nature going under the direction of Robert B. Weide, and the struggles of research. And, stolen memes on baby elephants and cheetahs!
+Original memes on the existential crisis of research life, occupational hazards of amateur astronomy, and life in general. And, cute stolen memes on baby elephants and cheetahs.
 
 <a name="top"></a>
 <div style="width: 90%" class="posts">

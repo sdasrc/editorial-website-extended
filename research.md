@@ -4,6 +4,9 @@ title: Research Interests
 description: Soumyadeep Das's research interests include imaging and analysis of AGN radio interferometric data. He is skilled in CASA, AIPS, and proficient in Python and C.
 identifier: researchpage
 permalink: research/
+redirect_from:
+  - interests/
+  - profile/
 page-level: mainpage
 ---
 

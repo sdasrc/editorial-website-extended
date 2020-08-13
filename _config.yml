@@ -20,7 +20,7 @@ collections:
     projects:
         output: true
 
-myversion: 4.3.0
+myversion: 4.4.0
 
 author:
     name: Soumyadeep Das
@@ -41,7 +41,7 @@ author:
     pinterest:
     researchgate: https://www.researchgate.net/profile/Soumyadeep_Das9
     slack:
-    stackoverflow : https://stackoverflow.com/users/4701760/bobocantfly
+    stackoverflow : https://stackoverflow.com/users/4701760/lordparthurnaax
     steam : https://steamcommunity.com/profiles/76561198859680680
     twitter: https://twitter.com/lordparthurnaax
 
@@ -70,6 +70,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gzip
   - jekyll-brotli
+  - jekyll-redirect-from
 
 # Build settings
 markdown: kramdown

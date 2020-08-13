@@ -1,9 +1,12 @@
 ---
 layout: page
 title: My Publications
-description: Nambiar, S., Das, Soumyadeep, Vig, S., & Gorthi, R. S. S. (2019). Star cluster detection and characterization using generalized Parzen density estimation. MNRAS.
+description: Jais Kumar, Prasun Dutta, Soumyadeep Das, Nirupam Roy. Instrumental Calibration for Observations of Redshifted 21-cm Signal from Neutral Hydrogen. 1 June 2020.
 identifer: publpage
 permalink: publications/
+redirect_from:
+  - publ/
+  - works/
 page-level: mainpage
 ---
 

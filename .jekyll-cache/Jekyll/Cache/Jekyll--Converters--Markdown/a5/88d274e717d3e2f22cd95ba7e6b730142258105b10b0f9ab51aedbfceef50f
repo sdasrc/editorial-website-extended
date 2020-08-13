@@ -1,0 +1,172 @@
+I"kB<p><a name="top"></a></p>
+<p><div class="image left imgleft">
+    <picture>
+            <source data-srcset="http://localhost:4000/assets/images/fr1-public.webp" type="image/webp" />
+            <source data-srcset="http://localhost:4000/assets/images/fr1-public.jpg" type="image/jpeg" /> 
+            <img src="http://localhost:4000/assets/images/fr1-public-thumb.jpg" alt="AGN image made in AIPS - NGC 2329, the BCG of A569." data-src="http://localhost:4000/assets/images/fr1-public.jpg" class="lazyload" />
+          </picture>
+          <figcaption>Figure: NGC 2329, a wide-angle tail FR-I galaxy, imaged by Soumyadeep Das in AIPS.</figcaption>
+</div>
+Radio galaxies have always held a special significance in understanding the intricacies of active galactic nuclei (AGN) as well as in the growth and evolution of galaxies in general. A vast majority of galaxies are host to supermassive black-holes in their central nucleus. Accretion of matter onto these black holes lead to the production of massive amounts of radiative energy encompassing X-Ray to infrared bands, rendering the nucleus `active'. Often the active galactic nuclei eject matter at relativistic speeds, forming jets which are observed on parsec (pc) to megaparsec (Mpc) scales. These jets emit primarily in radio wavelengths, thus forming radio galaxies. Radio galaxies are classified into well-defined groups separated by radio morphology, radio luminosity, and physical size. The smallest radio galaxies are Compact Steep Spectrum (CSS) and Gigahertz Peaked Spectrum (GPS) sources, extending up to tens of kiloparsecs. These sources are believed to be young and just beginning to emit radio jets. On the other hand, more evolved radio galaxies are classified into FR I and FR II classes (Fanaroff Riley Classification), extending from hundreds of kiloparsec to megaparsec scales.</p>
+
+<hr style="margin: 10px 0 10px 0; padding: 0;" />
+
+<ul style="margin: 0 0 0 0; padding: 0; align-items: center; vertical-align: middle;" class="icons">
+    <li><a style="font-size: 10px;" class="icon fa-angle-double-right"></a>&nbsp;View Profile Externally </li>
+      <li><a href=" https://www.linkedin.com/in/soumyadeep01 " target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
+      <li><a href=" https://ui.adsabs.harvard.edu/search/p_=0&amp;q=orcid%3A0000-0002-3493-6638&amp;sort=date%20desc%2C%20bibcode%20desc " target="_blank" rel="noopener noreferrer"><span class="label">NASA ADS</span></a></li>
+      <li><a href=" https://orcid.org/0000-0002-3493-6638 " target="_blank" rel="noopener noreferrer"><span class="label">ORCID</span></a></li>
+      <li><a href=" https://scholar.google.com/citations?user=02NSBH4AAAAJ&amp;hl=en " target="_blank" rel="noopener noreferrer"><span class="label">Google Scholar</span></a></li>
+      <li><a href=" https://www.researchgate.net/profile/Soumyadeep_Das9 " target="_blank" rel="noopener noreferrer"><span class="label">ResearchGate</span></a></li>
+</ul>
+<hr style="margin: 10px 0 10px 0;" />
+
+<h2 id="skills">Skills</h2>
+
+<div class="grey-row">
+    <div class="grey-column">
+        <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Astronomy</h1>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">AIPS, CASA, SaoImage DS9.</p>
+    </div>
+
+    <div class="grey-column">
+        <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Languages</h1>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">C, C++, Python, FORTRAN.</p>
+    </div>
+
+    <div class="grey-column">
+        <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Python</h1>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">scipy, astropy, Parallel Processing.</p>
+    </div>
+
+    <div class="grey-column">
+        <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Text Processing</h1>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">Latex, Vim.</p>
+    </div>
+
+    <div class="grey-column">
+        <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Softwares</h1>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">Matlab.</p>
+    </div>
+
+    <div class="grey-column">
+        <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Linux</h1>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">Arch Linux, Bash.</p>
+    </div>
+
+
+    <div class="grey-column">
+        <h1 style="color:white; font-size: 2.5em; font-weight: normal;">UI/UX and Web</h1>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">Android, Jekyll, SQL, HTML, CSS, Js, PHP.</p>
+    </div>
+    
+    <div class="grey-column">
+        <h1 style="color:white; font-size: 2.5em; font-weight: normal;">Miscellaneous</h1>
+        <p style="font-family: 'Source Sans Pro',Roboto,sans serif; color:white; margin-right: 30px; margin-top: -5px;">Adobe Photoshop, Lightroom, After Effects, Reddit bot-dev.</p>
+    </div>
+
+</div>
+
+<hr />
+
+<h2 id="softwares-and-repositories">Softwares and Repositories</h2>
+
+<div class="posts" style="margin-bottom: 10px;">
+
+<article>
+    <a href="http://localhost:4000/posts/2020/05/iitbhu-thesis-template/"><p style="color: black; font-weight: 400;">LaTex IDD/Masters/PHD Thesis Template for Indian Institute of Technology (BHU) Varanasi</p></a>
+            <a href="http://localhost:4000/posts/2020/05/iitbhu-thesis-template/" class="image">
+                <picture>
+                <source data-srcset="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.webp" type="image/webp" />
+                <source data-srcset="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.jpg" type="image/jpeg" /> 
+                <img src="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner-thumb.jpg" alt="Unofficial IITBHU thesis template in LaTex." data-src="http://localhost:4000/assets/images/posts/2020-05-01-iitbhu-thesis-template/banner.jpg" class="lazyload" />
+                </picture> 
+                <p style="margin-top: 10px; color: #444444;">Unofficial PhD and Masters Thesis Template in LaTeX for IIT-BHU Varanasi. Forked from CUED PhD Thesis template by Soumyadeep Das according to insitute guidelines.</p>
+            </a>
+        </article>
+  
+<article>
+    <a href="http://localhost:4000/posts/2020/05/academic-webpage-jekyll/"><p style="color: black; font-weight: 400;">Building a comprehensive static website with Jekyll and Github/Gitlab pages.</p></a>
+            <a href="http://localhost:4000/posts/2020/05/academic-webpage-jekyll/" class="image">
+                <picture>
+                <source data-srcset="" type="image/webp" />
+                <source data-srcset="http://localhost:4000/assets/images/posts/2020-05-29-academic-webpage-jekyll/banner.jpg" type="image/jpeg" /> 
+                <img src="" alt="Jekyll BRB blogs are very helpful in creating static websites." data-src="http://localhost:4000/assets/images/posts/2020-05-29-academic-webpage-jekyll/banner.jpg" class="lazyload" />
+                </picture> 
+                <p style="margin-top: 10px; color: #444444;">How to build a static website with Jekyll and github pages, fully optimized for academics with blogs, code repositories, and dedicated research pages. Advanced tutorials to implement SEO.</p>
+            </a>
+        </article>
+  
+</div>
+<p style="font-size: smaller;"><a href="http://localhost:4000/repos" class="button special icon fa-code">Explore all softwares and repositories</a></p>
+
+<hr />
+
+<h2 id="experience-and-prior-project-works">Experience and Prior Project Works</h2>
+
+<div class="panel">
+<div class="panel-heading noline" data-toggle="1">     
+<img alt="" class="panel-heading-question" data-toggle="1" src="http://localhost:4000/assets/images/circle-icon.png" /><a data-toggle="1" href="javascript:void(0)">Looking from All Angles at a Source Straddling the Radio-loud/Radio-quiet AGN Divide.</a>
+</div>
+<div class="panel-body hidden-element" data-body="1"> 
+<p><b>Guide - </b> <a href="http://mutha.ncra.tifr.res.in/ncra/people/academic/ncra-faculty/Preeti\%20Kharb">Dr. Preeti Kharb</a>. <br /> National Centre for Radio Astrophysics (NCRA-TIFR), Pune, India.<br /> <br /> We imaged archival VLA data at all available bands, sensitivities, resolutions, using AIPS and CASA, to gain a coherent picture of the target source. We found the source to possess a hybrid structure, an arcsecond scale central Seyfert core surrounded by a very faint, and likely old, FR I structure. We also observed one-sided core jet structures in VLBI images. Parsec-scale jet speeds were similar to FR I galaxies. Further, the inner source structure possessed significantly flatter spectra than the extended FR I outflows. Electron lifetime estimates assuming synchrotron equipartition showed that the extended outflows were at least twice as old as the central Seyfert core. Thus we concluded that the Seyfert structure was the result of a second episode after AGN restart, with the FR I outflows being relics of a previous episode. A likely cause of the drastic change in morphology of the source post restart could have been a reduction in black hole spins <a href="http://stacks.iop.org/0004-637X/658/i=2/a=815">(Spin paradigm; Sikora et al., 2007)</a>. The role of the cluster environment remains a point of curiosity. We are in the process of preparing a publication for submission to a top tier astrophysical journal.<br /><br /> <a href="mailto:soumyadeep.das.m44@gmail.com?Subject=Request for project report - Looking from All Angles at a Source Straddling the Radio-loud/Radio-quiet AGN Divide" class="button icon fa-envelope-o" target="_blank" rel="noopener noreferrer">&nbsp;Request project report</a></p> 
+</div>
+</div>
+
+<div class="panel">
+<div class="panel-heading noline" data-toggle="2">     
+<img alt="" class="panel-heading-question" data-toggle="2" src="http://localhost:4000/assets/images/circle-icon.png" /><a data-toggle="2" href="javascript:void(0)">(Masters' Thesis) Importance of Polarization Calibration in Radio Interferometry.</a>
+</div>
+<div class="panel-body hidden-element" data-body="2"> 
+<p><b>Guide - </b> <a href="http://iitbhu.ac.in/dept/phy/pdutta">Dr. Prasun Dutta</a>. <br /> Indian Institute of Technology (BHU), Varanasi, India.<br /> <br /> The primary goal of this project was to investigate the extent upto which instrumental defects, especially polarization leakage, would affect the 21 cm hydrogen line power spectrum during epoch of reionization (EoR) observations by the Giant Metrewave Radio Telescope (GMRT). This signal is very faint and detection is plagued by the presence of various foreground emission, many orders of magnitude larger than the desired signal. These foregrounds pose a two-fold complexity - directly by adding a signal several orders of magnitude higher, and passively by decreasing the dynamic range of the calibration. Foreground removal and foreground avoidance have been used effectively to get rid of the foreground. But the presence of correlated noise in the interferometric data decreases the effectiveness of time integration and severely limits the dynamic range. We performed gain calibration on archival GMRT observation data of the calibrator source 3C286 in CASA. After self-calibration, I performed source extraction on the field, and the residual theoretically being the sum of epoch of reionization signal and the instrumental noise. This procedure was repeated after performing polarization calibration. Statistical comparison of the two residual fields revealed that polarization calibration significantly reduced the stochastic errors and increased the dynamic range. Next, we investigated the correlation in residual amplitude and phase gains. I wrote pipelines to extract the residual gains from CASA and calculate the two-point correlation function via structure function in python. We found that the gains remained correlated longer than 2~3 scan intervals. Our results have suggested that with present strategies for calibration we will be far off from the required quality of calibration for detection of 21cm signal and second order calibration methods need to be implemented.<br /><a href="https://doi.org/10.23919/URSIRCRS49211.2020.9113590">Conference proceedings</a> were published in IEEE.<br /><br /> <a href="mailto:soumyadeep.das.m44@gmail.com?Subject=Request for Masters' thesis - Importance of Polarization Calibration in Radio Interferometry" class="button icon fa-envelope-o" target="_blank" rel="noopener noreferrer">&nbsp;Request Masters' Thesis</a></p> 
+</div>
+</div>
+
+<div class="panel">
+<div class="panel-heading noline" data-toggle="3">     
+<img alt="" class="panel-heading-question" data-toggle="3" src="http://localhost:4000/assets/images/circle-icon.png" /><a data-toggle="3" href="javascript:void(0)">Understanding Stellar Collapse and Formation of Strange Quark Stars.</a>
+</div>
+<div class="panel-body hidden-element" data-body="3"> 
+<p><b>Guide - </b> <a href="http://www.phy.cuhk.edu.hk/people/chu.html">Prof. Ming Chung Chu</a>. <br /> Chinese University of Hong Kong (CUHK), Hong Kong SAR.<br /> <br /> As a Summer Undergraduate Research Programme (SURP) intern, I worked on hydrodynamic simulations to ascertain the conditions when the dense core of a supernova would turn into quark phase, how it would affect the explosion, and whether that would lead to any observable signatures. I made use of third and fifth order high-resolution Weighted Essentially Non-Oscillatory (WENO) simulations to simulate the collapse of the supernova gas under varying constraints and under the effect of induced velocity and density perturbations. </p> 
+</div>
+</div>
+
+<div class="panel">
+<div class="panel-heading noline" data-toggle="4">     
+<img alt="" class="panel-heading-question" data-toggle="4" src="http://localhost:4000/assets/images/circle-icon.png" /><a data-toggle="4" href="javascript:void(0)">Star cluster detection and characterization using generalized Parzen density estimation.</a>
+</div>
+<div class="panel-body hidden-element" data-body="4"> 
+<p><b>Guides - </b> <a href="https://www.iist.ac.in/ess/sarita">Dr. Sarita Vig</a> and <a href="https://iittp.ac.in/dr-rama-krishna-sai-subrahmanyam-gorthi">Dr. Gorthi RKSS Manyam</a>. <br /> Indian Institute for Space Science and Technology (IIST), Trivandrum, India.<br /> <br /> This work was aimed at detecting star clusters as regions of over-density against the stochastic background of stars in the infrared K band (2.2 &#181;m). I improved upon the traditional Star-count method by implementing Gaussian kernels as Parzen windows for computing the probability density function, and obtained the optimum sampling parameters for getting the best results. I further implemented the technique of masking used in facial recognition algorithms to recover the attributes of the cluster accurately. This work resulted in a semi-automatic cluster detection routine in MATLAB, and we published a <a href="https://academic.oup.com/mnras/article-abstract/482/3/3789/5145862?redirectedFrom=fulltext">paper</a> in MNRAS.</p> 
+</div>
+</div>
+
+<hr />
+
+<h2 id="conferences-and-talks">Conferences and Talks</h2>
+
+<div class="panel">
+<div class="panel-heading" data-toggle="5">     
+<img alt="" class="panel-heading-question" data-toggle="5" src="http://localhost:4000/assets/images/circle-icon.png" /><a data-toggle="5" href="javascript:void(0)">Metre Wavelength Sky II (MWSKY II) Conference 2019 at NCRA-TIFR, Pune, India.</a>
+</div>
+<div class="panel-body hidden-element" data-body="5"> 
+<p>(Poster Presentation) Instrumental Calibration Requirements for the observation of Redshifted 21-cm signal from neutral hydrogen.</p> 
+</div>
+</div>
+
+<div class="panel">
+<div class="panel-heading" data-toggle="6">     
+<img alt="" class="panel-heading-question" data-toggle="6" src="http://localhost:4000/assets/images/circle-icon.png" /><a data-toggle="6" href="javascript:void(0)">Star and Planet Formation (SPF2016) Conference at IIST Trivandrum, India.</a>
+</div>
+<div class="panel-body hidden-element" data-body="6"> 
+<p>(Paper Presentation and Talk) Star cluster detection using probability density estimation.</p> 
+</div>
+</div>
+
+<hr />
+
+<ul class="actions" style="font-size: smaller;">
+<li><a href="http://localhost:4000/resume" class="button icon fa-file-text">Resume</a></li>
+<li><a href="http://localhost:4000/publications" class="button special icon fa-paper-plane">Publications</a></li>
+<li><a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a></li>
+</ul>
+:ET

@@ -4,10 +4,16 @@ title: Acknowledgements
 identifer: creditpage
 page-level: mainpage
 permalink: credits/
+redirect_from:
+  - about/
+  - acknowledgements/
 sitemap: false
 ---
 <a name="top"></a>
-<a href="{{ '#nobanner' | absolute_url }}" class="tag_btn"><span>Current Site Version : {{ site.myversion }}</span></a>
+<img src="https://img.shields.io/badge/build-deploy-blue">
+<img src="https://img.shields.io/badge/version-{{ site.myversion }}-yellow">
+<img src="https://hitcounter.pythonanywhere.com/nocount/tag.svg?url=https%3A%2F%2Fsoumyadeepdas.gitlab.io" alt="Hits">
+<img src="https://img.shields.io/badge/license-Creative Commons-red">
 
 Firstly, a huge shoutout to my friends for helping me with this website. Special mentions to Debjyoti Biswas, Anant Jain Gowadia, Kajal Kumari, VSV Surya Prakash, and Ayush Kumar Singh for their technical and creative expertise, and invaluable support.
 
@@ -47,7 +53,7 @@ The Spacy 404 custom error page was implemented following [this](https://codepen
 
 In addition to the above mentioned, there are several resources that immensely helped me make this website, but have not been explicitly mentioned. I am hugely indebted towards all of them. I will keep updating this page slowly and try to include every single such source.
 
-<img src="https://hitcounter.pythonanywhere.com/nocount/tag.svg?url=https%3A%2F%2Fsoumyadeepdas.gitlab.io" alt="Hits">
+
 <hr>
 <p  style="font-size: smaller;" ><a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a></p>
 <!-- Image Gallery -->
