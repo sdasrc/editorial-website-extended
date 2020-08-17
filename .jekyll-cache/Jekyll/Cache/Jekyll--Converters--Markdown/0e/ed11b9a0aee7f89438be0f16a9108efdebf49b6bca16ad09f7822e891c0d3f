@@ -1,0 +1,13 @@
+I"�<!-- Add images to assets/images/posts/2020-05-29-academic-webpage-jekyll -->
+<!-- Body of your blog post goes here -->
+<p>Jekyll is a simple and blog-aware static site generator built in Ruby. In laymen terms, it’s just a tool to let you have all the cool features of a full-blown CMS without having to worry about managing a database. This means hosting is extremely easy and scalable since all you’re doing is managing a bunch of files.</p>
+
+<h2 id="contactcontribute">Contact/Contribute</h2>
+
+<p>Report issues <a href="https://gitlab.com/soumyadeepdas/soumyadeepdas.gitlab.io/issues">here</a>, or send me an <a href="mailto:soumyadeep.das.phy14@iitbhu.ac.in?subject=[GitHub]%20IIT%20BHU%20Thesis">email</a> to contribute.</p>
+
+<ul class="actions">
+<li>Find me on Github: </li>
+<li><iframe src="https://ghbtns.com/github-btn.html?user=lordparthurnaax&amp;type=follow&amp;count=true" frameborder="0" scrolling="0" width="170" height="20" title="GitHub"></iframe></li>
+</ul>
+:ET

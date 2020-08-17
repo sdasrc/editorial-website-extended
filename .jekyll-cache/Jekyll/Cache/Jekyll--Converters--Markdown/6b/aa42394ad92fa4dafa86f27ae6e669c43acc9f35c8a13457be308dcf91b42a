@@ -1,0 +1,23 @@
+I"I	<!-- Add images to assets/images/posts/2020-05-29-academic-webpage-jekyll -->
+<!-- Body of your blog post goes here -->
+<p>Jekyll is a simple and blog-aware static site generator built in Ruby. In laymen terms, it’s just a tool to let you have all the cool features of a full-blown CMS without having to worry about managing a database. This means hosting is extremely easy and scalable since all you’re doing is managing a bunch of files.</p>
+
+<h3 id="external-repositoriess">External Repositoriess</h3>
+<ul class="actions" style="margin-bottom: 5px; padding-bottom: 5px;">
+    <li style="height: 18; vertical-align: top;"><a href="https://github.com/lordparthurnaax/thephoenix01.github.io" style="font-size: small;" class="tag_marker"> <span>github:thephoenix01.github.io</span></a></li>
+    <li><iframe src="https://ghbtns.com/github-btn.html?user=thephoenix01&amp;repo=thephoenix01.github.io&amp;type=star&amp;count=true" frameborder="0" scrolling="0" width="78" height="20" title="GitHub"></iframe><iframe src="https://ghbtns.com/github-btn.html?user=thephoenix01&amp;repo=thephoenix01.github.io&amp;type=watch&amp;count=true&amp;v=2" frameborder="0" scrolling="0" width="88" height="20" title="GitHub"></iframe><iframe src="https://ghbtns.com/github-btn.html?user=thephoenix01&amp;repo=thephoenix01.github.io&amp;type=fork&amp;count=true" frameborder="0" scrolling="0" width="78" height="20" title="GitHub"></iframe></li>
+</ul>
+<ul class="actions" style="margin-top: 0; padding-top: 0;">
+    <li style="height: 18; vertical-align: top;"><a style="cursor: text; color: #111;"> <span>Mirrors: </span></a></li>
+    <li style="margin-right: 0px; padding-right: 0px;"><a style="margin-right: 0px; padding-right: 0px;" href="https://gitlab.com/lordparthurnaax/soumyadeepdas.gitlab.io" class="tag_btn"><span>Gitlab</span></a></li>
+</ul>
+
+<h2 id="contactcontribute">Contact/Contribute</h2>
+
+<p>Report issues <a href="https://gitlab.com/soumyadeepdas/soumyadeepdas.gitlab.io/issues">here</a>, or send me an <a href="mailto:soumyadeep.das.phy14@iitbhu.ac.in?subject=[GitLab]%20soumyadeepdas.gitlab.io">email</a> to contribute.</p>
+
+<ul class="actions">
+<li>Find me on Github: </li>
+<li><iframe src="https://ghbtns.com/github-btn.html?user=lordparthurnaax&amp;type=follow&amp;count=true" frameborder="0" scrolling="0" width="170" height="20" title="GitHub"></iframe></li>
+</ul>
+:ET

@@ -19,22 +19,19 @@ An unofficial thesis template in LaTex, forked from [CUED PhD Thesis template](h
 
 
 <!---
-[![Build Status](https://api.travis-ci.org/thephoenix01/thesis-template-iitbhu.svg)](https://travis-ci.org/thephoenix01/thesis-template-iitbhu)
+[![Build Status](https://api.travis-ci.org/lordparthurnaax/thesis-template-iitbhu.svg)](https://travis-ci.org/lordparthurnaax/thesis-template-iitbhu)
 -->
-[![Platform any](https://img.shields.io/badge/platform-any-brightgreen.svg)](https://github.com/thephoenix01/thesis-template-iitbhu)
-[![License MIT](https://img.shields.io/badge/environment-LaTeX-blue.svg)](https://tex.stackexchange.com/)
-[![Version](http://img.shields.io/badge/version-1.1-yellow.svg)](https://github.com/thephoenix01/thesis-template-iitbhu/releases/latest)
-[![License MIT](http://img.shields.io/badge/license-MIT-red.svg)](license.md)
-
-### Get the template
-
-<ul class="actions">
-    <li><a href="https://github.com/thephoenix01/thesis-template-iitbhu" class="button special icon fa-github">Github Repo</a></li>
-    <li><a href="https://gitlab.com/thephoenix01/thesis-template-iitbhu" class="button  icon fa-gitlab">Gitlab Repo</a></li>
-    <li><a href="https://www.overleaf.com/read/qpdsntyhnhtq" class="button  special icon-ai ai-overleaf">Copy in Overleaf</a></li>
+### External Repositoriess
+<ul class="actions" style="margin-bottom: 5px; padding-bottom: 5px;">
+    <li style="height: 18; vertical-align: top;"><a href="https://github.com/lordparthurnaax/thesis-template-iitbhu" style="font-size: small;" class="tag_marker"> <span>github:thesis-template-iitbhu</span></a></li>
+    <li><iframe src="https://ghbtns.com/github-btn.html?user=lordparthurnaax&repo=thesis-template-iitbhu&type=star&count=true" frameborder="0" scrolling="0" width="78" height="20" title="GitHub"></iframe><iframe src="https://ghbtns.com/github-btn.html?user=lordparthurnaax&repo=thesis-template-iitbhu&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="88" height="20" title="GitHub"></iframe><iframe src="https://ghbtns.com/github-btn.html?user=lordparthurnaax&repo=thesis-template-iitbhu&type=fork&count=true" frameborder="0" scrolling="0" width="78" height="20" title="GitHub"></iframe></li>
+</ul>
+<ul class="actions" style="margin-top: 0; padding-top: 0;">
+    <li style="height: 18; vertical-align: top;"><a style="cursor: text; color: #111;" > <span>Mirrors: </span></a></li>
+    <li style="margin-right: 0px; padding-right: 0px;"><a style="margin-right: 0px; padding-right: 0px;" href="https://gitlab.com/lordparthurnaax/thesis-template-iitbhu" class="tag_btn"><span>Gitlab</span></a></li>
+    <li><a style="margin-left: 0px; padding-left: 0px;" href="https://www.overleaf.com/read/qpdsntyhnhtq" class="tag_btn"><span>Overleaf</span></a></li>
 </ul>
 
-Report issues [here](https://github.com/thephoenix01/thesis-template-iitbhu/issues), or send me an [email](mailto:soumyadeep.das.phy14@iitbhu.ac.in?subject=[GitHub]%20IIT%20BHU%20Thesis) to contribute.
 
 ## Features
 
@@ -90,4 +87,19 @@ Set `thesis-template.tex` as the primary document and compile.
 
 ### Using command line interface (Unix/Linux/Windows)
 
-*Work under progress, will be updated soon.*
+Run the following codes on your terminal in succession (pdflatex):
+
+    pdflatex filename.tex
+    bibtex filename.aux
+    pdflatex filename.tex
+    pdflatex filename.tex
+    xdg-open filename.pdf
+
+## Contact/Contribute
+
+Report issues [here](https://github.com/lordparthurnaax/thesis-template-iitbhu/issues), or send me an [email](mailto:soumyadeep.das.phy14@iitbhu.ac.in?subject=[GitHub]%20IIT%20BHU%20Thesis) to contribute.
+
+<ul class="actions">
+<li>Find me on Github: </li>
+<li><iframe src="https://ghbtns.com/github-btn.html?user=lordparthurnaax&type=follow&count=true" frameborder="0" scrolling="0" width="170" height="20" title="GitHub"></iframe></li>
+</ul>
