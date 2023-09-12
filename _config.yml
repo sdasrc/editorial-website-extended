@@ -1,9 +1,9 @@
 # Site settings
-title: Soumyadeep Das 
+title: Kai Herron 
 subtitle: Homepage
-tagline: I am Soumyadeep Das, an incoming PhD Student at ICRAR/UWA Perth, interested in Astrophysics, AGN, Interferometry.
-email: soumyadeep.das.m44@gmail.com
-description: I am Soumyadeep Das, an incoming PhD Student at ICRAR/UWA Perth. I am interested in multiwavelength AGN research, AGN life-cycle, restarts, and the host environment. 
+tagline: I am Kai Herron.
+email: kaiherron28@gmail.com
+description: I study galaxies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://soumyadeepdas.gitlab.io" # the base hostname & protocol for your site
 logo: assets/images/favicon.png
